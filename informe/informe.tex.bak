@@ -1,0 +1,98 @@
+%...........................................Declaraciones iniciales.........................................................
+
+\documentclass[11pt,letterpaper]{report} %Selección: informe
+%
+\usepackage[utf8]{inputenc} % Codificación UTF8 asegurarse de que en configuraciones compilador tenga misma codificación
+%\usepackage[spanish]{babel} %Español
+%\usepackage[latin1]{inputenc}
+\usepackage[spanish, es-tabla]{babel} % Español, además se cambia nombre de cuadro a Tabla 
+
+\usepackage{amsmath} % Acentos sin código
+\usepackage{amsfonts} % standard Computer Modern fonts
+\usepackage{amssymb} % Símbolos matemáticos
+\usepackage{graphicx} % Gráficos
+\graphicspath{ {Images/} } % Ruta de carpeta que contiene las imágenes
+\DeclareGraphicsExtensions{.png,.pdf}
+\usepackage[left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry} % Márgenes del documento
+\usepackage{cite} %Para realizar citaciones
+\usepackage{hyperref} % Hipervínculos en las referencias cruzadas.
+\usepackage{url} % Para introducir url en las referencias bibliográficas
+\hypersetup{colorlinks=true,linkcolor=black,citecolor=black, filecolor=black,urlcolor=black}  % Para que hipervínculos no queden coloreados 
+\usepackage[none]{hyphenat} % Para que látex no parta las palabras al cambiar de línea
+\usepackage{multirow} %combinacion de filas en tablas
+\usepackage{booktabs} %MODIFICACIN DE TABLAS
+\usepackage{tabularx}
+\usepackage{siunitx} % Números y unidades correctamente x10^algo
+\usepackage[footnotesize]{caption}  % Para que texto de etiquetado de imágenes sea más pequeño
+\usepackage{attachfile} 
+\usepackage{longtable}
+\usepackage{hyperref}
+\usepackage[numbers,sort&compress]{natbib}
+
+\begin{document} % Inicio de documento
+
+%........................................... titulo................................................................
+\sloppy % Para que justifique de manera adecuada el texto
+\begin{titlepage} 
+\begin{center}
+\vspace*{0.5cm}
+\begin{figure}[htb]
+\begin{center}
+\includegraphics[width=4cm, height=6cm]{logeishon}
+\end{center}
+\end{figure}
+\vspace*{0.8cm}
+\begin{LARGE}
+\textbf{DESARROLLO DE MODELOS DE CARACTERÍSTICAS MEDIANTE TÉCNICAS DE MINERÍA DE DATOS} \\
+\end{LARGE}
+\vspace*{1cm}
+\begin{large}
+Autor: \\
+Jose Miguel García García\\
+\vspace*{0.8cm}
+Asesor: \\
+German Arturo Urrego Giraldo\\
+\vspace*{1cm}
+Informe Trabajo de Investigación Grupo de Investigación de Ingeniería y Tecnologías de las Organizaciones y de la Sociedad \textendash ITOS\\
+\vspace*{1cm}
+Maestría en Ingeniería \textendash Énfasis en Ingeniería de Software\\
+Universidad de Antioquia\\
+2017
+\end{large}
+\vspace*{0.5cm}
+\begin{figure}[htb]
+\begin{center}
+%\includegraphics[scale=1.5]{Logo_Gibic}
+\end{center}
+\end{figure}
+\end{center}
+\end{titlepage}
+
+%...........................................Tabla de Contenido..............................................................
+
+\tableofcontents
+\cleardoublepage
+\addcontentsline{toc}{chapter}{Lista de figuras} % para que aparezca en el indice de contenidos
+\listoffigures % indice de figuras
+
+\cleardoublepage
+\addcontentsline{toc}{chapter}{Lista de tablas} % para que aparezca en el indice de contenidos
+\listoftables % indice de tablas
+%\include{./Chapters/cap1_resumen}
+%\include{./Chapters/cap2_abstract}
+%\include{./Chapters/cap3_problema}
+%\include{./Chapters/cap5_marcoteorico}
+%\include{./Chapters/cap4_estadoarte}
+%\include{./Chapters/cap6_objetivos}
+%\include{./Chapters/cap7_impactoyproductos}
+\include{./Chapters/cap8_metodologia}
+%\include{./Chapters/cap9_resultadosyanalisis}
+%\include{./Chapters/capA_conclusionesytrabajosf}
+%...........................................Bibliografía....................................................................
+%
+\cleardoublepage
+\addcontentsline{toc}{chapter}{Bibliografía}
+\bibliographystyle{unsrt}% Se define estilo de bibliografía: IEEE y aparición en orden de mención
+\bibliography{mybib} % Inclusión de archivo de bibliografía
+
+\end{document} 

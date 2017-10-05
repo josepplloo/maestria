@@ -1,0 +1,66 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: informe.aux
+A level-1 auxiliary file: ./Chapters/cap8_metodologia.aux
+A level-1 auxiliary file: ./Chapters/cap9_resultadosyanalisis.aux
+The style file: unsrt.bst
+Database file #1: mybib.bib
+Warning--I didn't find a database entry for "Afzal2016a"
+Warning--I didn't find a database entry for "Bouguila2010"
+Warning--can't use both volume and number fields in Izenman2006
+Warning--can't use both volume and number fields in Caruana2006
+Warning--there's a number but no series in Santos2015
+Warning--empty journal in Eleuterio2015
+Warning--there's a number but no volume in Eleuterio2015
+Warning--empty publisher in Acher2010
+Warning--can't use both author and editor fields in Capilla2013
+Warning--can't use both author and editor fields in Simpson
+Warning--can't use both author and editor fields in Kwak2011
+Warning--can't use both volume and number fields in Kwak2011
+Warning--can't use both volume and number fields in Somprasertsri2010
+Warning--empty publisher in Pohl2005
+Warning--there's a number but no series in Simmonds2016
+Warning--empty publisher in Rashid2011
+Warning--empty publisher in Kang2010
+You've used 98 entries,
+            1791 wiz_defined-function locations,
+            1083 strings with 24691 characters,
+and the built_in function-call counts, 27790 in all, are:
+= -- 2653
+> -- 1178
+< -- 46
++ -- 427
+- -- 329
+* -- 2034
+:= -- 4130
+add.period$ -- 324
+call.type$ -- 98
+change.case$ -- 89
+chr.to.int$ -- 0
+cite$ -- 113
+duplicate$ -- 1268
+empty$ -- 2593
+format.name$ -- 329
+if$ -- 6356
+int.to.chr$ -- 0
+int.to.str$ -- 98
+missing$ -- 107
+newline$ -- 492
+num.names$ -- 98
+pop$ -- 283
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 667
+stack$ -- 0
+substring$ -- 2082
+swap$ -- 412
+text.length$ -- 46
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 15
+while$ -- 293
+width$ -- 100
+write$ -- 1129
+(There were 17 warnings)

@@ -1,0 +1,199 @@
+\chapter*{Resultados y análisis}
+ \addcontentsline{toc}{chapter}{Discusión}
+ 
+Considerando los grandes volúmenes de información que possen las industrias, los cuales muchas veces están dispersos y crecen rápidamente como silos de datos sin ser aprovechados \cite{Elovici2003}, tuvimos en cuenta  qué el uso de los modelos de características en el proceso de Ingeniería de líneas de productos, puede usarse para la creación masiva de productos hechos a la medida, sin descuidar la calidad, la reutilidad y la variabilidad.
+En el proceso \textit{PLE} algunos productos  serán penalizados \cite{TerBeek2015}, los modelos de características actuales siguen siendo grandes y complejos de configurar \cite{Asadi2014}. Es decir,  generar o derivar productos desde la Ingeniería de líneas de producto,  teniendo en cuenta la ciencia de los datos para identificar o seleccionar que características toman protagonismo, o impactan positiva o negativamente los intereses de los nichos de mercado \cite{Hastie2009}, sigue siendo un aspecto en constante desarrollo. Por esta razón se planteo el primer objetivo en este proyecto y en él se realizo el siguiente estado del arte.
+
+\section*{Mapeo Sistemático de la Literatura}
+
+
+Se realizo un proceso de búsqueda manual y automático en las bases de datos de la tabla \ref{tablar1} y se obtuvieron en total $397805$ documentos. En la tabla \ref{tablar1} se presentan los primeros  hallazgos y se identifican las principales fuentes de información según la cantidad de resultados en la búsqueda de nuestro concepto principal.
+
+\begin{longtable}{|c|c|c|c|}
+\caption{Resultados de la búsqueda manual y automática sobres publicaciones  relacionadas con las técnicas de Minería de Datos}\label{tablar1}\\
+\hline
+\textbf{Cadena de busqueda} & \textbf{Base de Datos} & \textbf{Resultados} & \textbf{Fecha} \\
+\hline
+\endfirsthead
+\multicolumn{4}{c}%
+{\tablename\ \thetable\ -- \textit{Continuación de la página anterior}} \\
+\hline
+\textbf{Cadena de busqueda} & \textbf{Base de Datos} & \textbf{Resultados} & \textbf{Fecha} \\
+\hline
+\endhead
+\hline \multicolumn{4}{r}{\textit{Continúa en la siguiente página}} \\
+\endfoot
+\hline
+\endlastfoot
+``data mining"      & Springel             & $134419$ & 15 de enero de 2015 \tabularnewline \hline
+``data mining"     & Scopus               & $92904$  & 15 de enero de 2015 \tabularnewline \hline
+``data mining"     & Web of Science       & $72457$  & 15 de enero de 2015 \tabularnewline \hline
+``data mining"     & Science Direct       & $37615$  & 15 de enero de 2015 \tabularnewline \hline
+``data mining"     & Wiley Online Library &$19475$  & 15 de enero de 2015 \tabularnewline \hline
+``data mining"     & Current Contens      &$ 14128$  & 15 de enero de 2015 \tabularnewline \hline
+``data mining"      & ACM DL               & $10494$  & 15 de enero de 2015 \tabularnewline \hline
+``data mining"      & DOAJ                 & $4501$   & 15 de enero de 2015 \tabularnewline \hline
+``data mining"      & Aps Journals         & $2742$   & 15 de enero de 2015 \tabularnewline \hline
+``data mining"      & Esmerald             & $2340$   & 15 de enero de 2015 \tabularnewline \hline
+``minería de datos" & Ebsco                & $1871$   & 15 de enero de 2015 \tabularnewline \hline
+``data mining"      & Cambridge            & $1605$   & 15 de enero de 2015 \tabularnewline \hline
+``data mining"      & ACS Publicatios      &$ 1323$   & 15 de enero de 2015 \tabularnewline \hline
+``data mining"      & Dialnet              & $508$    & 15 de enero de 2015 \tabularnewline \hline
+``data mining"      & ASME                 & $475$    & 20 de enero de 2015 \tabularnewline \hline
+``minería de datos" & Dialnet              & $270$    & 20 de enero de 2015 \tabularnewline \hline
+``data mining"      & Access Engineering  & $264$    & 20 de enero de 2015 \tabularnewline \hline
+``data mining"      & sciELO               & $142$    & 20 de enero de 2015 \tabularnewline \hline
+``data mining"      & ASTM                 & $107 $   & 20 de enero de 2015 \tabularnewline \hline
+``minería de datos" & DOAJ                 & $90$     & 20 de enero de 2015 \tabularnewline \hline
+``minería de datos" & Science Direct       & $40$     & 20 de enero de 2015 \tabularnewline \hline
+``minería de datos" & Scopus               & $35$     & 20 de enero de 2015\tabularnewline \hline
+\end{longtable}
+
+
+Aplicando los criterios de exclusión y revisión que se establecieron en la metodología, sobre los documentos encontrados en la tabla \ref{tablar1}, dejamos 275 documentos que se consideraron significativos, luego, fueron analizados considerando a Zhang, H. et al.\cite{Zhang2011} y  se elijieron finalmente 119 documentos. \\
+Con \textit{Splunk$^{\textregistered}$\footnote{ \attachfile[icon=Paperclip,mimetype=aplication/zip]{etc/library.zip}{Library.zip} }} desarrollamos los gráficos para el análisis del estado del arte, \textit{Splunk$^{\textregistered}$} hace mas accesibles, útiles y valiosos los datos obtenidos a partir del gestor bibliográfico \textit{Mendeley Ltd.}  exportados en el formato de archivo \textit{Research Information Systems (RIS)}. Teniendo en cuenta las preguntas y la motivación de la metodología, se desarrolló el siguiente Mapeo Sistemático de  la Literatura, \textit{Systematic Mapping Studies (SMS)}. En la gráfica \ref{rq1} presentamos los resultados que ayudaron a solucionar la primera pregunta de investigación planteada en la metodología: ¿Cómo están distribuidos los estudios en el tiempo?
+ \\
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{rq1}
+    \caption{Distribución de los documentos por tiempo y por tipo.}
+    \label{rq1}
+\end{figure}
+\\
+En la gráfica \ref{rq1}, se mostró una tendencia en los últimos tres años, el protagonismo de los documentos encontrados en las memorias de las conferencias y talleres es notorio seguido de las revistas indexadas. Para los investigadores es interesante saber que hay una demanda en los temas que abarcan la Ingeniería de Software, el reuso y la variabilidad. De la misma manera, todo lo que se considera en \textit{Big Data \& IoT } esta tomando fuerza. Por otra parte, no se descarta la idea de la simplicidad y la rapidez de publicación como criterio de elección para el lugar, como se muestra en La  Tabla \ref{rq2},  Puede ser mucho mas fácil para un investigador realizar un aporte en las memoria de las conferencias a desarrollar un capitulo en un libro.
+
+
+\begin{longtable}{|p{11cm}|c|}
+\caption{Cantidad de documentos encontrados en los diferentes Lugares de publicación a lo largo del tiempo}\label{rq2}\\
+\hline
+\textbf{Lugar} & \textbf{Cantidad}  \\
+\hline
+\endfirsthead
+\multicolumn{2}{c}%
+{\tablename\ \thetable\ -- \textit{Continued from previous page}} \\
+\hline
+\textbf{Lugar} & \textbf{Cantidad}  \\
+\hline
+\endhead
+\hline \multicolumn{2}{r}{\textit{Continued on next page}} \\
+\endfoot
+\hline
+\endlastfoot
+Expert Systems with Applications                                                                                                                                                        & 8        \\ \hline
+Journal of Mechanical Design                                                                                                                                                            & 4        \\ \hline
+Proceedings of the 19th International Conference on Software Product Line - SPLC '15                                                                                                    & 4        \\ \hline
+Proceedings of the Tenth International Workshop on Variability Modelling of Software-intensive Systems - VaMoS '16                                                                      & 4        \\ \hline
+Information Sciences                                                                                                                                                                    & 3        \\ \hline
+Information and Software Technology                                                                                                                                                     & 3        \\ \hline
+Proceedings of the Ninth International Workshop on Variability Modelling of Software-intensive Systems - VaMoS '15                                                                      & 3        \\ \hline
+2008 12th International Software Product Line Conference                                                                                                                                & 2        \\ \hline
+2013 4th International Workshop on Product LinE Approaches in Software Engineering (PLEASE)                                                                                             & 2        \\ \hline
+ACM Computing Surveys                                                                                                                                                                   & 2        \\ \hline
+Applied Soft Computing                                                                                                                                                                  & 2        \\ \hline
+Empirical Software Engineering                                                                                                                                                          & 2        \\ \hline
+IEEE Transactions on Software Engineering                                                                                                                                               & 2        \\ \hline
+Knowledge-Based Systems                                                                                                                                                                 & 2        \\ \hline
+Neurocomputing                                                                                                                                                                          & 2        \\ \hline
+Proceedings of the 18th International Software Product Line Conference on Companion Volume for Workshops Demonstrations and Tools - SPLC '14                                            & 2        \\ \hline
+Proceedings of the Eighth International Workshop on Variability Modelling of Software-Intensive Systems - VaMoS '14                                                                     & 2        \\ \hline
+Requirements Engineering                                                                                                                                                                & 2        \\ \hline
+2009 17th IEEE International Requirements Engineering Conference                                                                                                                        & 1        \\ \hline
+2009 International Conference on Information and Multimedia Technology                                                                                                                  & 1        \\ \hline
+2010 Seventh International Conference on Fuzzy Systems and Knowledge Discovery                                                                                                          & 1        \\ \hline
+2011 37th EUROMICRO Conference on Software Engineering and Advanced Applications                                                                                                        & 1        \\ \hline
+2013 IEEE 14th International Conference on Information Reuse \& Integration (IRI)                                                                                                       & 1        \\ \hline
+2014 10th International Conference on Natural Computation (ICNC)                                                                                                                        & 1        \\ \hline
+2014 40th EUROMICRO Conference on Software Engineering and Advanced Applications                                                                                                        & 1        \\ \hline
+2014 Second IEEE Working Conference on Software Visualization                                                                                                                           & 1        \\ \hline
+2015 12th International Conference on Fuzzy Systems and Knowledge Discovery (FSKD)                                                                                                      & 1        \\ \hline
+2015 IEEE 22nd International Conference on Software Analysis Evolution and Reengineering (SANER)                                                                                        & 1        \\ \hline
+2015 IEEE International Conference on Industrial Engineering and Engineering Management (IEEM)                                                                                          & 1        \\ \hline
+2015 IEEE Second International Workshop on Artificial Intelligence for Requirements Engineering (AIRE)                                                                                  & 1        \\ \hline
+Advanced Engineering Informatics                                                                                                                                                        & 1        \\ \hline
+Advances in Product Family and Product Platform Design                                                                                                                                  & 1        \\ \hline
+Applied Computing and Informatics                                                                                                                                                       & 1        \\ \hline
+Applied Energy                                                                                                                                                                          & 1        \\ \hline
+CEUR Workshop Proceedings                                                                                                                                                               & 1        \\ \hline
+Collaboration and Technology                                                                                                                                                            & 1        \\ \hline
+Computer Standards \& Interfaces                                                                                                                                                        & 1        \\ \hline
+Computer-Aided Design                                                                                                                                                                   & 1        \\ \hline
+Computers \& Chemical Engineering                                                                                                                                                       & 1        \\ \hline
+Computers and Electronics in Agriculture                                                                                                                                                & 1        \\ \hline
+Construction and Building Materials                                                                                                                                                     & 1        \\ \hline
+Control Engineering Practice                                                                                                                                                            & 1        \\ \hline
+DYNA                                                                                                                                                                                    & 1        \\ \hline
+Elements                                                                                                                                                                                & 1        \\ \hline
+Engineering Applications of Artificial Intelligence                                                                                                                                     & 1        \\ \hline
+Evolving Software Systems                                                                                                                                                               & 1        \\ \hline
+Information Systems                                                                                                                                                                     & 1        \\ \hline
+International Journal of Electrical Power \& Energy Systems                                                                                                                             & 1        \\ \hline
+International Journal of Forecasting                                                                                                                                                    & 1        \\ \hline
+Journal of Computing and Information Science in Engineering                                                                                                                             & 1        \\ \hline
+Journal of Retailing and Consumer Services                                                                                                                                              & 1        \\ \hline
+Journal of Software: Evolution and Process                                                                                                                                              & 1        \\ \hline
+Journal of Systems and Software                                                                                                                                                         & 1        \\ \hline
+Journal of Testing and Evaluation                                                                                                                                                       & 1        \\ \hline
+Journal of the Brazilian Computer Society                                                                                                                                               & 1        \\ \hline
+Journal of the Royal Statistical Society: Series B (Statistical Methodology)                                                                                                            & 1        \\ \hline
+Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)                                                    & 1        \\ \hline
+Nature                                                                                                                                                                                  & 1        \\ \hline
+Pattern Recognition                                                                                                                                                                     & 1        \\ \hline
+Performance Evaluation                                                                                                                                                                  & 1        \\ \hline
+Proceedings - 40th Euromicro Conference Series on Software Engineering and Advanced Applications SEAA 2014                                                                              & 1        \\ \hline
+Proceedings of the 16th International Conference on Computer Systems and Technologies - CompSysTech '15                                                                                 & 1        \\ \hline
+Proceedings of the 18th ACM SIGKDD international conference on Knowledge discovery and data mining - KDD '12                                                                            & 1        \\ \hline
+Proceedings of the 18th International Software Product Line Conference on - SPLC '14                                                                                                    & 1        \\ \hline
+Proceedings of the 19th International Conference on Evaluation and Assessment in Software Engineering - EASE '15                                                                        & 1        \\ \hline
+Proceedings of the 19th International Conference on Software Product Line                                                                                                               & 1        \\ \hline
+Proceedings of the 2009 ACM symposium on Applied Computing - SAC '09                                                                                                                    & 1        \\ \hline
+Proceedings of the 2012 International Symposium on Computers in Education (SIIE)                                                                                                        & 1        \\ \hline
+Proceedings of the 2015 International Conference on Software and System Process - ICSSP 2015                                                                                            & 1        \\ \hline
+Proceedings of the 23rd international conference on Machine learning - ICML '06                                                                                                         & 1        \\ \hline
+Proceedings of the 31st Annual ACM Symposium on Applied Computing - SAC '16                                                                                                             & 1        \\ \hline
+Proceedings of the IEEE                                                                                                                                                                 & 1        \\ \hline
+Proceedings of the Ninth International Workshop on Variability Modelling of Software-intensive Systems                                                                                  & 1        \\ \hline
+Proceedings of the Seventh International Workshop on Variability Modelling of Software-intensive Systems - VaMoS '13                                                                    & 1        \\ \hline
+Proceedings of the Tenth International Workshop on Variability Modelling of Software-intensive Systems                                                                                  & 1        \\ \hline
+Proceedings of the \{ER\} 2009 Workshops (\{CoMoL\} \{ETheCoM\} \{FP-UML\} \{MOST-ONISW\} \{QoIS\} \{RIGiM\} \{SeCoGIS)\} on Advances in Conceptual Modeling - Challenging Perspectives & 1        \\ \hline
+Remote Sensing of Environment                                                                                                                                                           & 1        \\ \hline
+Scientific Reports                                                                                                                                                                      & 1        \\ \hline
+Software Product Lines in Action: The Best Industrial Practice in Product Line Engineering                                                                                              & 1        \\ \hline
+Statewide Agricultural Land Use Baseline 2015                                                                                                                                           & 1        \\ \hline
+The 7th International Conference on Information Technology                                                                                                                              & 1        \\ \hline \bottomrule
+\end{longtable}
+     
+Continuamos con un análisis de los autores mas representativos de nuestros resultados, nos preguntábamos: ¿Qué distribución geográfica o cuales Autores son los mas representativos en nuestro estudio? con el propósito de conocer las personas que pueden estar interesadas en nuestro proyecto de investigación, Descubrimos a Mathieu Archer (Université de Rennes 1,Rennes, Francia) con 5 documentos, Martin Becker (Fraunhofer-Platz 1, Kaiserslautern, Alemania), Guillaume Bécan (Université de Rennes 1,Rennes, Francia), Rafael Capilla (Rey Juan Carlos University, Madrid, Spaña), Krzysztof Czarnecki (Univ. of Waterloo, Ontario, Canada), Trevor Hastie (Stanford University, California, U.S.A.),	Raúl Mazo (Université Paris 1 Panthéon-Sorbonne, Paris, Francia),	Camille Salience (Université Paris 1 Panthéon-Sorbonne, Paris, Francia), con 3 documentos, protagonizan las regiones y las personas con las cuales podemos construir alianzas estratégicas y futuros trabajos.
+  
+Con el fin de establecer un grado de madurez para el tema de investigación como lo propone Wieringa, R. et al. \cite{Wieringa2006}. ¿Qué categoría o escalafón de investigación tienen asignado los documentos encontrados en nuestro estudio? 
+
+Una pregunta importante fue identificar ¿Qué algoritmos o técnicas son usadas en le ciclo de vida de la Ingeniería de Líneas de producto para crear Modelos de Características? 
+
+Por otro lado también es interesante para el desarrollo del proyecto de investigación justificar el uso de la Mínería de datos en PLE por esta razón nos cuestionamos sobre ¿Qué técnicas de la Minería de Datos son usadas en el campo de la Ingeniería de Líneas de Producto? 
+
+Con el proposito de considerar los Empresas y los sectores de la industria en las cuales se realizaron trabajos interesantes investigamos sobre ¿Qué contexto de dominio está implementando Minería de Datos e Ingeniería de Líneas de Producto? 
+
+En la identificación de las técnicas de Minería de Datos para iniciar el proceso de adopción fue útil preguntarnos ¿Cómo están definidas las técnicas de Minería de Datos encontradas en los documentos? 
+
+Consideramos investigar ¿En cuál etapa del Ciclo de Vida de la Ingeniería de Líneas de Producto se usa la Minería de Datos?  Sabemos que usarlo en la Ingenieria del dominio \cite{PeterJ.Olver2013} es nuestro objetivo, donde se encuentra los Modelos da variabilidad y en donde se apoyó el \textit{FrameWork} para el modelamiento de familias de productos propuesto por Zang, Y. et al. en \cite{Simpson}.  
+ 
+Después de aplicar las técnicas de Minería de Datos en las diferentes etapas del Ciclo de vida de la Ingeniería de Líneas de producto. ¿Qué tipo de productos se han derivado del uso de las técnicas de Minería de Datos en la Ingeniería de Líneas de Producto?,  
+
+Hastie, T. et al. en \cite{Hastie2009}  pudó considerar que las tecnicas de Míneria de datos están siendo aplicadas o usadas en diferentes propósitos sin embargo ¿Cómo se puede validar el uso correcto de las técnicas de Minería de Datos en PLE? 
+
+Con el objetivo de automatizar el desarrollo de las Modelos de características y caracterizar la aplicabilidad de las Técnicas de Minería de Datos  nos preguntábamos si ¿los estudios encontrados en la literatura apoyan la automatización de técnicas de minería de datos? 
+
+
+Identificamos las mejoras y los enfoques novedosos en las técnicas de Minería de Datos usadas en la Ingeniería de Lineas de Producto preguntándonos ¿Qué técnicas de Minería pueden ser explotadas en La Ingeniería de Líneas de Productos?  
+
+¿Entre los documentos encontrados son evidentes las propuestas innovadoras en la Ingeniería de Línea de Productos? 
+     
+     
+En estos momentos, una gran cantidad de datos es almacena en bases de datos y almacenes de datos. Los datos crecen rápidamente porque la información se guarda usando periféricos de computadora, códigos de barras, sensores y sistemas biométricos. También una gran variedad de datos que se consideraban difíciles de manejar o que estaban aislados ahora tienen fines prácticos, estos datos son  grandes y complejos, con millones de registros y muchas variables. Además, diferentes agencias gubernamentales, instituciones educativas e industrias han acumulado estas grandes cantidades de datos, como ejemplo para el desarrollo de los objetivos del proyecto de investigación la Facultad Nacional de Salud Publica  pone a disposición del Grupo de Investigación de Ingeniería y Tecnologías de las Organizaciones y de la Sociedad (ITOS) los Registros Individuales de Prestación de Servicios de Salud (RIPS) que se definen como el conjunto de datos mínimos y basicos  que el Sistema General de Salud Social requiere para sus procesos cuya denominación, estructura y características se ha unificado y estandarizado para todas las entidades a que hace referencia el artículo segundo de la resolución 3374 de 2000 (las instituciones prestadoras de servicios de salud (IPS), de los profesionales independientes, o de los grupos de práctica profesional, las entidades administradoras de planes de beneficios y los organismos de dirección, vigilancia y control del SGSSS.) 
+
+
+Falta introducir el problema …
+
+
+
+
+Nota: se toma solo el 0.01\% de la base de datos del cliente para desarrollar el ejemplo. 

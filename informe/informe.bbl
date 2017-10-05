@@ -1,0 +1,642 @@
+\begin{thebibliography}{10}
+
+\bibitem{Zhang2011}
+He~Zhang, Muhammad~Ali Babar, and Paolo Tell.
+\newblock {Identifying relevant studies in software engineering}.
+\newblock {\em Information and Software Technology}, 53(6):625--637, jun 2011.
+
+\bibitem{Vaishnavi2013}
+Vijay Vaishnavi and Bill Kuechler.
+\newblock {Design Science Research in Information Systems}, 2013.
+
+\bibitem{Alaimo2013}
+Diego~Mart{\'{i}}n Alaimo.
+\newblock {\em {Proyectos {\'{a}}giles con {\#}Scrum : flexibilidad,
+  aprendizaje, innovaci{\'{o}}n y colaboraci{\'{o}}n en contextos complejos}}.
+\newblock Kleer, BA, 1 edition, 2013.
+
+\bibitem{Petersen2008a}
+Kai Petersen, Sairam Vakkalanka, and Ludwik Kuzniarz.
+\newblock {Guidelines for conducting systematic mapping studies in software
+  engineering: An update}.
+\newblock {\em Information and Software Technology}, 64:1--18, aug 2015.
+
+\bibitem{Rolland1998}
+C.~Rolland, C.~{Ben Achour}, C.~Cauvet, J.~Ralyt{\'{e}}, a.~Sutcliffe,
+  N.~Maiden, M.~Jarke, P.~Haumer, K.~Pohl, E.~Dubois, and P.~Heymans.
+\newblock {A proposal for a scenario classification framework}.
+\newblock {\em Requirements Engineering}, 3(1):23--47, 1998.
+
+\bibitem{Wieringa2006}
+Roel Wieringa, Neil Maiden, Nancy Mead, and Colette Rolland.
+\newblock {Requirements engineering paper classification and evaluation
+  criteria: A proposal and a discussion}.
+\newblock {\em Requirements Engineering}, 11(1):102--107, 2006.
+
+\bibitem{Izenman2006}
+Alan~J. Izenman.
+\newblock {\em {Modern Multivariate Statistical Techniques}}, volume~64 of {\em
+  Springer Texts in Statistics}.
+\newblock Springer New York, New York, NY, oct 2008.
+
+\bibitem{Hastie2009}
+Trevor Hastie, Robert Tibshirani, and Jerome Friedman.
+\newblock {\em {The Elements of Statistical Learning}}, volume~1 of {\em
+  Springer Series in Statistics}.
+\newblock Springer New York, New York, NY, 2009.
+
+\bibitem{Caruana2006}
+Rich Caruana and Alexandru Niculescu-Mizil.
+\newblock {An empirical comparison of supervised learning algorithms}.
+\newblock In {\em Proceedings of the 23rd international conference on Machine
+  learning - ICML '06}, volume~C, pages 161--168, New York, New York, USA,
+  2006. ACM Press.
+
+\bibitem{VanDerLinden2007}
+Frank van~der Linden, Klaus Schmid, and Eelco Rommes.
+\newblock {\em {Software Product Lines in Action}}.
+\newblock Springer Berlin Heidelberg, Berlin, Heidelberg, 2007.
+
+\bibitem{Benavides2010}
+David Benavides, Sergio Segura, and Antonio Ruiz-Cort{\'{e}}s.
+\newblock {Automated analysis of feature models 20 years later: A literature
+  review}.
+\newblock {\em Information Systems}, 35(6):615--636, sep 2010.
+
+\bibitem{Wohlin2014}
+Claes Wohlin.
+\newblock {Guidelines for snowballing in systematic literature studies and a
+  replication in software engineering}.
+\newblock In {\em Proceedings of the 18th International Conference on
+  Evaluation and Assessment in Software Engineering - EASE '14}, pages 1--10,
+  New York, New York, USA, 2014. ACM Press.
+
+\bibitem{Wang2014}
+Shuai Wang, Shaukat Ali, Arnaud Gotlieb, and Marius Liaaen.
+\newblock {A systematic test case selection methodology for product lines:
+  results and insights from an industrial case study}.
+\newblock {\em Empirical Software Engineering}, 21(4):1586--1622, aug 2016.
+
+\bibitem{Santos2015}
+Alcemir~Rodrigues Santos, Raphael~Pereira de~Oliveira, and Eduardo~Santana
+  de~Almeida.
+\newblock {Strategies for consistency checking on software product lines}.
+\newblock In {\em Proceedings of the 19th International Conference on
+  Evaluation and Assessment in Software Engineering - EASE '15}, number Section
+  3, pages 1--14, New York, New York, USA, 2015. ACM Press.
+
+\bibitem{Salinesi2009a}
+Camille Salinesi, Colette Rolland, Daniel Diaz, and Ra{\'{u}}l Mazo.
+\newblock {Looking for Product Line Feature Models Defects: Towards a
+  Systematic Classification of Verification Criteria}.
+\newblock In {\em 2009 17th IEEE International Requirements Engineering
+  Conference}, pages 385--386. IEEE, aug 2009.
+
+\bibitem{Souag2015}
+Amina Souag, Ra{\'{u}}l Mazo, Camille Salinesi, and Isabelle Comyn-Wattiau.
+\newblock {Reusable knowledge in security requirements engineering: a
+  systematic mapping study}.
+\newblock {\em Requirements Engineering}, 21(2):251--283, jun 2016.
+
+\bibitem{Farias2016}
+M{\'{a}}rio~Andr{\'{e}} {de F. Farias}, Renato Novais, Methanias~Cola{\c{c}}o
+  J{\'{u}}nior, Lu{\'{i}}s~Paulo {da Silva Carvalho}, Manoel Mendon{\c{c}}a,
+  and Rodrigo~Oliveira Sp{\'{i}}nola.
+\newblock {A systematic mapping study on mining software repositories}.
+\newblock In {\em Proceedings of the 31st Annual ACM Symposium on Applied
+  Computing - SAC '16}, pages 1472--1479, New York, New York, USA, 2016. ACM
+  Press.
+
+\bibitem{Soares2014}
+Larissa~Rocha Soares, Pasqualina Potena, Ivan Do~Carmo Machado, Ivica Crnkovic,
+  and Eduardo Santana~D {De Almeida}.
+\newblock {Analysis of non-functional properties in software product lines: A
+  systematic review}.
+\newblock {\em Proceedings - 40th Euromicro Conference Series on Software
+  Engineering and Advanced Applications, SEAA 2014}, pages 328--335, 2014.
+
+\bibitem{Sepulveda2016}
+Samuel Sep{\'{u}}lveda, Ania Cravero, and Cristina Cachero.
+\newblock {Requirements modeling languages for software product lines: A
+  systematic literature review}.
+\newblock {\em Information and Software Technology}, 69:16--36, jan 2016.
+
+\bibitem{Eleuterio2015}
+Jane D A~S Eleut{\'{e}}rio, Felipe~N Gaia, Gena{\'{i}}na~N Rodrigues, and
+  Cec{\'{i}}lia M~F Rubira.
+\newblock {Dependable Dynamic Software Product Line--a Systematic Mapping
+  Study}.
+\newblock (April), 2015.
+
+\bibitem{Bakar2015a}
+Noor~Hasrina Bakar, Zarinah~M. Kasirun, and Norsaremah Salleh.
+\newblock {Feature extraction approaches from natural language requirements for
+  reuse in software product lines: A systematic literature review}.
+\newblock {\em Journal of Systems and Software}, 106:132--149, aug 2015.
+
+\bibitem{Elovici2003}
+Yuval Elovici and Dan Braha.
+\newblock {A decision-theoretic approach to data mining}.
+\newblock {\em IEEE Transactions on Systems, Man, and Cybernetics - Part A:
+  Systems and Humans}, 33(1):42--51, jan 2003.
+
+\bibitem{TerBeek2015}
+M.~H. ter Beek, A.~Legay, A.~Lluch Lafuente, and A.~Vandin.
+\newblock {Statistical analysis of probabilistic models of software product
+  lines with quantitative constraints}.
+\newblock In {\em Proceedings of the 19th International Conference on Software
+  Product Line - SPLC '15}, pages 11--15, New York, New York, USA, 2015. ACM
+  Press.
+
+\bibitem{Asadi2014}
+Mohsen Asadi, Samaneh Soltani, Dragan Gasevic, Marek Hatala, and Ebrahim
+  Bagheri.
+\newblock {Toward automated feature model configuration with optimizing
+  non-functional requirements}.
+\newblock {\em Information and Software Technology}, 56(9):1144--1165, sep
+  2014.
+
+\bibitem{Acher2010}
+Mathieu Acher, Philippe Collet, Philippe Lahire, and Robert France.
+\newblock {Comparing Approaches to Implement Feature Model Composition}.
+\newblock In {\em Lecture Notes in Computer Science (including subseries
+  Lecture Notes in Artificial Intelligence and Lecture Notes in
+  Bioinformatics)}, volume 6138 LNCS, pages 3--19. 2010.
+
+\bibitem{Zhang2013}
+Bo~Zhang and Martin Becker.
+\newblock {RECoVar: A solution framework towards reverse engineering
+  variability}.
+\newblock In {\em 2013 4th International Workshop on Product LinE Approaches in
+  Software Engineering (PLEASE)}, pages 45--48. IEEE, may 2013.
+
+\bibitem{Davril2015}
+Jean~Marc Davril, Patrick Heymans, Guillaume B{\'{e}}can, and Mathieu Acher.
+\newblock {On breaking the curse of dimensionality in reverse engineering
+  feature models}.
+\newblock {\em CEUR Workshop Proceedings}, 1453:19--22, 2015.
+
+\bibitem{Capilla2013}
+Rafael Capilla, J.~Bosch, and Kyo-Chul Kang.
+\newblock {\em {Systems and Software Variability Management}}.
+\newblock Springer Berlin Heidelberg, Berlin, Heidelberg, 2013.
+
+\bibitem{Mazo2015}
+Ra{\'{u}}l Mazo, Juan~C Mu{\~{n}}oz-Fern{\'{a}}ndez, Luisa Rinc{\'{o}}n,
+  Camille Salinesi, and Gabriel Tamura.
+\newblock {VariaMos}.
+\newblock In {\em Proceedings of the 19th International Conference on Software
+  Product Line - SPLC '15}, pages 374--379, New York, New York, USA, 2015. ACM
+  Press.
+
+\bibitem{Zou2005a}
+Hui Zou and Trevor Hastie.
+\newblock {Regularization and variable selection via the elastic net}.
+\newblock {\em Journal of the Royal Statistical Society: Series B (Statistical
+  Methodology)}, 67(2):301--320, apr 2005.
+
+\bibitem{Simpson}
+Timothy~W Simpson and Jianxin~Roger Jiao.
+\newblock {\em {Advances in Product Family and Product Platform Design}}.
+\newblock Springer New York, New York, NY, 2014.
+
+\bibitem{Yang2015a}
+{Guanzhong Yang} and {Yaru Zhang}.
+\newblock {A feature-oriented modeling approach for embedded product line
+  engineering}.
+\newblock In {\em 2015 12th International Conference on Fuzzy Systems and
+  Knowledge Discovery (FSKD)}, pages 1607--1612. IEEE, aug 2015.
+
+\bibitem{Fenske2015}
+Wolfram Fenske and Sandro Schulze.
+\newblock {Code Smells Revisited: A Variability Perspective}.
+\newblock {\em Proceedings of the Ninth International Workshop on Variability
+  Modelling of Software-intensive Systems}, pages 3:3----3:10, 2015.
+
+\bibitem{PeterJ.Olver2013}
+Goetz Botterweck and Andreas Pleuss.
+\newblock {Evolution of Software Product Lines}.
+\newblock In {\em Evolving Software Systems}, volume 234, pages 265--295.
+  Springer Berlin Heidelberg, Berlin, Heidelberg, 2014.
+
+\bibitem{Rothberg2016}
+Valentin Rothberg, Nicolas Dintzner, Andreas Ziegler, and Daniel Lohmann.
+\newblock {Feature Models in Linux}.
+\newblock In {\em Proceedings of the Tenth International Workshop on
+  Variability Modelling of Software-intensive Systems - VaMoS '16}, pages
+  65--72, New York, New York, USA, 2016. ACM Press.
+
+\bibitem{Al2013}
+R.~Al-msie'deen, A.-D. Seriai, Marianne Huchard, Christelle Urtado, and Sylvain
+  Vauttier.
+\newblock {Mining features from the object-oriented source code of software
+  variants by combining lexical and structural similarity}.
+\newblock In {\em 2013 IEEE 14th International Conference on Information Reuse
+  {\&} Integration (IRI)}, pages 586--593. IEEE, aug 2013.
+
+\bibitem{Maldonado2014}
+Sebasti{\'{a}}n Maldonado, Richard Weber, and Fazel Famili.
+\newblock {Feature selection for high-dimensional class-imbalanced data sets
+  using Support Vector Machines}.
+\newblock {\em Information Sciences}, 286:228--246, dec 2014.
+
+\bibitem{Zhou2015b}
+F.~Zhou and R.~J. Jiao.
+\newblock {Feature model augmentation with sentiment analysis for product line
+  planning}.
+\newblock In {\em 2015 IEEE International Conference on Industrial Engineering
+  and Engineering Management (IEEM)}, pages 1689--1693. IEEE, dec 2015.
+
+\bibitem{Liao2008}
+Shu-Hsien Liao, Chyuan-Meei Chen, and Chung-Hsin Wu.
+\newblock {Mining customer knowledge for product line and brand extension in
+  retailing}.
+\newblock {\em Expert Systems with Applications}, 34(3):1763--1776, apr 2008.
+
+\bibitem{Hariri2013}
+Negar Hariri, Carlos Castro-Herrera, Mehdi Mirakhorli, Jane Cleland-Huang, and
+  Bamshad Mobasher.
+\newblock {Supporting Domain Analysis through Mining and Recommending Features
+  from Online Product Listings}.
+\newblock {\em IEEE Transactions on Software Engineering}, 39(12):1736--1752,
+  dec 2013.
+
+\bibitem{Thurimella2012}
+Anil~Kumar Thurimella and Bernd Bruegge.
+\newblock {Issue-based variability management}.
+\newblock {\em Information and Software Technology}, 54(9):933--950, sep 2012.
+
+\bibitem{Chen2014a}
+Qian Chen, Wenhao Zhu, Chaoyou Ju, and Wu~Zhang.
+\newblock {Cross domain web information extraction with multi-level feature
+  model}.
+\newblock In {\em 2014 10th International Conference on Natural Computation
+  (ICNC)}, pages 780--784. IEEE, aug 2014.
+
+\bibitem{Berger2013}
+Thorsten Berger, Ralf Rublack, Divya Nair, Joanne~M. Atlee, Martin Becker,
+  Krzysztof Czarnecki, and Andrzej W{\c{a}}sowski.
+\newblock {A survey of variability modeling in industrial practice}.
+\newblock In {\em Proceedings of the Seventh International Workshop on
+  Variability Modelling of Software-intensive Systems - VaMoS '13}, page~1, New
+  York, New York, USA, 2013. ACM Press.
+
+\bibitem{Lee2014}
+Jaejoon Lee, Kyo~C. Kang, Pete Sawyer, and Hyesun Lee.
+\newblock {A holistic approach to feature modeling for product line
+  requirements engineering}.
+\newblock {\em Requirements Engineering}, 19(4):377--395, nov 2014.
+
+\bibitem{Kwak2011}
+Minjung Kwak and Harrison Kim.
+\newblock {\em {Advances in Product Family and Product Platform Design}},
+  volume~43.
+\newblock Springer New York, New York, NY, 2014.
+
+\bibitem{Janota2013}
+Mikol{\'{a}}{\v{s}} Janota, Goetz Botterweck, and Joao Marques-Silva.
+\newblock {On lazy and eager interactive reconfiguration}.
+\newblock In {\em Proceedings of the Eighth International Workshop on
+  Variability Modelling of Software-Intensive Systems - VaMoS '14}, pages 1--8,
+  New York, New York, USA, 2013. ACM Press.
+
+\bibitem{Pablo2012}
+S~Pablo, Diego Garc, Marta Zorrilla, and Dpto Matem.
+\newblock {Software Product Line Engineering for e-Learning Applications : A
+  Case Study}.
+\newblock {\em Proceedings of the 2012 International Symposium on Computers in
+  Education (SIIE)}, pages 1 -- 6, 2012.
+
+\bibitem{Czarnecki2008}
+Krzysztof Czarnecki, Steven She, and Andrzej Wasowski.
+\newblock {Sample Spaces and Feature Models: There and Back Again}.
+\newblock In {\em 2008 12th International Software Product Line Conference},
+  pages 22--31. IEEE, sep 2008.
+
+\bibitem{Jiao2005}
+Jianxin Jiao and Yiyang Zhang.
+\newblock {Product portfolio identification based on association rule mining}.
+\newblock {\em Computer-Aided Design}, 37(2):149--172, feb 2005.
+
+\bibitem{Nickel2015}
+Maximilian Nickel, Kevin Murphy, Volker Tresp, and Evgeniy Gabrilovich.
+\newblock {A Review of Relational Machine Learning for Knowledge Graphs}.
+\newblock {\em Proceedings of the IEEE}, 104(1):11--33, jan 2016.
+
+\bibitem{Woznica2012}
+Adam Woznica, Phong Nguyen, and Alexandros Kalousis.
+\newblock {Model mining for robust feature selection}.
+\newblock In {\em Proceedings of the 18th ACM SIGKDD international conference
+  on Knowledge discovery and data mining - KDD '12}, page 913, New York, New
+  York, USA, 2012. ACM Press.
+
+\bibitem{Niu2008}
+Nan Niu and Steve Easterbrook.
+\newblock {On-Demand Cluster Analysis for Product Line Functional
+  Requirements}.
+\newblock In {\em 2008 12th International Software Product Line Conference},
+  pages 87--96. IEEE, sep 2008.
+
+\bibitem{Valov2015}
+Pavel Valov, Jianmei Guo, and Krzysztof Czarnecki.
+\newblock {Empirical comparison of regression methods for variability-aware
+  performance prediction}.
+\newblock In {\em Proceedings of the 19th International Conference on Software
+  Product Line - SPLC '15}, pages 186--190, New York, New York, USA, 2015. ACM
+  Press.
+
+\bibitem{Afzal2016}
+Uzma Afzal, Tariq Mahmood, and Zubair Shaikh.
+\newblock {Intelligent software product line configurations: A literature
+  review}.
+\newblock {\em Computer Standards {\&} Interfaces}, 48:30--48, nov 2016.
+
+\bibitem{Bae2011}
+Jae~Kwon Bae and Jinhwa Kim.
+\newblock {Product development with data mining techniques: A case on design of
+  digital camera}.
+\newblock {\em Expert Systems with Applications}, 38(8):9274--9280, aug 2011.
+
+\bibitem{Somprasertsri2010}
+Gamgarn Sompras and Pattarachai Lalitrojwong.
+\newblock {Extracting product features and opinions from product reviews using
+  dependency analysis}.
+\newblock In {\em 2010 Seventh International Conference on Fuzzy Systems and
+  Knowledge Discovery}, volume~5, pages 2358--2362. IEEE, aug 2010.
+
+\bibitem{Tucker2008}
+Conrad~S. Tucker and Harrison~M. Kim.
+\newblock {Optimal Product Portfolio Formulation by Merging Predictive Data
+  Mining With Multilevel Optimization}.
+\newblock {\em Journal of Mechanical Design}, 130(4):041103, 2008.
+
+\bibitem{Tuarob2015}
+Suppawong Tuarob and Conrad~S. Tucker.
+\newblock {Automated Discovery of Lead Users and Latent Product Features by
+  Mining Large Scale Social Media Networks}.
+\newblock {\em Journal of Mechanical Design}, 137(7):071402, jul 2015.
+
+\bibitem{scikit-learn}
+F.~Pedregosa, G.~Varoquaux, A.~Gramfort, V.~Michel, B.~Thirion, O.~Grisel,
+  M.~Blondel, P.~Prettenhofer, R.~Weiss, V.~Dubourg, J.~Vanderplas, A.~Passos,
+  D.~Cournapeau, M.~Brucher, M.~Perrot, and E.~Duchesnay.
+\newblock Scikit-learn: Machine learning in {P}ython.
+\newblock {\em Journal of Machine Learning Research}, 12:2825--2830, 2011.
+
+\bibitem{Pokorny2015}
+Jaroslav Pokorn{\'{y}}.
+\newblock {Database technologies in the world of big data}.
+\newblock {\em Proceedings of the 16th International Conference on Computer
+  Systems and Technologies - CompSysTech '15}, pages 1--12, 2015.
+
+\bibitem{Koutanaei2015}
+Fatemeh~Nemati Koutanaei, Hedieh Sajedi, and Mohammad Khanbabaei.
+\newblock {A hybrid data mining model of feature selection algorithms and
+  ensemble learning classifiers for credit scoring}.
+\newblock {\em Journal of Retailing and Consumer Services}, 27:11--23, nov
+  2015.
+
+\bibitem{Pohl2005}
+Klaus Pohl, G{\"{u}}nter B{\"{o}}ckle, and Frank van~der Linden.
+\newblock {\em {Software Product Line Engineering: Foundations, Principles and
+  Techniques}}.
+\newblock 2005.
+
+\bibitem{Castelluccia2014}
+Daniela Castelluccia and Nicola Boffoli.
+\newblock {Service-oriented product lines}.
+\newblock {\em ACM SIGSOFT Software Engineering Notes}, 39(2):1--6, 2014.
+
+\bibitem{Hamraz2012}
+Bahram Hamraz, Nicholas H.~M. Caldwell, and P.~{John Clarkson}.
+\newblock {A Multidomain Engineering Change Propagation Model to Support
+  Uncertainty Reduction and Risk Management in Design}.
+\newblock {\em Journal of Mechanical Design}, 134(10):100905, 2012.
+
+\bibitem{Mendonca:2009:SSP:1639950.1640002}
+Marcilio Mendonca, Moises Branco, and Donald Cowan.
+\newblock S.p.l.o.t.: Software product lines online tools.
+\newblock In {\em Proceedings of the 24th ACM SIGPLAN Conference Companion on
+  Object Oriented Programming Systems Languages and Applications}, OOPSLA '09,
+  pages 761--762, New York, NY, USA, 2009. ACM.
+
+\bibitem{B??can2015}
+Guillaume B{\'{e}}can, Mathieu Acher, Benoit Baudry, and Sana~Ben Nasr.
+\newblock {Breathing ontological knowledge into feature model synthesis: an
+  empirical study}.
+\newblock {\em Empirical Software Engineering}, 21(4):1794--1841, aug 2016.
+
+\bibitem{FAMILIAR}
+Mathieu Acher, Philippe Collet, Philippe Lahire, and Robert~B. France.
+\newblock Familiar: A domain-specific language for large scale management of
+  feature models.
+\newblock {\em Science of Computer Programming (SCP)}, 78(6):657--681, 2013.
+
+\bibitem{Guillaume2015}
+Guillaume B{\'{e}}can, Razieh Behjati, Arnaud Gotlieb, and Mathieu Acher.
+\newblock {Synthesis of attributed feature models from product descriptions}.
+\newblock In {\em Proceedings of the 19th International Conference on Software
+  Product Line - SPLC '15}, pages 1--10, New York, New York, USA, 2015. ACM
+  Press.
+
+\bibitem{London2015}
+Andr{\'{a}}s London, {\'{A}}ron Pelyhe, Csaba Holl{\'{o}}, and Tam{\'{a}}s
+  N{\'{e}}meth.
+\newblock {Applying graph-based data mining concepts to the educational
+  sphere}.
+\newblock In {\em Proceedings of the 16th International Conference on Computer
+  Systems and Technologies - CompSysTech '15}, pages 358--365, New York, New
+  York, USA, 2015. ACM Press.
+
+\bibitem{Zhang2014}
+Xiangzhou Zhang, Yong Hu, Kang Xie, Shouyang Wang, E.W.T. Ngai, and Mei Liu.
+\newblock {A causal feature selection algorithm for stock prediction modeling}.
+\newblock {\em Neurocomputing}, 142:48--59, oct 2014.
+
+\bibitem{Wang2015}
+Mingxian Wang and Wei Chen.
+\newblock {A Data-Driven Network Analysis Approach to Predicting Customer
+  Choice Sets for Choice Modeling in Engineering Design}.
+\newblock {\em Journal of Mechanical Design}, 137(7):071409, jul 2015.
+
+\bibitem{Manco2016}
+Giuseppe Manco, Pasquale Rullo, Lorenzo Gallucci, and Mirko Paturzo.
+\newblock {Rialto: A Knowledge Discovery suite for data analysis}.
+\newblock {\em Expert Systems with Applications}, 59:145--164, oct 2016.
+
+\bibitem{Bocca2016}
+Felipe~F. Bocca and Luiz Henrique~Antunes Rodrigues.
+\newblock {The effect of tuning, feature engineering, and feature selection in
+  data mining applied to rainfed sugarcane yield modelling}.
+\newblock {\em Computers and Electronics in Agriculture}, 128:67--76, 2016.
+
+\bibitem{Mangalova2014}
+E.~Mangalova and E.~Agafonov.
+\newblock {Wind power forecasting using the {\textless}mml:math
+  altimg="si14.gif" display="inline" overflow="scroll"
+  xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http}.
+\newblock {\em International Journal of Forecasting}, 30(2):402--406, apr 2014.
+
+\bibitem{Felfernig2015}
+Alexander Felfernig, Stefan Reiterer, Martin Stettinger, and Juha Tiihonen.
+\newblock {Intelligent Techniques for Configuration Knowledge Evolution}.
+\newblock {\em Proceedings of the Ninth International Workshop on Variability
+  Modelling of Software-intensive Systems - VaMoS '15}, pages 51--58, 2015.
+
+\bibitem{Dadaneh2016}
+Behrouz~Zamani Dadaneh, Hossein~Yeganeh Markid, and Ali Zakerolhosseini.
+\newblock {Unsupervised probabilistic feature selection using ant colony
+  optimization}.
+\newblock {\em Expert Systems with Applications}, 53:27--42, jul 2016.
+
+\bibitem{Sajadfar2015}
+Narges Sajadfar and Yongsheng Ma.
+\newblock {A hybrid cost estimation framework based on feature-oriented data
+  mining approach}.
+\newblock {\em Advanced Engineering Informatics}, 29(3):633--647, aug 2015.
+
+\bibitem{Kastner2014}
+Christian Kastner, Alexander Dreiling, and Klaus Ostermann.
+\newblock {Variability Mining: Consistent Semi-automatic Detection of
+  Product-Line Features}.
+\newblock {\em IEEE Transactions on Software Engineering}, 40(1):67--82, jan
+  2014.
+
+\bibitem{Huang2013}
+Changyun Huang, Kazuhiro Yamashita, Yasutaka Kamei, Kenji Hisazumi, and Naoyasu
+  Ubayashi.
+\newblock {Domain analysis for mining software repositories: Towards
+  feature-based DSL construction}.
+\newblock In {\em 2013 4th International Workshop on Product LinE Approaches in
+  Software Engineering (PLEASE)}, pages 41--44. IEEE, may 2013.
+
+\bibitem{Kalagnanam2004}
+Jayant Kalagnanam, Moninder Singh, Sudhir Verma, Michael Patek, and Yuk~Wah
+  Wong.
+\newblock {A system for automated mapping of bill-of-materials part numbers}.
+\newblock In {\em Proceedings of the 2004 ACM SIGKDD international conference
+  on Knowledge discovery and data mining - KDD '04}, page 805, New York, New
+  York, USA, 2004. ACM Press.
+
+\bibitem{Davril2015b}
+Jean-Marc Davril, Maxime Cordy, Patrick Heymans, and Mathieu Acher.
+\newblock {Using fuzzy modeling for consistent definitions of product qualities
+  in requirements}.
+\newblock In {\em 2015 IEEE Second International Workshop on Artificial
+  Intelligence for Requirements Engineering (AIRE)}, pages 1--8. IEEE, aug
+  2015.
+
+\bibitem{Harding2006}
+J.~a. Harding, M.~Shahbaz, Srinivas, and a.~Kusiak.
+\newblock {Data Mining in Manufacturing: A Review}.
+\newblock {\em Journal of Manufacturing Science and Engineering}, 128(4):969,
+  2006.
+
+\bibitem{Wang1998}
+X~Z Wang and C~McGreavy.
+\newblock {Automatic Classification for Mining Process Operational Data}.
+\newblock {\em Industrial {\&} Engineering Chemistry Research},
+  37(6):2215--2222, jun 1998.
+
+\bibitem{EdwardsM.2015}
+Rashid A Rayson~P {Edwards M.}
+\newblock {A systematic survey of online data mining technology intended for
+  law enforcement}.
+\newblock {\em ACM Computing Surveys}, 48,1,
+  15,,(http://www.scopus.com/inward/record.url?eid=2-s2.0-84945398245{\&}partnerID=40{\&}md5=328a99120df9ccad49817e34c6c79c2b),
+  2015.
+
+\bibitem{Simmonds2016}
+Fabian~Rojas Blum, Jocelyn Simmonds, and Mar{\'{i}}a~Cecilia Bastarrica.
+\newblock {Software process line discovery}.
+\newblock In {\em Proceedings of the 2015 International Conference on Software
+  and System Process - ICSSP 2015}, number August 2015, pages 127--136, New
+  York, New York, USA, 2015. ACM Press.
+
+\bibitem{Rashid2011}
+A~Rashid, J.-C. Royer, and A~Rummler.
+\newblock {\em {Aspect-oriented, model-driven software product lines: The AMPLE
+  way}}.
+\newblock 2011.
+
+\bibitem{Pedram2015}
+Saba Pedram, Mehran Mohsenzadeh, and Amir Azimi~Alasti Ahrabi.
+\newblock {A Review of Feature Model Position in the Software Product Line and
+  Its Extraction Methods}.
+\newblock {\em International Journal of Computer Science and Security (ICSS)},
+  9(5):274--279, 2015.
+
+\bibitem{Kang2010}
+Kc~Kang, V~Sugumaran, and S~Park.
+\newblock {\em {Applied software product line engineering}}.
+\newblock 2010.
+
+\bibitem{Hornick2009}
+Mark~F. Hornick, Erik Marcad{\'{e}}, and Sunil Venkayala.
+\newblock {Chapter 1}.
+\newblock {\em Java Data Mining}, 1:1--4, 2009.
+
+\bibitem{Lian2015}
+Xiaoli Lian and Li~Zhang.
+\newblock {Optimized feature selection towards functional and non-functional
+  requirements in Software Product Lines}.
+\newblock In {\em 2015 IEEE 22nd International Conference on Software Analysis,
+  Evolution, and Reengineering (SANER)}, pages 191--200. IEEE, mar 2015.
+
+\bibitem{Wang2012}
+Jinghua Wang, Jane You, Qin Li, and Yong Xu.
+\newblock {Extract minimum positive and maximum negative features for
+  imbalanced binary classification}.
+\newblock {\em Pattern Recognition}, 45(3):1136--1145, mar 2012.
+
+\bibitem{Atzmueller2015a}
+Martin Atzmueller, Stephan Doerfel, and Folke Mitzlaff.
+\newblock {Description-oriented community detection using exhaustive subgroup
+  discovery}.
+\newblock {\em Information Sciences}, 329:965--984, feb 2016.
+
+\bibitem{Perovsek2015a}
+Matic Perov{\v{s}}ek, An{\v{z}}e Vavpeti{\v{c}}, Janez Kranjc, Bojan Cestnik,
+  and Nada Lavra{\v{c}}.
+\newblock {Wordification: Propositionalization by unfolding relational data
+  into bags of words}.
+\newblock {\em Expert Systems with Applications}, 42(17-18):6442--6456, oct
+  2015.
+
+\bibitem{Lin2013}
+Chun-Yu Lin and G{\"{u}}l~E. Okudan.
+\newblock {Planning for multiple-generation product lines using dynamic
+  variable state models with data input from similar products}.
+\newblock {\em Expert Systems with Applications}, 40(6):2013--2022, may 2013.
+
+\bibitem{Nadi2015}
+Sarah Nadi and Stefan Kr{\"{u}}ger.
+\newblock {Variability Modeling of Cryptographic Components: Clafer Experience
+  Report}.
+\newblock {\em Proceedings of the Tenth International Workshop on Variability
+  Modelling of Software-intensive Systems}, pages 105--112, 2015.
+
+\bibitem{Chen2014}
+Weitao Chen, Xianju Li, Yanxin Wang, Gang Chen, and Shengwei Liu.
+\newblock {Forested landslide detection using LiDAR data and the random forest
+  algorithm: A case study of the Three Gorges, China}.
+\newblock {\em Remote Sensing of Environment}, 152:291--301, sep 2014.
+
+\bibitem{Bezerra2016}
+Carla I~M Bezerra, Jos{\'{e}}~Maria Monteiro, Rossana M~C Andrade, and
+  Lincoln~S Rocha.
+\newblock {Analyzing the Feature Models Maintainability over their Evolution
+  Process}.
+\newblock In {\em Proceedings of the Tenth International Workshop on
+  Variability Modelling of Software-intensive Systems - VaMoS '16}, pages
+  17--24, New York, New York, USA, 2016. ACM Press.
+
+\bibitem{Petersen2015}
+Kai Petersen, Sairam Vakkalanka, and Ludwik Kuzniarz.
+\newblock {Guidelines for conducting systematic mapping studies in software
+  engineering: An update}.
+\newblock {\em Information and Software Technology}, 64:1--18, aug 2015.
+
+\end{thebibliography}

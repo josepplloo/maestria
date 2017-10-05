@@ -1,0 +1,103 @@
+\chapter*{Marco Teórico}
+ \addcontentsline{toc}{chapter}{Marco Teórico}
+
+Minería de Datos
+
+RECORDAR SIGLAS: 
+MINERÍA DE DATOS: MD
+ingeniería de líneas de producto: ILP
+LÍNEAS DE PRODUCTO: LP
+MODELO DE CARACTERÍSTICAS: MC
+
+La minería de datos (MD) es el proceso de encontrar patrones y relaciones en los datos con el fin de realizar actividades descriptivas y predictivas. La MD descriptiva busca descubrir en grandes volúmenes de datos las estructuras, relaciones, tendencias, grupos y valores atípicos que están contenidos en los datos. Por su parte, la MD predictiva construye modelos y procedimientos de regresión, clasificación, reconocimiento de patrones y tareas de aprendizaje de máquinas  que evalúan la capacidad predictiva de estos modelos en datos frescos o nuevos \cite{Izenman2006}. 
+El modelamiento de los datos mediante las técnicas de MD puede ser usado para predecir el comportamiento de un individuo, segmentar una población, determinar las relaciones entre una población, determinar las características que más afectan a un resultado en particular; y en las empresas, estas técnicas tienen el objetivo de desarrollar estrategias competitivas en???. Los datos de las compañías que se analizan pueden presentarse en todo tipo de formatos y estructuras y pueden estar almacenados en todo tipo de infraestructura \cite{Izenman2006}. Por esta razón la MD ha optado por clasificarse en varios tipos de funciones y técnicas que no se apartan del proceso tradicional para minar o extraer datos, como se ilustra en la Figura 1.
+
+Figura 1: Proceso Industrial estándar para minar datos
+
+La Figura 1 ilustra el proceso empleado tradicionalmente en la MD, Cross Industry Standard Process for Data Mining  (CRISP-DM) [15]. Es importante diferenciar las técnicas o funciones que se aplican para cada una de las etapas de este proceso:
+
+1.	Entendimiento del negocio. El primer paso es el más importante, se llama entendimiento del negocio y se fundamenta en la identificación del problema, en esta fase se analiza qué recursos son pertinentes para solucionar el problema y en algunos casos el retorno de la inversión [15].
+2.	Entendimiento de los datos.  En este paso se deben identificar los datos a través de métodos estadísticos, por ejemplo, en qué rango de valores se encuentran los datos y qué fuentes de datos son necesarias para la solución del problema [15].
+3.	Preparación de los datos. En esta etapa los datos ya se encuentran identificados y es necesario limpiarlos y formatearlos para presentarlos correctamente y no crear ambigüedad o manejar escalas de medición diferentes, por ejemplo, el género de los sujetos que aparece como masculino y femenino se muestra como 0 y 1 respectivamente [15].
+4.	Modelado. En esta etapa es en donde se aplican las diferentes técnicas de regresión y clasificación para minar los datos dependiendo del análisis que el usuario haya realizado en la etapa de entendimiento del negocio [15].
+5.	Evaluación. Esta etapa es necesaria para probar que el modelo alcanzó los objetivos y mostró los resultados esperados. Durante la etapa de evaluación se puede direccionar el esfuerzo a mirar aspectos que no se hayan cubierto en la etapa de modelado [15].
+6.	Despliegue. La etapa de despliegue termina con un reporte. Una solución de minería de datos que se puede repetir y está integrada con el proceso de negocio de la compañía [15].
+
+Los datos históricos que se encuentran almacenados en los diferentes silos de datos en las compañías contienen una gran cantidad de registros que deben ser explorados para extraer el conocimiento. El descubrimiento de estos datos se conoce como conocimiento descubierto en bases de datos o KDD de sus siglas en inglés Knowledge discovery in databases [13], [15]. Los procedimientos que se realizan para analizar estos datos se pueden clasificar en las siguientes técnicas y funciones.
+
+1.	Clasificación: Se usa para hacer predicciones en ejercicios como las encuestas, la segmentación de usuarios, el análisis de créditos bancarios, procesos estadísticos, detección de patrones etc.[13] La clasificación de datos se realiza dependiendo de sus valores, por ejemplo, si se tiene a una persona que es de sexo femenino, y su estatura es mayor de 180 cm,  se clasifica su talla como L.
+2.	Regresión: Es usada para hacer predicciones en escenarios de datos continuos; es valiosa para el forecast, predicciones de series de tiempo y modelos médicos y ambientales [15]. La regresión a diferencia de la clasificación usa los datos de entrada para crear una función de entrenamiento y poder realizar pronósticos sobre estos datos de entrada [13], por ejemplo, el valor de venta para una casa estará dado por la cantidad de baños multiplicado por su área.
+3.	Atributo importancia: En el análisis de negocio es muy importante identificar las características en los datos que influencian el comportamiento de los beneficios económicos [15]. Para tener una idea rápida de un dato como este, basta pensar en el estrato socioeconómico y su importancia para determinar el cobro de la cuenta de los servicios públicos.
+4.	Asociación: Es una técnica fuertemente usada en el análisis transaccional, se especializa en encontrar implicaciones en los datos o dependencias entre elementos repetidos en diferentes transacciones [15]. En la Figura 2 se puede ver el descubrimiento de una asociación.
+
+
+Figura 2: Soporte de una regla de asociación.
+
+La Figura 2 ilustra que hay una asociación entre el pan y la leche, que se basa en las veces que aparecen los dos productos en una transacción.
+
+5.	Clustering o Agrupamiento: Esta es una función muy importante en la logística, en las cadenas de producción, en el análisis genético y en la minería de texto [15]. En el clustering se compara un objeto de un conjunto de datos contra muchos conjuntos de datos, el resultado de este algoritmo se llama dendrograma. Los algoritmos de clustering son iterativos y pueden retornar la distancia entre cada resultado o incluso crear jerarquías de los datos encontrados en los diferentes conjuntos o clúster. Los algoritmos más usados son: K-means clustering, K-medioids clustering, Hierarchical clustering, Kernel K-means, soft K-means, etc. La diferencia de los algoritmos radica en la función de distancia usada [13].
+6.	Predicción: Es una función que ofrece una salida dependiendo de un conjunto histórico de datos; usa árboles de decisión y redes neuronales para argumentar su salida y procede dependiendo del conjunto de datos de entrada, por ejemplo puede ser usada para detectar defectos o calcular el mantenimiento de una máquina [9].
+7.	Estimación de densidad no paramétrica: Es una técnica alternativa para el estudio de los datos multivariados, en donde estos datos no pertenecen a una distribución de probabilidad conocida. Como resultado al aplicar esta técnica se obtiene la estimación no paramétrica de una función de distribución de densidad para los datos [15].
+8.	Inferencia: El objetivo de esta función consiste en estimar las relaciones existentes entre dos variables, especialmente como la variable dependiente cambia en función de las independientes, $Y=f(X)$. Se puede hablar de tres tipos de funciones en esta categoría, las funciones paramétricas, las funciones no paramétricas y las funciones semi paramétricas [13].
+9.	Remuestreo: El objetivo de estas técnicas es generar nuevos datos a partir de un modelo teniendo en cuenta la flexibilidad y el error. Las técnicas de remuestreo son muy costosas a nivel computacional y entre las funciones más usadas se encuentran Bootstrap y  Cross-Validation [10].
+10.	Subset selection: Es una función de selección que identifica un grupo de predictores o asume unas variables $X$ que tiene mucha influencia en la variable respuesta $Y$, con esta información, la función crea un modelo que se ajusta a los predictores $X$ mediante la suma de sus cuadrados [1],[13].
+11.	Shrinkage or Regularization: Es una función de selección de características que da muy buenos resultados por su ajuste a la varianza de los datos, estos métodos proponen seleccionar las variables que más aportan en la suma de cuadrados y penalizar las que no aportan [13]. Los algoritmos más conocidos que aplican esta función son Ridge Regression y Least Absolute Shrinkage and Selection Operation (LASSO) propuesto en 1996 por Tibshirani [1]. Las generalizaciones del algoritmo LASSO se han convertido en un tema de gran interés, entre las más importantes están: Generalized Linear Models (GLM), Elastic Net, Dantzig selector, SVN (Support Vector Machine), high dimensional matrix estimation y multivariate methods.
+
+Existe una relación entre las técnicas de la minería de datos y las funciones usadas en la minería de datos cada técnica y función tiene su dominio y su contexto de uso, el cual varía según los tipos de datos y la finalidad en la implementación [16]. En la Figura 3 se presentan las relaciones más comunes entre técnicas y funciones.
+
+
+Figura 3: Funciones y técnicas en la minería de datos.
+
+
+En búsqueda del propósito de construir modelos de características es necesario ampliar la información en los métodos que generen árboles y las soluciones a los problemas de agrupamiento, penalización y clasificación. Entre los más importantes están los Árboles de regresión y clasificación (CART) y C4.5. Los árboles de clasificación son métodos que tratan de dividir o partir los datos desde el principio hasta el final, estos métodos dedican su esfuerzo a estimar esos puntos de inicio y fin en los datos y la distancia de la partición o en número de tamaño de la división [1]. En la Figura 4 se presenta la esencia de los algoritmos basados en árboles.
+
+Figura 4: Ejemplo del funcionamiento de un algoritmo CART.
+
+Un árbol es la representación de un conjunto de áreas, ahora bien, si los datos constituyen una nube de puntos, el árbol puede seleccionar las áreas en las cuales se divide dicha nube de puntos. Además de usar árboles, también es común implementar métodos predictivos como Bootstrap o Cross validation para ajustar los puntos a cada área como se muestra en las imágenes que componen la Figura 5.
+
+
+Figura 5: Áreas de ajuste para los datos.
+
+En la Figura 5 la formación de las áreas a partir de un conjunto de datos está dada por los valores $X_{1}$ y $X_{2}$, se puede observar que la Ecuación \ref{eq1} representa los futuros puntos que se ubicarán en las cinco regiones que se muestran en la Figura 5 [13], [17]. 
+
+    \begin{equation}
+    \hat{f}(X)=\sum_{\substack{m=1}}^5c_{m}I\{(X_{1},X_{2})\in R_{m}\}
+    \label{eq1}
+    \end{equation}
+
+Ecuación 1: Representación de un árbol de regresión con 5 regiones. Donde se estiman los valores de $f(X)$, los cuales están dados por los tamaños $c_{m}$ de las divisiones de los datos de entrada en el intervalo $(I)$ cuando estos pertenecen a una región $R_{m}$ determinada.
+
+
+En la Ecuación \ref{eq1} se satisface la condición de asignación de los puntos a unas regiones señaladas como ramas de un árbol, donde la interpretabilidad puede verse reducida a medida de qué el árbol crezca o tenga más ramas. Un punto de discusión es la estimación del corte del árbol, esta decisión es delicada cuando se puede ver afectada por la variabilidad de las observaciones [13], por ejemplo, la detección de spam en los correos electrónicos es un escenario en donde se usan estos modelos, aunque en este ejemplo la vida de una persona no se vea comprometida por la mala asignación de su correo, estos métodos también apoyan la selección de los pacientes que sufren de una enfermedad en el corazón [13]. Por otra parte, Las líneas de producto también tienen un modelo muy similar a la Ecuación 1, en la cual para definir familias de productos es necesario generar un árbol partiendo de la asignación de las características a las regiones que serán los segmentos del mercado.
+
+Ingeniería de Líneas de producto
+
+La ingeniería de líneas de producto (ILP) tiene como objetivo la producción de conjuntos de productos con más características comunes que diferentes, estas líneas de producto (LP) se han convertido en un paradigma viable para mejorar la productividad y la calidad de la producción en masa [18]. La producción en masa, es el legado de la revolución industrial y está definida como la producción de un conjunto estandarizado de un mismo producto, en donde la personalización de este se convierte en un reto interesante para las compañías de cualquier tipo, inclusive para las empresas de desarrollo de software. Las características en los productos son el insumo en la LP, su razón de ser. Un producto tiene diversas características que pueden representarse en un modelo de características, por esta razón los modelos de características son comúnmente la representación de las LP [19], [20].
+
+Las LP protagonizan la etapa de diseño de los nuevos productos que consumen los clientes y la MD se especializa en extraer la información sobre la tendencia de los clientes en el mercado, la integración de estas dos tecnologías proporciona a las empresas información útil para el desarrollo de nuevos productos que se adapten a las necesidades de la sociedad [3] , [23]. La MD puede solucionar una gran cantidad de problemas relacionados con el entendimiento de datos científicos (¿Cuáles son las causas raíces de un error?) y datos de negocios de cualquier dominio (¿Cuál es el producto que compran más sus clientes?) [14], [5]. Saber qué se puede producir, con la certeza de ser comprado es lo que motiva a las compañías a crear productos de manera masiva y mejorar su producción para hacerla cada vez más rápida y flexible [18]. Estas tecnologías aplican para cualquier tipo de dominio y es de vital importancia para la salud del planeta reciclar estos datos, porque las empresas al saber la demanda de sus productos y servicios pueden afinar sus procesos de producción, ahorrando dinero y recursos [24]. Estos productos pueden ser software también, incorporar LP en el ciclo de vida de desarrollo de software (CVDS) mejora las estadísticas de mercadeo ampliando los beneficios de dos a siete veces. En la figura 6 e observa el CVDS con las  adecuaciones para soportar el reúso y la variabilidad [20].
+
+
+Figura 6: Ciclo de vida del desarrollo de software.
+
+Antes de la salida a producción se realiza una identificación de patrones y se detectan los componentes que se pueden reutilizar y generar como nuevos módulos teniendo en cuenta la variabilidad y el reúso de los componentes.
+
+
+Modelos de características
+
+Un modelo de características (MC) representa la información de todos los posibles productos en una LP en términos de las características y las relaciones entre ellas [20]. La Figura 7 muestra un ejemplo del MC donde se expone un teléfono celular.
+
+
+Figura 7: Modelo de características que representa un celular.
+
+En la imagen anterior se agrupan las características del teléfono celular y se relacionen entre ellas de forma jerárquica, las relaciones pueden ser Obligatorio, Opcional, Alternativo, O, inclusión y exclusión [20].
+
+1.	Obligatoria: Esto significa que el hijo asignado tiene que estar incluido en el producto.
+2.	Opcional: Esto significa que el hijo asignado puede o no tener esta característica.
+3.	Alternativo: Da a conocer que solo una característica en la jerarquía puede ser seleccionada.
+4.	O: Esta relación significa que se puede seleccionar todas o ninguna de las características en la jerarquía.
+5.	Requerida: Cuando una característica requiere a otra, esta no puede existir sin la presencia de la otra.
+6.	Exclusión: Si una característica excluye a otra da a entender que las características seleccionadas no pueden ser parte del mismo producto.
+
+La comunidad ha creado herramientas de ingeniería de software asistido por computadora, Computer Aided Software Engineering (CASE) para el modelamiento y la configuración de los modelos de características, aunque están en constante desarrollo, se conocen algunas muy populares como VariaMos [21], la cual tiene como objetivo desarrollar  familias de sistemas y también tiene herramientas para realizar operaciones sobre otros modelos. SPLOT [22] (software product line online tool), la cual es una herramienta online para la configuración de características y la derivación de productos a partir de diagramas de características y modelos de variabilidad. La intención de esta investigación no será competir con estas herramientas sino complementarlas y extender su funcionalidad a la adquisición de datos que ofrecen las técnicas de agrupamiento dentro de la minería de datos.
+
+	
