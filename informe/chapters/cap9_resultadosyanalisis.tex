@@ -425,32 +425,33 @@ Se realizo un proceso de búsqueda manual y automático en las bases de datos de
 \end{longtable}
 
 En la tabla\ref{tablar1} se proveen los resultados sumarizados de nuestro concepto principal en los diferentes indexadores de información científica. Aproximadamente el podium de esta tabla es liderada por los lugares mas sobresalientes, en donde es recomendable indexar un futuro documento. El objetivo de esta sección es establecer las diferencias que caracterizaron esta investigación en términos de requerimientos en la estrategia de búsqueda, calidad de la evaluación de los documentos, el proceso de búsqueda y sus resultados, las metas de este mapeo sistemático de la literatura partieron desde el desarrollo de los modelos de caracteristicas mediante técnicas de minería de datos y los retos que sobresalen en la unión de la ingeniería de líneas de producto con el concepto principal en el que giraron las facetas, está información acá contenida resume las mejores practicas\cite{Petersen2015}  y propone una guía de desarrollo que no esta exenta de actualización, compromiso de la sección de trabajos futuros.\\
-Se selecciono \textit{Scopus} como lugar de busqueda por sus extensibles servicios web y con la cantidad de documentos que se obtuvieron fue necesario definir una búsqueda automática y complementar con una búsqueda manual. La cádena de búsqueda definida fue:
+Se selecciono \textit{Scopus} como lugar de busqueda por sus extensibles servicios web y la cantidad de documentos que se obtuvieron. La cádena de búsqueda definida fue:
 
-\begin{lstlisting}
-ksjdfhk ashdfkj askdf hkasdfjhk asdfhk adhskf kasdfhk jhdf adhskfh kashdfowie oiajfoiajsdofijoasfdj ojasdf jaslkdfj lakjsfl jalsdfkj lakjsdfl jasldfk jlaskjdf lakjs flajsdlf jalsfdkjlask dfjlasjdf lajsdf 
-\end{lstlisting}
 
-\begin{lstlisting}
-TITLE-ABS-KEY("feature model") AND PUBYEAR > 2000 AND ( LIMIT-TO ( EXACTKEYWORD,"Product Line Engineering" ) OR LIMIT-TO ( EXACTKEYWORD,"Support Vector Machines" ) OR LIMIT-TO ( EXACTKEYWORD,"Data Mining" ) OR LIMIT-TO ( EXACTKEYWORD,"Variability Modeling" ) OR LIMIT-TO ( EXACTKEYWORD,"Feature Selection" ) OR LIMIT-TO ( EXACTKEYWORD,"Software Product Line (SPLs)" ) OR LIMIT-TO ( EXACTKEYWORD,"Neural Networks" ) OR LIMIT-TO ( EXACTKEYWORD,"Clustering Algorithms" ) OR LIMIT-TO ( EXACTKEYWORD,"Feature Diagrams" ) )
-\end{lstlisting}
+\newtheorem{defn}{Cadena de busqueda para Scopus}
 
-Insertar la busqueda manual
+\mdfdefinestyle{style1}{leftmargin=1cm,rightmargin=1cm,skipbelow=1cm,skipabove=1cm,
+	innertopmargin=0pt}
+\surroundwithmdframed[style=style1]{defn}
+\begin{defn}%
+	
+	\texttt{TITLE-ABS-KEY("feature model") AND PUBYEAR > 2000 AND ( LIMIT-TO ( EXACTKEYWORD,"Product Line Engineering" ) OR LIMIT-TO ( EXACTKEYWORD,"Support Vector Machines" ) OR LIMIT-TO ( EXACTKEYWORD,"Data Mining" ) OR LIMIT-TO ( EXACTKEYWORD,"Variability Modeling" ) OR LIMIT-TO ( EXACTKEYWORD,"Feature Selection" ) OR LIMIT-TO ( EXACTKEYWORD,"Software Product Line (SPLs)" ) OR LIMIT-TO ( EXACTKEYWORD,"Neural Networks" ) OR LIMIT-TO ( EXACTKEYWORD,"Clustering Algorithms" ) OR LIMIT-TO ( EXACTKEYWORD,"Feature Diagrams" ) )}
+	
+\end{defn}
 
-Mas adelante los documentos fueron categorizados de forma empírica como: \textit{i} Azul - Estudios exploratorios que presentaron un enfoque medianamente interesante para nuestro caso particular pero que tienen conceptos interesantes, estos documentos abordan parcialmente el tema. \textit{ii} Gris - Documentos que presentan conceptos y definiciones que son básicas para entender el \textit{`technical know-how'} del dominio y los ejemplos que se desarrollan en la investigación,  \textit{iii} Naranja - Documentos con el contenido de los dominios de la ingeniería de líneas de producto y la minería de datos, en estos documentos se habla mucho sobre selección de caracteristicas o modelos de características.\textit{iv} Personal - Son documentos que se recomendaron para su estudio, estan basados en la evaluación de los modelos de minería de datos y sus desarrollos como procesos de negocio. \textit{v} Purpura - En este filtro se ubicaron los documentos con las propuestas ma innovadoras o los documentos de opinión y futuros desarrollos, también se consideraron algunos enfoques que son interesantes pero aún muy complejos de desarrollar. \textit{vi} Rojo - Acá se encontraran los documentos que tienen que enmarcan un caso practico en una industria de renombre, también se contemplan los modelos de características en la ILPS. \textit{vii} Verde - Son documentos que se usaron como ejemplo para desarrollar el mapeo sistemático de los estudios en la literatura.\\
-se ponen los criterios de exclusión y los resultados de lo de precición y exactitud
-...
-esta es la cadena de busqudapara scopus:
-
+Entonces despues de  definir una búsqueda automática se complementa esta con una búsqueda manual\cite{Caruana2006}.
+Mas adelante los documentos fueron categorizados de forma empírica como: \textit{i} Azul - Estudios exploratorios que presentaron un enfoque medianamente interesante para nuestro caso particular pero que tienen conceptos interesantes, estos documentos abordan parcialmente el tema. \textit{ii} Gris - Documentos que presentan conceptos y definiciones que son básicas para entender el \textit{`technical know-how'} del dominio y los ejemplos que se desarrollan en la investigación,  \textit{iii} Naranja - Documentos con el contenido de los dominios de la ingeniería de líneas de producto y la minería de datos, en estos documentos se habla mucho sobre selección de caracteristicas o modelos de características.\textit{iv} Personal - Son documentos que se recomendaron para su estudio, están basados en la evaluación de los modelos de minería de datos y sus desarrollos como procesos de negocio. \textit{v} Purpura - En este filtro se ubicaron los documentos con las propuestas ma innovadoras o los documentos de opinión y futuros desarrollos, también se consideraron algunos enfoques que son interesantes pero aún muy complejos de desarrollar. \textit{vi} Rojo - Acá se encontraran los documentos que tienen que enmarcan un caso practico en una industria de renombre, también se contemplan los modelos de características en la ILPS. \textit{vii} Verde - Son documentos que se usaron como ejemplo para desarrollar el mapeo sistemático de los estudios en la literatura.\\
 Aplicando los criterios de exclusión y revisión que se establecieron en la metodología, sobre los documentos encontrados en la tabla \ref{tablar1}, dejamos 129 documentos que se consideraron significativos, luego, fueron analizados considerando a He Zhang, \textit{et al.}\cite{Zhang2011} y  se eligieron finalmente 119 documentos.
 En la busqueda ma
  \\
-... hablar de la app en splunk
+ Para el proceso degestión de los documentos: búsqueda, colección, selección, organización y colaboración se uso el software \href{https://www.mendeley.com}{\textit{Mendely}}, luego se exportaron los registros de la colección en el formato RIS (\textit{Research Information Systems}) para indexarlos con \href{https://www.splunk.com}{\textit{Splunk}} y generar las gráficas y las estadísticas de este trabajo de investigación.
   \subsection{Escaneo de artículos}
   se muestra la s consultas y los resultados de las palabras claves y como funciona la extración desde la aplicación
   
   \section{Diseño del prototipo}
   acá tengo que mostrar lo de iris las clases los códigos de iris 
+  
+  
   
   \section{Implementación del prototipo(Caso de aplicación)}
   acá muestro los otros scripts que van antes de lo de iris, como fue que se hizo para tomar la data de la base de datos y todo eso

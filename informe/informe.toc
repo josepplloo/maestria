@@ -48,5 +48,5 @@
 \contentsline {subsection}{\numberline {1.4.2}Estrategia de b\IeC {\'u}squeda}{40}{subsection.1.4.2}
 \contentsline {subsection}{\numberline {1.4.3}Escaneo de art\IeC {\'\i }culos}{42}{subsection.1.4.3}
 \contentsline {section}{\numberline {1.5}Dise\IeC {\~n}o del prototipo}{42}{section.1.5}
-\contentsline {section}{\numberline {1.6}Implementaci\IeC {\'o}n del prototipo(Caso de aplicaci\IeC {\'o}n)}{42}{section.1.6}
+\contentsline {section}{\numberline {1.6}Implementaci\IeC {\'o}n del prototipo(Caso de aplicaci\IeC {\'o}n)}{43}{section.1.6}
 \contentsline {chapter}{Bibliograf\IeC {\'\i }a}{44}{section.1.6}
