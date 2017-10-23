@@ -1,9 +1,124 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{100}
 
 \bibitem{Zhang2011}
 He~Zhang, Muhammad~Ali Babar, and Paolo Tell.
 \newblock {Identifying relevant studies in software engineering}.
 \newblock {\em Information and Software Technology}, 53(6):625--637, jun 2011.
+
+\bibitem{Izenman2006}
+Alan~J. Izenman.
+\newblock {\em {Modern Multivariate Statistical Techniques}}, volume~64 of {\em
+  Springer Texts in Statistics}.
+\newblock Springer New York, New York, NY, oct 2008.
+
+\bibitem{Koutanaei2015}
+Fatemeh~Nemati Koutanaei, Hedieh Sajedi, and Mohammad Khanbabaei.
+\newblock {A hybrid data mining model of feature selection algorithms and
+  ensemble learning classifiers for credit scoring}.
+\newblock {\em Journal of Retailing and Consumer Services}, 27:11--23, nov
+  2015.
+
+\bibitem{Lin2013}
+Chun-Yu Lin and G{\"{u}}l~E. Okudan.
+\newblock {Planning for multiple-generation product lines using dynamic
+  variable state models with data input from similar products}.
+\newblock {\em Expert Systems with Applications}, 40(6):2013--2022, may 2013.
+
+\bibitem{Bae2011}
+Jae~Kwon Bae and Jinhwa Kim.
+\newblock {Product development with data mining techniques: A case on design of
+  digital camera}.
+\newblock {\em Expert Systems with Applications}, 38(8):9274--9280, aug 2011.
+
+\bibitem{Comunicaciones2014}
+Ministerio de Tecnolog{\'{i}}as de la Informaci{\'{o}}n~y las Comunicaciones.
+\newblock {INFORME RENDICI{\'{O}}N DE CUENTAS Ministerio de Tecnolog{\'{i}}as
+  de la Informaci\'{o}}n y las comunicaciones – fondo de tecnolog{\'{i}}as de
+  la informaci{\'{o}}n y las comunicaciones.
+\newblock page 177.
+
+\bibitem{Ardila2015}
+Diego~Silva Ardila.
+\newblock {Indicadores B{\'{a}}sicos de Tenencia y Uso de Tecnolog{\'{i}}as de
+  la Informaci{\'{o}}n y Comunicaci{\'{o}}n en empresas 2013 Cifras
+  Definitivas}.
+\newblock Technical report, DANE, Bogot{\'{a}}, 2015.
+
+\bibitem{Elovici2003}
+Yuval Elovici and Dan Braha.
+\newblock {A decision-theoretic approach to data mining}.
+\newblock {\em IEEE Transactions on Systems, Man, and Cybernetics - Part A:
+  Systems and Humans}, 33(1):42--51, jan 2003.
+
+\bibitem{Hastie2009}
+Trevor Hastie, Robert Tibshirani, and Jerome Friedman.
+\newblock {\em {The Elements of Statistical Learning}}, volume~1 of {\em
+  Springer Series in Statistics}.
+\newblock Springer New York, New York, NY, 2009.
+
+\bibitem{Capilla2013}
+Rafael Capilla, J.~Bosch, and Kyo-Chul Kang.
+\newblock {\em {Systems and Software Variability Management}}.
+\newblock Springer Berlin Heidelberg, Berlin, Heidelberg, 2013.
+
+\bibitem{Asadi2014}
+Mohsen Asadi, Samaneh Soltani, Dragan Gasevic, Marek Hatala, and Ebrahim
+  Bagheri.
+\newblock {Toward automated feature model configuration with optimizing
+  non-functional requirements}.
+\newblock {\em Information and Software Technology}, 56(9):1144--1165, sep
+  2014.
+
+\bibitem{Thum2014}
+Thomas Th{\"{u}}m, Sven Apel, Christian K{\"{a}}stner, Ina Schaefer, and Gunter
+  Saake.
+\newblock {A Classification and Survey of Analysis Strategies for Software
+  Product Lines}.
+\newblock {\em ACM Computing Surveys}, 47(1):1--45, jun 2014.
+
+\bibitem{Davril2015b}
+Jean-Marc Davril, Maxime Cordy, Patrick Heymans, and Mathieu Acher.
+\newblock {Using fuzzy modeling for consistent definitions of product qualities
+  in requirements}.
+\newblock In {\em 2015 IEEE Second International Workshop on Artificial
+  Intelligence for Requirements Engineering (AIRE)}, pages 1--8. IEEE, aug
+  2015.
+
+\bibitem{Farid2014}
+Dewan~Md Farid, Li~Zhang, Chowdhury~Mofizur Rahman, M.A. Hossain, and Rebecca
+  Strachan.
+\newblock {Hybrid decision tree and na{\"{i}}ve Bayes classifiers for
+  multi-class classification tasks}.
+\newblock {\em Expert Systems with Applications}, 41(4):1937--1946, mar 2014.
+
+\bibitem{Bhuyan2015}
+Hemanta~Kumar Bhuyan and Narendra~Kumar Kamila.
+\newblock {Privacy preserving sub-feature selection in distributed data
+  mining}.
+\newblock {\em Applied Soft Computing}, 36:552--569, nov 2015.
+
+\bibitem{Jiao2005}
+Jianxin Jiao and Yiyang Zhang.
+\newblock {Product portfolio identification based on association rule mining}.
+\newblock {\em Computer-Aided Design}, 37(2):149--172, feb 2005.
+
+\bibitem{Chen2014a}
+Qian Chen, Wenhao Zhu, Chaoyou Ju, and Wu~Zhang.
+\newblock {Cross domain web information extraction with multi-level feature
+  model}.
+\newblock In {\em 2014 10th International Conference on Natural Computation
+  (ICNC)}, pages 780--784. IEEE, aug 2014.
+
+\bibitem{Fan2014}
+Cheng Fan, Fu~Xiao, and Shengwei Wang.
+\newblock {Development of prediction models for next-day building energy
+  consumption and peak power demand using data mining techniques}.
+\newblock {\em Applied Energy}, 127:1--10, aug 2014.
+
+\bibitem{Simpson}
+Timothy~W Simpson and Jianxin~Roger Jiao.
+\newblock {\em {Advances in Product Family and Product Platform Design}}.
+\newblock Springer New York, New York, NY, 2014.
 
 \bibitem{Vaishnavi2013}
 Vijay Vaishnavi and Bill Kuechler.
@@ -32,18 +147,6 @@ Roel Wieringa, Neil Maiden, Nancy Mead, and Colette Rolland.
 \newblock {Requirements engineering paper classification and evaluation
   criteria: A proposal and a discussion}.
 \newblock {\em Requirements Engineering}, 11(1):102--107, 2006.
-
-\bibitem{Izenman2006}
-Alan~J. Izenman.
-\newblock {\em {Modern Multivariate Statistical Techniques}}, volume~64 of {\em
-  Springer Texts in Statistics}.
-\newblock Springer New York, New York, NY, oct 2008.
-
-\bibitem{Hastie2009}
-Trevor Hastie, Robert Tibshirani, and Jerome Friedman.
-\newblock {\em {The Elements of Statistical Learning}}, volume~1 of {\em
-  Springer Series in Statistics}.
-\newblock Springer New York, New York, NY, 2009.
 
 \bibitem{Caruana2006}
 Rich Caruana and Alexandru Niculescu-Mizil.
@@ -134,12 +237,6 @@ Noor~Hasrina Bakar, Zarinah~M. Kasirun, and Norsaremah Salleh.
   reuse in software product lines: A systematic literature review}.
 \newblock {\em Journal of Systems and Software}, 106:132--149, aug 2015.
 
-\bibitem{Elovici2003}
-Yuval Elovici and Dan Braha.
-\newblock {A decision-theoretic approach to data mining}.
-\newblock {\em IEEE Transactions on Systems, Man, and Cybernetics - Part A:
-  Systems and Humans}, 33(1):42--51, jan 2003.
-
 \bibitem{TerBeek2015}
 M.~H. ter Beek, A.~Legay, A.~Lluch Lafuente, and A.~Vandin.
 \newblock {Statistical analysis of probabilistic models of software product
@@ -147,14 +244,6 @@ M.~H. ter Beek, A.~Legay, A.~Lluch Lafuente, and A.~Vandin.
 \newblock In {\em Proceedings of the 19th International Conference on Software
   Product Line - SPLC '15}, pages 11--15, New York, New York, USA, 2015. ACM
   Press.
-
-\bibitem{Asadi2014}
-Mohsen Asadi, Samaneh Soltani, Dragan Gasevic, Marek Hatala, and Ebrahim
-  Bagheri.
-\newblock {Toward automated feature model configuration with optimizing
-  non-functional requirements}.
-\newblock {\em Information and Software Technology}, 56(9):1144--1165, sep
-  2014.
 
 \bibitem{Acher2010}
 Mathieu Acher, Philippe Collet, Philippe Lahire, and Robert France.
@@ -176,11 +265,6 @@ Jean~Marc Davril, Patrick Heymans, Guillaume B{\'{e}}can, and Mathieu Acher.
   feature models}.
 \newblock {\em CEUR Workshop Proceedings}, 1453:19--22, 2015.
 
-\bibitem{Capilla2013}
-Rafael Capilla, J.~Bosch, and Kyo-Chul Kang.
-\newblock {\em {Systems and Software Variability Management}}.
-\newblock Springer Berlin Heidelberg, Berlin, Heidelberg, 2013.
-
 \bibitem{Mazo2015}
 Ra{\'{u}}l Mazo, Juan~C Mu{\~{n}}oz-Fern{\'{a}}ndez, Luisa Rinc{\'{o}}n,
   Camille Salinesi, and Gabriel Tamura.
@@ -194,11 +278,6 @@ Hui Zou and Trevor Hastie.
 \newblock {Regularization and variable selection via the elastic net}.
 \newblock {\em Journal of the Royal Statistical Society: Series B (Statistical
   Methodology)}, 67(2):301--320, apr 2005.
-
-\bibitem{Simpson}
-Timothy~W Simpson and Jianxin~Roger Jiao.
-\newblock {\em {Advances in Product Family and Product Platform Design}}.
-\newblock Springer New York, New York, NY, 2014.
 
 \bibitem{Yang2015a}
 {Guanzhong Yang} and {Yaru Zhang}.
@@ -266,13 +345,6 @@ Anil~Kumar Thurimella and Bernd Bruegge.
 \newblock {Issue-based variability management}.
 \newblock {\em Information and Software Technology}, 54(9):933--950, sep 2012.
 
-\bibitem{Chen2014a}
-Qian Chen, Wenhao Zhu, Chaoyou Ju, and Wu~Zhang.
-\newblock {Cross domain web information extraction with multi-level feature
-  model}.
-\newblock In {\em 2014 10th International Conference on Natural Computation
-  (ICNC)}, pages 780--784. IEEE, aug 2014.
-
 \bibitem{Berger2013}
 Thorsten Berger, Ralf Rublack, Divya Nair, Joanne~M. Atlee, Martin Becker,
   Krzysztof Czarnecki, and Andrzej W{\c{a}}sowski.
@@ -313,11 +385,6 @@ Krzysztof Czarnecki, Steven She, and Andrzej Wasowski.
 \newblock In {\em 2008 12th International Software Product Line Conference},
   pages 22--31. IEEE, sep 2008.
 
-\bibitem{Jiao2005}
-Jianxin Jiao and Yiyang Zhang.
-\newblock {Product portfolio identification based on association rule mining}.
-\newblock {\em Computer-Aided Design}, 37(2):149--172, feb 2005.
-
 \bibitem{Nickel2015}
 Maximilian Nickel, Kevin Murphy, Volker Tresp, and Evgeniy Gabrilovich.
 \newblock {A Review of Relational Machine Learning for Knowledge Graphs}.
@@ -351,12 +418,6 @@ Uzma Afzal, Tariq Mahmood, and Zubair Shaikh.
   review}.
 \newblock {\em Computer Standards {\&} Interfaces}, 48:30--48, nov 2016.
 
-\bibitem{Bae2011}
-Jae~Kwon Bae and Jinhwa Kim.
-\newblock {Product development with data mining techniques: A case on design of
-  digital camera}.
-\newblock {\em Expert Systems with Applications}, 38(8):9274--9280, aug 2011.
-
 \bibitem{Somprasertsri2010}
 Gamgarn Sompras and Pattarachai Lalitrojwong.
 \newblock {Extracting product features and opinions from product reviews using
@@ -388,13 +449,6 @@ Jaroslav Pokorn{\'{y}}.
 \newblock {Database technologies in the world of big data}.
 \newblock {\em Proceedings of the 16th International Conference on Computer
   Systems and Technologies - CompSysTech '15}, pages 1--12, 2015.
-
-\bibitem{Koutanaei2015}
-Fatemeh~Nemati Koutanaei, Hedieh Sajedi, and Mohammad Khanbabaei.
-\newblock {A hybrid data mining model of feature selection algorithms and
-  ensemble learning classifiers for credit scoring}.
-\newblock {\em Journal of Retailing and Consumer Services}, 27:11--23, nov
-  2015.
 
 \bibitem{Pohl2005}
 Klaus Pohl, G{\"{u}}nter B{\"{o}}ckle, and Frank van~der Linden.
@@ -520,14 +574,6 @@ Jayant Kalagnanam, Moninder Singh, Sudhir Verma, Michael Patek, and Yuk~Wah
   on Knowledge discovery and data mining - KDD '04}, page 805, New York, New
   York, USA, 2004. ACM Press.
 
-\bibitem{Davril2015b}
-Jean-Marc Davril, Maxime Cordy, Patrick Heymans, and Mathieu Acher.
-\newblock {Using fuzzy modeling for consistent definitions of product qualities
-  in requirements}.
-\newblock In {\em 2015 IEEE Second International Workshop on Artificial
-  Intelligence for Requirements Engineering (AIRE)}, pages 1--8. IEEE, aug
-  2015.
-
 \bibitem{Harding2006}
 J.~a. Harding, M.~Shahbaz, Srinivas, and a.~Kusiak.
 \newblock {Data Mining in Manufacturing: A Review}.
@@ -604,12 +650,6 @@ Matic Perov{\v{s}}ek, An{\v{z}}e Vavpeti{\v{c}}, Janez Kranjc, Bojan Cestnik,
   into bags of words}.
 \newblock {\em Expert Systems with Applications}, 42(17-18):6442--6456, oct
   2015.
-
-\bibitem{Lin2013}
-Chun-Yu Lin and G{\"{u}}l~E. Okudan.
-\newblock {Planning for multiple-generation product lines using dynamic
-  variable state models with data input from similar products}.
-\newblock {\em Expert Systems with Applications}, 40(6):2013--2022, may 2013.
 
 \bibitem{Nadi2015}
 Sarah Nadi and Stefan Kr{\"{u}}ger.

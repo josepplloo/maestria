@@ -439,30 +439,61 @@ Se selecciono \textit{Scopus} como lugar de busqueda por sus extensibles servici
 	
 \end{defn}
 
-Entonces despues de  definir una búsqueda automática se complementa esta con una búsqueda manual\cite{Caruana2006}.
-Mas adelante los documentos fueron categorizados de forma empírica como: \textit{i} Azul - Estudios exploratorios que presentaron un enfoque medianamente interesante para nuestro caso particular pero que tienen conceptos interesantes, estos documentos abordan parcialmente el tema. \textit{ii} Gris - Documentos que presentan conceptos y definiciones que son básicas para entender el \textit{`technical know-how'} del dominio y los ejemplos que se desarrollan en la investigación,  \textit{iii} Naranja - Documentos con el contenido de los dominios de la ingeniería de líneas de producto y la minería de datos, en estos documentos se habla mucho sobre selección de caracteristicas o modelos de características.\textit{iv} Personal - Son documentos que se recomendaron para su estudio, están basados en la evaluación de los modelos de minería de datos y sus desarrollos como procesos de negocio. \textit{v} Purpura - En este filtro se ubicaron los documentos con las propuestas ma innovadoras o los documentos de opinión y futuros desarrollos, también se consideraron algunos enfoques que son interesantes pero aún muy complejos de desarrollar. \textit{vi} Rojo - Acá se encontraran los documentos que tienen que enmarcan un caso practico en una industria de renombre, también se contemplan los modelos de características en la ILPS. \textit{vii} Verde - Son documentos que se usaron como ejemplo para desarrollar el mapeo sistemático de los estudios en la literatura.\\
-Aplicando los criterios de exclusión y revisión que se establecieron en la metodología, sobre los documentos encontrados en la tabla \ref{tablar1}, dejamos 129 documentos que se consideraron significativos, luego, fueron analizados considerando a He Zhang, \textit{et al.}\cite{Zhang2011} y  se eligieron finalmente 119 documentos.
+Después de  definir una búsqueda automática se complementó con una búsqueda manual\cite{Caruana2006}.
+Más adelante los documentos fueron categorizados de forma empírica como: \textit{i} Azul - Estudios exploratorios que presentaron un enfoque medianamente interesante para el caso, los cuales son documentos que abordan parcialmente el tema. \textit{ii} Gris - Documentos que presentaron conceptos y definiciones que son básicas para entender el \textit{`technical know-how'} del dominio y los ejemplos que se desarrollarían en la investigación,  \textit{iii} Naranja - Documentos con el contenido de los dominios de la ILP y la MD, en estos documentos se habla mucho sobre selección de caracteristicas o MC.\textit{iv} Personal - Son documentos que se recomendaron para su estudio,  basados en la evaluación de los modelos de MD y sus desarrollos como procesos de negocio. \textit{v} Púrpura - En este filtro se ubicaron los documentos con las propuestas más innovadoras o los documentos de opinión y futuros desarrollos, también se consideraron algunos enfoques que son interesantes pero aún muy complejos de desarrollar. \textit{vi} Rojo - Acá se ubicaron los documentos que enmarcaban un caso practico en una industria de renombre, también se contemplaron los MC en la ILPS. \textit{vii} Verde - Son documentos que se usaron como ejemplo para desarrollar el mapeo sistemático de los estudios en la literatura.\\
+Aplicando los criterios de exclusión y revisión, que se establecieron en la metodología, sobre los documentos encontrados en la tabla \ref{tablar1}, se seleccionaron 129 documentos que se consideraron significativos, luego, fueron analizados teniendo en cuenta a He Zhang, \textit{et al.}\cite{Zhang2011} y  se eligieron finalmente 119 documentos.
 En la busqueda ma
  \\
- Para el proceso degestión de los documentos: búsqueda, colección, selección, organización y colaboración se uso el software \href{https://www.mendeley.com}{\textit{Mendely}}, luego se exportaron los registros de la colección en el formato RIS (\textit{Research Information Systems}) para indexarlos con \href{https://www.splunk.com}{\textit{Splunk}} y generar las gráficas y las estadísticas de este trabajo de investigación.
+ Para el proceso degestión de los documentos: búsqueda, colección, selección, organización y colaboración se usó el software \href{https://www.mendeley.com}{\textit{Mendely}}, luego se exportaron los registros de la colección en el formato RIS (\textit{Research Information Systems}) para indexarlos con \href{https://www.splunk.com}{\textit{Splunk}} y generar las gráficas y las estadísticas de este trabajo de investigación.
   \subsection{Escaneo de artículos}
-  se muestra la s consultas y los resultados de las palabras claves y como funciona la extración desde la aplicación
+  Luego de obtener una muestra de los artículos que son significativos para el trabajo de investigación, se leen los títulos y las palabras claves de los resultados de cada una de las búsquedas en la tabla \ref{tablar1}, y siguiendo el detalle de la metodología en la sección de metodología en la pagina\pageref{escaneodepapers},  cuando se encuentra un documento interesante este fue coleccionado en \textit{Mendeley} como se muestra en la Figura \ref{mendeleytags}.
+  
+  \begin{figure}[h]
+  	\centering
+  	\includegraphics[width=\textwidth]{mendeleytags}
+  	\caption{Captura tomada de la aplicación \textit{Mendely}, en donde se presenta la selección de un documento con sus etiquetas.}
+  	\label{mendeleytags}
+  \end{figure}
+  
+  Es importante que la inforamación que acompaña al documento, sea buscada, en este trabajo de investigación se uso el DOI para consultar los metadatos de un documento y para poder almacenarlo correctamente con el formato RIS en la aplicación \textit{library} como se muestra en la Figura \ref{clasesdepapers}.
+  
+  \begin{figure}[h]
+  	\centering
+  	\includegraphics[width=\textwidth]{clasesdepapers}
+  	\caption{Captura tomada de la aplicación \textit{library}, en donde se presentan las formas de filtrar los datos y presentar los resportes personalizados.}
+  	\label{clasesdepapers}
+  \end{figure}  
+
+  Con este proceso en mente e ilustrado por las imagenes anteriores, cada vez que se encontraba un documento de interés se pasaba por las diferentes aplicaciones, considerando el DOI como la clave primaria y dato principal para la identificación de los documentos.
+  Para complementar el proceso se uso el siguiente escript
+  
+  \lstinputlisting[breaklines=true, caption= El Snipet de código ``doigenerator.py"  se usa para consultar las citaciones generales de un documento mediante el \textit{webservices} de \textit{Scopus}.  ]{src/doigenerator.py}
+  
   
   \section{Diseño del prototipo}
-  acá tengo que mostrar lo de iris las clases los códigos de iris 
-  
-  
-  
+  Acá tengo que mostrar lo de iris las clases los códigos de iris
+ 
+
+
   \section{Implementación del prototipo(Caso de aplicación)}
   acá muestro los otros scripts que van antes de lo de iris, como fue que se hizo para tomar la data de la base de datos y todo eso
+  Con \textit{Phyton\footnote{ \attachfile[icon=Paperclip,mimetype=aplication/zip]{src/underbrush.py}{underbrush.py} \attachfile[icon=Paperclip,mimetype=aplication/zip]{src/canopy.py}{canopy.py}}} se desarrollaron los scripts del preprocesamiento de los datos.
+  
+  
+  
+  \lstinputlisting[linerange={2-7}, caption= El Snipet de código ``underbrush.py"  se usa para filtrar un campo en una estructura de datos llamada ``dataframe".  ]{src/underbrush.py}
+  
+  Se presenta uno de los \textit{Scripts} que hacen parte del prepocesamiento de los datos.
+  
+ \lstinputlisting[linerange={2-7}, caption= {El Snipet de código ``canopy.py"  se usa para llevar los datos a una estructura de datos llamada ``dataframe", luego enmascarar los datos y filtrar los dato irrelevantes.} ]{src/canopy.py}
+  
+  
+  \section{Conclusiones y trabajos futuros}
      
 
      
-En estos momentos, una gran cantidad de datos es almacena en bases de datos y almacenes de datos. Los datos crecen rápidamente porque la información se guarda usando periféricos de computadora, códigos de barras, sensores y sistemas biométricos. También una gran variedad de datos que se consideraban difíciles de manejar o que estaban aislados ahora tienen fines prácticos, estos datos son  grandes y complejos, con millones de registros y muchas variables. Además, diferentes agencias gubernamentales, instituciones educativas e industrias han acumulado estas grandes cantidades de datos, como ejemplo para el desarrollo de los objetivos del proyecto de investigación la Facultad Nacional de Salud Publica  pone a disposición del Grupo de Investigación de Ingeniería y Tecnologías de las Organizaciones y de la Sociedad (ITOS) los Registros Individuales de Prestación de Servicios de Salud (RIPS) que se definen como el conjunto de datos mínimos y basicos  que el Sistema General de Salud Social requiere para sus procesos cuya denominación, estructura y características se ha unificado y estandarizado para todas las entidades a que hace referencia el artículo segundo de la resolución 3374 de 2000 (las instituciones prestadoras de servicios de salud (IPS), de los profesionales independientes, o de los grupos de práctica profesional, las entidades administradoras de planes de beneficios y los organismos de dirección, vigilancia y control del SGSSS.) 
-
-
-Falta introducir el problema …
-TITLE-ABS-KEY("feature model") AND PUBYEAR > 2000 AND ( LIMIT-TO ( EXACTKEYWORD,"Product Line Engineering" ) OR LIMIT-TO ( EXACTKEYWORD,"Support Vector Machines" ) OR LIMIT-TO ( EXACTKEYWORD,"Data Mining" ) OR LIMIT-TO ( EXACTKEYWORD,"Variability Modeling" ) OR LIMIT-TO ( EXACTKEYWORD,"Feature Selection" ) OR LIMIT-TO ( EXACTKEYWORD,"Software Product Line (SPLs)" ) OR LIMIT-TO ( EXACTKEYWORD,"Neural Networks" ) OR LIMIT-TO ( EXACTKEYWORD,"Clustering Algorithms" ) OR LIMIT-TO ( EXACTKEYWORD,"Feature Diagrams" ) )
+En estos momentos, una gran cantidad de datos es almacenada en bases de datos y almacenes de datos. Los datos crecen rápidamente porque la información se guarda usando periféricos de computadora, códigos de barras, sensores y sistemas biométricos. También una gran variedad de datos que se consideraban difíciles de manejar o que estaban aislados ahora tienen fines prácticos, estos datos son  grandes y complejos, con millones de registros y muchas variables. Además, diferentes agencias gubernamentales, instituciones educativas e industrias han acumulado estas grandes cantidades de datos, como ejemplo para el desarrollo de los objetivos del proyecto de investigación la Facultad Nacional de Salud Publica  pone a disposición del Grupo de Investigación de Ingeniería y Tecnologías de las Organizaciones y de la Sociedad (ITOS) los Registros Individuales de Prestación de Servicios de Salud (RIPS) que se definen como el conjunto de datos mínimos y basicos  que el Sistema General de Salud Social requiere para sus procesos cuya denominación, estructura y características se ha unificado y estandarizado para todas las entidades a que hace referencia el artículo segundo de la resolución 3374 de 2000 (las instituciones prestadoras de servicios de salud (IPS), de los profesionales independientes, o de los grupos de práctica profesional, las entidades administradoras de planes de beneficios y los organismos de dirección, vigilancia y control del SGSSS.) 
+Al usar estudios sistemáticos  se redujo el sesgo en la investigación\cite{Petersen2015}, el resultado fue un estudio completo y replicable. Con los hallazgos realizados, se pudo seleccionar más fácilmente las técnicas de minería de datos que se aplicaron en la elaboración de los modelos de características. El SMS presento un conjunto de documentos caracterizados y categorizados en una gran cantidad de dimensiones y características.
 
 
 

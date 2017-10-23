@@ -39,6 +39,16 @@
 
 \usepackage[framemethod=TikZ]{mdframed}
 
+\lstset{
+	framexleftmargin=5mm, frame=shadowbox, rulesepcolor=\color{gray},
+	emph={df}, emphstyle=\color{red},
+	emph={[2]DxPrincipal},emphstyle={[2]\color{blue}},
+	numbers=left, numberstyle=\tiny,
+	language=Python,
+	breakindent=5pt, breaklines=true,postbreak=\space,
+	basicstyle=\ttfamily,
+	postbreak=\mbox{\textcolor{red}{$\hookrightarrow$}\space}
+}
 
 \begin{document} % Inicio de documento
 
@@ -90,13 +100,13 @@ Universidad de Antioquia\\
 \cleardoublepage
 \addcontentsline{toc}{chapter}{Lista de tablas} % para que aparezca en el indice de contenidos
 \listoftables % indice de tablas
-%\include{./Chapters/cap1_resumen}
-%\include{./Chapters/cap2_abstract}
-%\include{./Chapters/cap3_problema}
-%\include{./Chapters/cap5_marcoteorico}
-%\include{./Chapters/cap4_estadoarte}
-%\include{./Chapters/cap6_objetivos}
-%\include{./Chapters/cap7_impactoyproductos}
+\include{./Chapters/cap1_resumen}
+\include{./Chapters/cap2_abstract}
+\include{./Chapters/cap3_problema}
+\include{./Chapters/cap5_marcoteorico}
+\include{./Chapters/cap4_estadoarte}
+\include{./Chapters/cap6_objetivos}
+\include{./Chapters/cap7_impactoyproductos}
 \include{./Chapters/cap8_metodologia}
 \include{./Chapters/cap9_resultadosyanalisis}
 %\include{./Chapters/capA_conclusionesytrabajosf}

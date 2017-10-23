@@ -1,6 +1,13 @@
 This is BibTeX, Version 0.99d (TeX Live 2016)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: informe.aux
+A level-1 auxiliary file: ./Chapters/cap1_resumen.aux
+A level-1 auxiliary file: ./Chapters/cap2_abstract.aux
+A level-1 auxiliary file: ./Chapters/cap3_problema.aux
+A level-1 auxiliary file: ./Chapters/cap5_marcoteorico.aux
+A level-1 auxiliary file: ./Chapters/cap4_estadoarte.aux
+A level-1 auxiliary file: ./Chapters/cap6_objetivos.aux
+A level-1 auxiliary file: ./Chapters/cap7_impactoyproductos.aux
 A level-1 auxiliary file: ./Chapters/cap8_metodologia.aux
 A level-1 auxiliary file: ./Chapters/cap9_resultadosyanalisis.aux
 The style file: unsrt.bst
@@ -8,13 +15,15 @@ Database file #1: mybib.bib
 Warning--I didn't find a database entry for "Afzal2016a"
 Warning--I didn't find a database entry for "Bouguila2010"
 Warning--can't use both volume and number fields in Izenman2006
+Warning--empty journal in Comunicaciones2014
+Warning--empty year in Comunicaciones2014
+Warning--can't use both author and editor fields in Capilla2013
+Warning--can't use both author and editor fields in Simpson
 Warning--can't use both volume and number fields in Caruana2006
 Warning--there's a number but no series in Santos2015
 Warning--empty journal in Eleuterio2015
 Warning--there's a number but no volume in Eleuterio2015
 Warning--empty publisher in Acher2010
-Warning--can't use both author and editor fields in Capilla2013
-Warning--can't use both author and editor fields in Simpson
 Warning--can't use both author and editor fields in Kwak2011
 Warning--can't use both volume and number fields in Kwak2011
 Warning--can't use both volume and number fields in Somprasertsri2010
@@ -22,45 +31,45 @@ Warning--empty publisher in Pohl2005
 Warning--there's a number but no series in Simmonds2016
 Warning--empty publisher in Rashid2011
 Warning--empty publisher in Kang2010
-You've used 98 entries,
+You've used 104 entries,
             1791 wiz_defined-function locations,
-            1083 strings with 24691 characters,
-and the built_in function-call counts, 27790 in all, are:
-= -- 2653
-> -- 1178
-< -- 46
-+ -- 427
-- -- 329
-* -- 2034
-:= -- 4130
-add.period$ -- 324
-call.type$ -- 98
-change.case$ -- 89
+            1127 strings with 26202 characters,
+and the built_in function-call counts, 29144 in all, are:
+= -- 2777
+> -- 1239
+< -- 47
++ -- 450
+- -- 346
+* -- 2136
+:= -- 4351
+add.period$ -- 342
+call.type$ -- 104
+change.case$ -- 96
 chr.to.int$ -- 0
-cite$ -- 113
-duplicate$ -- 1268
-empty$ -- 2593
-format.name$ -- 329
-if$ -- 6356
+cite$ -- 121
+duplicate$ -- 1326
+empty$ -- 2715
+format.name$ -- 346
+if$ -- 6647
 int.to.chr$ -- 0
-int.to.str$ -- 98
-missing$ -- 107
-newline$ -- 492
-num.names$ -- 98
-pop$ -- 283
+int.to.str$ -- 104
+missing$ -- 112
+newline$ -- 522
+num.names$ -- 104
+pop$ -- 295
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 667
+skip$ -- 691
 stack$ -- 0
-substring$ -- 2082
-swap$ -- 412
-text.length$ -- 46
+substring$ -- 2176
+swap$ -- 423
+text.length$ -- 47
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 15
-while$ -- 293
-width$ -- 100
-write$ -- 1129
-(There were 17 warnings)
+warning$ -- 17
+while$ -- 308
+width$ -- 107
+write$ -- 1194
+(There were 19 warnings)
