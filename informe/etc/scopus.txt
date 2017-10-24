@@ -1,0 +1,2 @@
+TITLE-ABS-KEY("feature model") AND PUBYEAR > 2000 AND ( LIMIT-TO ( EXACTKEYWORD,"Product Line Engineering" ) OR LIMIT-TO ( EXACTKEYWORD,"Support Vector Machines" ) OR LIMIT-TO ( EXACTKEYWORD,"Data Mining" ) OR LIMIT-TO ( EXACTKEYWORD,"Variability Modeling" ) OR LIMIT-TO ( EXACTKEYWORD,"Feature Selection" ) OR LIMIT-TO ( EXACTKEYWORD,"Software Product Line (SPLs)" ) OR LIMIT-TO ( EXACTKEYWORD,"Neural Networks" ) OR LIMIT-TO ( EXACTKEYWORD,"Clustering Algorithms" ) OR LIMIT-TO ( EXACTKEYWORD,"Feature Diagrams" ) )
+

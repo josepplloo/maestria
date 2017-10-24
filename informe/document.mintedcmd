@@ -1,0 +1,1 @@
+pygmentize -l java -f latex -P commandprefix=PYG -F tokenmerge -o "document.out.pyg" "document.pyg" 

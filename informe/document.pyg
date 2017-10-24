@@ -1,0 +1,5 @@
+public class MeasureStationControllerV0Test {
+        MeasureStationControllerV0 controller;
+        MeasureStation ms = new MeasureStation();
+        MeasureStationConfiguration config = new MeasureStationConfiguration();
+        DataServer dataserver = new DataServer();
