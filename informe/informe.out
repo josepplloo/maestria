@@ -1,31 +1,37 @@
 \BOOKMARK [0][-]{chapter*.3}{Lista de figuras}{}% 1
 \BOOKMARK [0][-]{chapter*.4}{Lista de tablas}{}% 2
-\BOOKMARK [0][-]{chapter*.6}{Resumen}{}% 3
-\BOOKMARK [0][-]{chapter*.7}{Abstract}{}% 4
-\BOOKMARK [0][-]{chapter*.8}{Introducci\363n}{}% 5
-\BOOKMARK [0][-]{chapter*.9}{Marco Te\363rico}{}% 6
-\BOOKMARK [0][-]{chapter*.10}{Estado del Arte}{}% 7
-\BOOKMARK [0][-]{chapter*.13}{Objetivos}{}% 8
-\BOOKMARK [0][-]{chapter*.16}{Productos}{}% 9
-\BOOKMARK [0][-]{chapter.1}{Metodolog\355a}{}% 10
-\BOOKMARK [1][-]{section.1.1}{Revisi\363n bibliogr\341fica mediante mapeo sistem\341tico de la literatura}{chapter.1}% 11
-\BOOKMARK [2][-]{subsection.1.1.1}{Planificaci\363n de la revisi\363n}{section.1.1}% 12
-\BOOKMARK [2][-]{subsection.1.1.2}{Estrategia de B\372squeda}{section.1.1}% 13
-\BOOKMARK [2][-]{subsection.1.1.3}{Escaneo de art\355culos}{section.1.1}% 14
-\BOOKMARK [2][-]{subsection.1.1.4}{An\341lisis de palabras clave}{section.1.1}% 15
-\BOOKMARK [2][-]{subsection.1.1.5}{Proceso de Extracci\363n de Datos}{section.1.1}% 16
-\BOOKMARK [1][-]{section.1.2}{Dise\361o del prototipo}{chapter.1}% 17
-\BOOKMARK [2][-]{subsection.1.2.1}{Adquisici\363n de la informaci\363n}{section.1.2}% 18
-\BOOKMARK [2][-]{subsection.1.2.2}{Dise\361o y elaboraci\363n}{section.1.2}% 19
-\BOOKMARK [2][-]{subsection.1.2.3}{Demostraci\363n}{section.1.2}% 20
-\BOOKMARK [2][-]{subsection.1.2.4}{Evaluaci\363n}{section.1.2}% 21
-\BOOKMARK [1][-]{section.1.3}{Implementaci\363n del prototipo\(Caso de aplicaci\363n\)}{chapter.1}% 22
-\BOOKMARK [0][-]{chapter*.34}{Discusi\363n}{}% 23
-\BOOKMARK [1][-]{section.1.4}{Revisi\363n bibliogr\341fica mediante mapeo sistem\341tico de la literatura}{chapter*.34}% 24
-\BOOKMARK [2][-]{subsection.1.4.1}{Planificaci\363n de la revisi\363n}{section.1.4}% 25
-\BOOKMARK [2][-]{subsection.1.4.2}{Estrategia de b\372squeda}{section.1.4}% 26
-\BOOKMARK [2][-]{subsection.1.4.3}{Escaneo de art\355culos}{section.1.4}% 27
-\BOOKMARK [1][-]{section.1.5}{Dise\361o del prototipo}{chapter*.34}% 28
-\BOOKMARK [1][-]{section.1.6}{Implementaci\363n del prototipo\(Caso de aplicaci\363n\)}{chapter*.34}% 29
-\BOOKMARK [1][-]{section.1.7}{Conclusiones y trabajos futuros}{chapter*.34}% 30
-\BOOKMARK [0][-]{section.1.7}{Bibliograf\355a}{}% 31
+\BOOKMARK [0][-]{chapter.1}{Resumen}{}% 3
+\BOOKMARK [0][-]{chapter.2}{Abstract}{}% 4
+\BOOKMARK [0][-]{chapter.3}{Introducci\363n}{}% 5
+\BOOKMARK [0][-]{chapter.4}{Marco Te\363rico}{}% 6
+\BOOKMARK [0][-]{chapter.5}{Estado del Arte}{}% 7
+\BOOKMARK [1][-]{section.5.1}{Algunos ejemplos sobre compa\361\355as que quisieron adoptar las t\351cnicas de miner\355a de datos y la ingenier\355a de lineas de producto para incluirlo en el software que desarrolla sus productos}{chapter.5}% 8
+\BOOKMARK [0][-]{chapter.6}{Objetivos}{}% 9
+\BOOKMARK [1][-]{section.6.1}{Objetivo General}{chapter.6}% 10
+\BOOKMARK [2][-]{subsection.6.1.1}{Objetivos espec\355ficos}{section.6.1}% 11
+\BOOKMARK [0][-]{chapter.7}{Productos}{}% 12
+\BOOKMARK [0][-]{chapter.8}{Metodolog\355a}{}% 13
+\BOOKMARK [1][-]{section.8.1}{Revisi\363n bibliogr\341fica mediante mapeo sistem\341tico de la literatura}{chapter.8}% 14
+\BOOKMARK [2][-]{subsection.8.1.1}{Planificaci\363n de la revisi\363n}{section.8.1}% 15
+\BOOKMARK [2][-]{subsection.8.1.2}{Estrategia de B\372squeda}{section.8.1}% 16
+\BOOKMARK [2][-]{subsection.8.1.3}{Escaneo de art\355culos}{section.8.1}% 17
+\BOOKMARK [2][-]{subsection.8.1.4}{An\341lisis de palabras clave}{section.8.1}% 18
+\BOOKMARK [2][-]{subsection.8.1.5}{Proceso de Extracci\363n de Datos}{section.8.1}% 19
+\BOOKMARK [1][-]{section.8.2}{Dise\361o del prototipo}{chapter.8}% 20
+\BOOKMARK [2][-]{subsection.8.2.1}{Adquisici\363n de la informaci\363n}{section.8.2}% 21
+\BOOKMARK [2][-]{subsection.8.2.2}{Dise\361o y elaboraci\363n}{section.8.2}% 22
+\BOOKMARK [2][-]{subsection.8.2.3}{Demostraci\363n}{section.8.2}% 23
+\BOOKMARK [2][-]{subsection.8.2.4}{Evaluaci\363n}{section.8.2}% 24
+\BOOKMARK [1][-]{section.8.3}{Implementaci\363n del prototipo\(Caso de aplicaci\363n\)}{chapter.8}% 25
+\BOOKMARK [0][-]{chapter*.24}{Discusi\363n}{}% 26
+\BOOKMARK [1][-]{section.8.4}{Revisi\363n bibliogr\341fica mediante mapeo sistem\341tico de la literatura}{chapter*.24}% 27
+\BOOKMARK [2][-]{subsection.8.4.1}{Planificaci\363n de la revisi\363n}{section.8.4}% 28
+\BOOKMARK [2][-]{subsection.8.4.2}{Estrategia de b\372squeda}{section.8.4}% 29
+\BOOKMARK [2][-]{subsection.8.4.3}{Escaneo de art\355culos}{section.8.4}% 30
+\BOOKMARK [1][-]{section.8.5}{Dise\361o del prototipo}{chapter*.24}% 31
+\BOOKMARK [1][-]{section.8.6}{Implementaci\363n del prototipo\(Caso de aplicaci\363n\)}{chapter*.24}% 32
+\BOOKMARK [0][-]{chapter.9}{Conclusiones y Trabajos Futuros}{}% 33
+\BOOKMARK [0][-]{chapter.9}{Conclusiones y Trabajos Futuros}{}% 34
+\BOOKMARK [1][-]{section.9.1}{Conclusiones}{chapter.9}% 35
+\BOOKMARK [1][-]{section.9.2}{Trabajos futuros}{chapter.9}% 36
+\BOOKMARK [0][-]{section.9.2}{Bibliograf\355a}{}% 37
