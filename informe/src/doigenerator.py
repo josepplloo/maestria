@@ -1,7 +1,8 @@
 import requests
 import time
 
-file =open ("//Applications/Splunk/etc/apps/library/info/sms.ris","r")
+file =open ("//Applications/Splunk/etc/
+	apps/library/info/sms.ris","r")
 
 for line in file:
     if line.find('DO  -') != -1:

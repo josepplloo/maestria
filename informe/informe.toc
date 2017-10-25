@@ -5,8 +5,11 @@
 \contentsline {chapter}{\numberline {2}Abstract}{6}{chapter.2}
 \contentsline {chapter}{\numberline {3}Introducci\IeC {\'o}n}{7}{chapter.3}
 \contentsline {chapter}{\numberline {4}Marco Te\IeC {\'o}rico}{8}{chapter.4}
-\contentsline {chapter}{\numberline {5}Estado del Arte}{13}{chapter.5}
-\contentsline {section}{\numberline {5.1}Algunos ejemplos sobre compa\IeC {\~n}\IeC {\'\i }as que quisieron adoptar las t\IeC {\'e}cnicas de miner\IeC {\'\i }a de datos y la ingenier\IeC {\'\i }a de lineas de producto para incluirlo en el software que desarrolla sus productos}{14}{section.5.1}
+\contentsline {section}{\numberline {4.1}Miner\IeC {\'\i }a de Datos}{8}{section.4.1}
+\contentsline {section}{\numberline {4.2}Ingenier\IeC {\'\i }a de L\IeC {\'\i }neas de producto}{11}{section.4.2}
+\contentsline {section}{\numberline {4.3}Modelos de caracter\IeC {\'\i }sticas}{12}{section.4.3}
+\contentsline {chapter}{\numberline {5}Antecedentes}{13}{chapter.5}
+\contentsline {section}{\numberline {5.1}Lecturas recomendadas}{14}{section.5.1}
 \contentsline {chapter}{\numberline {6}Objetivos}{16}{chapter.6}
 \contentsline {section}{\numberline {6.1}Objetivo General}{16}{section.6.1}
 \contentsline {subsection}{\numberline {6.1.1}Objetivos espec\IeC {\'\i }ficos}{16}{subsection.6.1.1}
@@ -14,21 +17,21 @@
 \contentsline {chapter}{\numberline {8}Metodolog\IeC {\'\i }a}{18}{chapter.8}
 \contentsline {section}{\numberline {8.1}Revisi\IeC {\'o}n bibliogr\IeC {\'a}fica mediante mapeo sistem\IeC {\'a}tico de la literatura}{19}{section.8.1}
 \contentsline {subsection}{\numberline {8.1.1}Planificaci\IeC {\'o}n de la revisi\IeC {\'o}n}{20}{subsection.8.1.1}
-\contentsline {subsubsection}{Meta 1}{22}{section*.10}
-\contentsline {subsubsection}{Meta 2}{22}{section*.11}
-\contentsline {subsubsection}{Meta 3}{23}{section*.12}
-\contentsline {subsubsection}{Meta 4}{23}{section*.13}
+\contentsline {subsubsection}{Meta 1}{22}{section*.12}
+\contentsline {subsubsection}{Meta 2}{22}{section*.13}
+\contentsline {subsubsection}{Meta 3}{23}{section*.14}
+\contentsline {subsubsection}{Meta 4}{23}{section*.15}
 \contentsline {subsection}{\numberline {8.1.2}Estrategia de B\IeC {\'u}squeda}{23}{subsection.8.1.2}
-\contentsline {subsubsection}{El est\IeC {\'a}ndar \textit {Quasi-Gold}}{24}{section*.14}
-\contentsline {subsubsection}{Criterios de exclusi\IeC {\'o}n e inclusi\IeC {\'o}n }{25}{section*.16}
-\contentsline {paragraph}{Criterios de Exclusi\IeC {\'o}n:}{25}{section*.17}
-\contentsline {paragraph}{Criterios de Inclusi\IeC {\'o}n:}{25}{section*.18}
+\contentsline {subsubsection}{El est\IeC {\'a}ndar \textit {Quasi-Gold}}{24}{section*.16}
+\contentsline {subsubsection}{Criterios de exclusi\IeC {\'o}n e inclusi\IeC {\'o}n }{25}{section*.18}
+\contentsline {paragraph}{Criterios de Exclusi\IeC {\'o}n:}{25}{section*.19}
+\contentsline {paragraph}{Criterios de Inclusi\IeC {\'o}n:}{25}{section*.20}
 \contentsline {subsection}{\numberline {8.1.3}Escaneo de art\IeC {\'\i }culos}{25}{subsection.8.1.3}
-\contentsline {subsubsection}{Tratamiento a los Documentos Repetidos}{26}{section*.19}
-\contentsline {subsubsection}{B\IeC {\'u}squeda Manual}{26}{section*.20}
-\contentsline {paragraph}{Art\IeC {\'\i }culos}{26}{section*.21}
-\contentsline {paragraph}{Conferencias, Talleres y Memorias}{26}{section*.22}
-\contentsline {subsubsection}{B\IeC {\'u}squeda Autom\IeC {\'a}tica}{27}{section*.23}
+\contentsline {subsubsection}{Tratamiento a los Documentos Repetidos}{26}{section*.21}
+\contentsline {subsubsection}{B\IeC {\'u}squeda Manual}{26}{section*.22}
+\contentsline {paragraph}{Art\IeC {\'\i }culos}{26}{section*.23}
+\contentsline {paragraph}{Conferencias, Talleres y Memorias}{26}{section*.24}
+\contentsline {subsubsection}{B\IeC {\'u}squeda Autom\IeC {\'a}tica}{27}{section*.25}
 \contentsline {subsection}{\numberline {8.1.4}An\IeC {\'a}lisis de palabras clave}{27}{subsection.8.1.4}
 \contentsline {subsection}{\numberline {8.1.5}Proceso de Extracci\IeC {\'o}n de Datos}{27}{subsection.8.1.5}
 \contentsline {section}{\numberline {8.2}Dise\IeC {\~n}o del prototipo}{27}{section.8.2}
@@ -37,24 +40,24 @@
 \contentsline {subsection}{\numberline {8.2.3}Demostraci\IeC {\'o}n}{28}{subsection.8.2.3}
 \contentsline {subsection}{\numberline {8.2.4}Evaluaci\IeC {\'o}n}{28}{subsection.8.2.4}
 \contentsline {section}{\numberline {8.3}Implementaci\IeC {\'o}n del prototipo(Caso de aplicaci\IeC {\'o}n)}{28}{section.8.3}
-\contentsline {chapter}{Discusi\IeC {\'o}n}{30}{chapter*.24}
+\contentsline {chapter}{Discusi\IeC {\'o}n}{30}{chapter*.26}
 \contentsline {section}{\numberline {8.4}Revisi\IeC {\'o}n bibliogr\IeC {\'a}fica mediante mapeo sistem\IeC {\'a}tico de la literatura}{30}{section.8.4}
 \contentsline {subsection}{\numberline {8.4.1}Planificaci\IeC {\'o}n de la revisi\IeC {\'o}n}{30}{subsection.8.4.1}
-\contentsline {subsubsection}{Desarrollo de las preguntas de investigaci\IeC {\'o}n}{30}{section*.25}
-\contentsline {paragraph}{RQ1:\IeC {\textquestiondown }C\IeC {\'o}mo est\IeC {\'a}n distribuidos los estudios en el tiempo?}{31}{figure.caption.27}
-\contentsline {paragraph}{RQ2: \IeC {\textquestiondown }Qu\IeC {\'e} tipo de documentos hablan del papel de la miner\IeC {\'\i }a de datos en la ingenier\IeC {\'\i }a de l\IeC {\'\i }neas de producto?}{31}{section*.28}
-\contentsline {paragraph}{RQ3: \IeC {\textquestiondown }Qu\IeC {\'e} distribuci\IeC {\'o}n geogr\IeC {\'a}fica o cuales autores son los mas representativos en nuestro estudio?}{34}{section*.30}
-\contentsline {paragraph}{RQ4: \IeC {\textquestiondown }Qu\IeC {\'e} categor\IeC {\'\i }a o escalaf\IeC {\'o}n de investigaci\IeC {\'o}n tienen asignado los documentos encontrados en nuestro estudio?}{35}{section*.32}
-\contentsline {paragraph}{RQ5: \IeC {\textquestiondown }Qu\IeC {\'e} algoritmos o t\IeC {\'e}cnicas son usadas en el ciclo de vida de la ingenier\IeC {\'\i }a de l\IeC {\'\i }neas de producto para crear modelos de caracter\IeC {\'\i }sticas?}{36}{section*.34}
-\contentsline {paragraph}{RQ6: \IeC {\textquestiondown }Qu\IeC {\'e} t\IeC {\'e}cnicas de miner\IeC {\'\i }a de datos son usadas en el campo de la ingenier\IeC {\'\i }a de l\IeC {\'\i }neas de producto?}{41}{section*.35}
-\contentsline {paragraph}{RQ7: \IeC {\textquestiondown }Qu\IeC {\'e} contexto de dominio est\IeC {\'a} implementando miner\IeC {\'\i }a de datos e ingenier\IeC {\'\i }a de l\IeC {\'\i }neas de producto?}{44}{section*.36}
-\contentsline {paragraph}{RQ8:\IeC {\textquestiondown }C\IeC {\'o}mo est\IeC {\'a}n definidas las t\IeC {\'e}cnicas de miner\IeC {\'\i }a de datos encontradas en los documentos?}{46}{section*.37}
-\contentsline {paragraph}{RQ9: \IeC {\textquestiondown }En cu\IeC {\'a}l etapa del ciclo de vida de la ingenier\IeC {\'\i }a de l\IeC {\'\i }neas de producto se usa la miner\IeC {\'\i }a de datos?}{47}{section*.38}
-\contentsline {paragraph}{RQ10: \IeC {\textquestiondown }Qu\IeC {\'e} tipo de productos se han derivado del uso de las t\IeC {\'e}cnicas de miner\IeC {\'\i }a de datos en la ingenier\IeC {\'\i }a de l\IeC {\'\i }neas de producto?}{48}{section*.39}
-\contentsline {paragraph}{RQ11: \IeC {\textquestiondown }C\IeC {\'o}mo se puede validar el uso correcto de las t\IeC {\'e}cnicas de miner\IeC {\'\i }a de datos en la ILP?}{49}{section*.40}
-\contentsline {paragraph}{RQ12: \IeC {\textquestiondown }Los estudios encontrados en la literatura apoyan la automatizaci\IeC {\'o}n de t\IeC {\'e}cnicas de miner\IeC {\'\i }a de datos? }{50}{section*.41}
-\contentsline {paragraph}{RQ13: \IeC {\textquestiondown }Qu\IeC {\'e} t\IeC {\'e}cnicas de miner\IeC {\'\i }a pueden ser explotadas en la ingenier\IeC {\'\i }a de l\IeC {\'\i }neas de productos?}{50}{section*.42}
-\contentsline {paragraph}{RQ14: \IeC {\textquestiondown }Entre los documentos encontrados son evidentes las propuestas innovadoras en la ingenier\IeC {\'\i }a de l\IeC {\'\i }nea de productos? }{53}{section*.43}
+\contentsline {subsubsection}{Desarrollo de las preguntas de investigaci\IeC {\'o}n}{30}{section*.27}
+\contentsline {paragraph}{RQ1:\IeC {\textquestiondown }C\IeC {\'o}mo est\IeC {\'a}n distribuidos los estudios en el tiempo?}{31}{figure.caption.29}
+\contentsline {paragraph}{RQ2: \IeC {\textquestiondown }Qu\IeC {\'e} tipo de documentos hablan del papel de la miner\IeC {\'\i }a de datos en la ingenier\IeC {\'\i }a de l\IeC {\'\i }neas de producto?}{31}{section*.30}
+\contentsline {paragraph}{RQ3: \IeC {\textquestiondown }Qu\IeC {\'e} distribuci\IeC {\'o}n geogr\IeC {\'a}fica o cuales autores son los mas representativos en nuestro estudio?}{34}{section*.32}
+\contentsline {paragraph}{RQ4: \IeC {\textquestiondown }Qu\IeC {\'e} categor\IeC {\'\i }a o escalaf\IeC {\'o}n de investigaci\IeC {\'o}n tienen asignado los documentos encontrados en nuestro estudio?}{35}{section*.34}
+\contentsline {paragraph}{RQ5: \IeC {\textquestiondown }Qu\IeC {\'e} algoritmos o t\IeC {\'e}cnicas son usadas en el ciclo de vida de la ingenier\IeC {\'\i }a de l\IeC {\'\i }neas de producto para crear modelos de caracter\IeC {\'\i }sticas?}{36}{section*.36}
+\contentsline {paragraph}{RQ6: \IeC {\textquestiondown }Qu\IeC {\'e} t\IeC {\'e}cnicas de miner\IeC {\'\i }a de datos son usadas en el campo de la ingenier\IeC {\'\i }a de l\IeC {\'\i }neas de producto?}{41}{section*.37}
+\contentsline {paragraph}{RQ7: \IeC {\textquestiondown }Qu\IeC {\'e} contexto de dominio est\IeC {\'a} implementando miner\IeC {\'\i }a de datos e ingenier\IeC {\'\i }a de l\IeC {\'\i }neas de producto?}{44}{section*.38}
+\contentsline {paragraph}{RQ8:\IeC {\textquestiondown }C\IeC {\'o}mo est\IeC {\'a}n definidas las t\IeC {\'e}cnicas de miner\IeC {\'\i }a de datos encontradas en los documentos?}{46}{section*.39}
+\contentsline {paragraph}{RQ9: \IeC {\textquestiondown }En cu\IeC {\'a}l etapa del ciclo de vida de la ingenier\IeC {\'\i }a de l\IeC {\'\i }neas de producto se usa la miner\IeC {\'\i }a de datos?}{47}{section*.40}
+\contentsline {paragraph}{RQ10: \IeC {\textquestiondown }Qu\IeC {\'e} tipo de productos se han derivado del uso de las t\IeC {\'e}cnicas de miner\IeC {\'\i }a de datos en la ingenier\IeC {\'\i }a de l\IeC {\'\i }neas de producto?}{48}{section*.41}
+\contentsline {paragraph}{RQ11: \IeC {\textquestiondown }C\IeC {\'o}mo se puede validar el uso correcto de las t\IeC {\'e}cnicas de miner\IeC {\'\i }a de datos en la ILP?}{49}{section*.42}
+\contentsline {paragraph}{RQ12: \IeC {\textquestiondown }Los estudios encontrados en la literatura apoyan la automatizaci\IeC {\'o}n de t\IeC {\'e}cnicas de miner\IeC {\'\i }a de datos? }{50}{section*.43}
+\contentsline {paragraph}{RQ13: \IeC {\textquestiondown }Qu\IeC {\'e} t\IeC {\'e}cnicas de miner\IeC {\'\i }a pueden ser explotadas en la ingenier\IeC {\'\i }a de l\IeC {\'\i }neas de productos?}{50}{section*.44}
+\contentsline {paragraph}{RQ14: \IeC {\textquestiondown }Entre los documentos encontrados son evidentes las propuestas innovadoras en la ingenier\IeC {\'\i }a de l\IeC {\'\i }nea de productos? }{53}{section*.45}
 \contentsline {subsection}{\numberline {8.4.2}Estrategia de b\IeC {\'u}squeda}{54}{subsection.8.4.2}
 \contentsline {subsection}{\numberline {8.4.3}Escaneo de art\IeC {\'\i }culos}{56}{subsection.8.4.3}
 \contentsline {section}{\numberline {8.5}Dise\IeC {\~n}o del prototipo}{57}{section.8.5}

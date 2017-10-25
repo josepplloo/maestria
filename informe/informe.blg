@@ -13,16 +13,16 @@ A level-1 auxiliary file: ./Chapters/cap9_resultadosyanalisis.aux
 A level-1 auxiliary file: ./Chapters/capA_conclusionesytrabajosf.aux
 The style file: unsrt.bst
 Database file #1: mybib.bib
+Warning--I didn't find a database entry for "Zhou2013"
 Warning--I didn't find a database entry for "Afzal2016a"
 Warning--I didn't find a database entry for "Bouguila2010"
-Warning--I didn't find a database entry for "Ca"
 Warning--can't use both volume and number fields in Izenman2006
 Warning--empty journal in Comunicaciones2014
 Warning--empty year in Comunicaciones2014
 Warning--can't use both author and editor fields in Capilla2013
 Warning--can't use both author and editor fields in Simpson
-Warning--can't use both volume and number fields in Caruana2006
 Warning--there's a number but no series in Santos2015
+Warning--can't use both volume and number fields in Caruana2006
 Warning--empty journal in Eleuterio2015
 Warning--there's a number but no volume in Eleuterio2015
 Warning--empty publisher in Acher2010
@@ -35,7 +35,7 @@ Warning--empty publisher in Rashid2011
 Warning--empty publisher in Kang2010
 You've used 104 entries,
             1791 wiz_defined-function locations,
-            1130 strings with 26248 characters,
+            1130 strings with 26260 characters,
 and the built_in function-call counts, 29144 in all, are:
 = -- 2777
 > -- 1239
