@@ -1,5 +1,5 @@
-\chapter*{Resultados y análisis}
- \addcontentsline{toc}{chapter}{Discusión}
+\chapter{Resultados y análisis}
+ %\addcontentsline{toc}{chapter}{Discusión}
  
 Considerando los grandes volúmenes de información que posen las industrias, los cuales muchas veces están dispersos y crecen rápidamente como silos de datos sin ser aprovechados \cite{Elovici2003}, tuvimos en cuenta  qué el uso de los modelos de características en el proceso de ingeniería de líneas de productos, puede usarse para la creación masiva de productos hechos a la medida, sin descuidar la calidad, la reutilidad y la variabilidad.
 En el proceso de ELP algunos productos  serán penalizados \cite{TerBeek2015}, los modelos de características actuales siguen siendo grandes y complejos de configurar \cite{Asadi2014}. Es decir,  generar o derivar productos desde la ingeniería de líneas de producto y considerar la ciencia de los datos para identificar o seleccionar que características toman protagonismo, o impactan positiva o negativamente los intereses de los nichos de mercado \cite{Hastie2009}, sigue siendo un aspecto en constante desarrollo. Por esta razón se planteo el primer objetivo en este proyecto y en él se realizo el siguiente estado del arte.
@@ -442,11 +442,11 @@ Se selecciono \textit{Scopus} como lugar de busqueda por sus extensibles servici
 Después de  definir una búsqueda automática se complementó con una búsqueda manual\cite{Caruana2006}.
 Más adelante los documentos fueron categorizados de forma empírica como: \textit{i} Azul - Estudios exploratorios que presentaron un enfoque medianamente interesante para el caso, los cuales son documentos que abordan parcialmente el tema. \textit{ii} Gris - Documentos que presentaron conceptos y definiciones que son básicas para entender el \textit{`technical know-how'} del dominio y los ejemplos que se desarrollarían en la investigación,  \textit{iii} Naranja - Documentos con el contenido de los dominios de la ILP y la MD, en estos documentos se habla mucho sobre selección de caracteristicas o MC.\textit{iv} Personal - Son documentos que se recomendaron para su estudio,  basados en la evaluación de los modelos de MD y sus desarrollos como procesos de negocio. \textit{v} Púrpura - En este filtro se ubicaron los documentos con las propuestas más innovadoras o los documentos de opinión y futuros desarrollos, también se consideraron algunos enfoques que son interesantes pero aún muy complejos de desarrollar. \textit{vi} Rojo - Acá se ubicaron los documentos que enmarcaban un caso practico en una industria de renombre, también se contemplaron los MC en la ILPS. \textit{vii} Verde - Son documentos que se usaron como ejemplo para desarrollar el mapeo sistemático de los estudios en la literatura.\\
 Aplicando los criterios de exclusión y revisión, que se establecieron en la metodología, sobre los documentos encontrados en la tabla \ref{tablar1}, se seleccionaron 129 documentos que se consideraron significativos, luego, fueron analizados teniendo en cuenta a He Zhang, \textit{et al.}\cite{Zhang2011} y  se eligieron finalmente 119 documentos.
-En la busqueda ma
  \\
  Para el proceso degestión de los documentos: búsqueda, colección, selección, organización y colaboración se usó el software \href{https://www.mendeley.com}{\textit{Mendely}}, luego se exportaron los registros de la colección en el formato RIS (\textit{Research Information Systems}) para indexarlos con \href{https://www.splunk.com}{\textit{Splunk}} y generar las gráficas y las estadísticas de este trabajo de investigación.
+ 
   \subsection{Escaneo de artículos}
-  Luego de obtener una muestra de los artículos que son significativos para el trabajo de investigación, se leen los títulos y las palabras claves de los resultados de cada una de las búsquedas en la tabla \ref{tablar1}, y siguiendo el detalle de la metodología en la sección de metodología en la pagina\pageref{escaneodepapers},  cuando se encuentra un documento interesante este fue coleccionado en \textit{Mendeley} como se muestra en la Figura \ref{mendeleytags}.
+  Luego de obtener una muestra de los artículos que son significativos para el trabajo de investigación, se leen los títulos y las palabras claves de los resultados de cada una de las búsquedas en la tabla \ref{tablar1}, y siguiendo el detalle de la metodología en la sección de metodología en la pagina \pageref{escaneodepapers},  cuando se encoentraba un documento interesante, este era coleccionado en \textit{Mendeley} como se muestra en la Figura \ref{mendeleytags}.
   
   \begin{figure}[h]
   	\centering
@@ -455,7 +455,7 @@ En la busqueda ma
   	\label{mendeleytags}
   \end{figure}
   
-  Es importante que la inforamación que acompaña al documento, sea buscada, en este trabajo de investigación se uso el DOI para consultar los metadatos de un documento y para poder almacenarlo correctamente con el formato RIS en la aplicación \textit{library} como se muestra en la Figura \ref{clasesdepapers}.
+  Es importante que la inforamación, es decir los metadatos que acompaña al documento, sea ingresada de forma rápida y eficaz, en este trabajo de investigación se uso el DOI (\textit{Digital Object Identifier}) para consultar los metadatos de un documento y para poder almacenarlo correctamente con el formato RIS en la aplicación \textit{Mendeley} y mas adelante en la aplicación\textit{library} como se muestra en la Figura \ref{clasesdepapers}.
   
   \begin{figure}[h]
   	\centering
@@ -464,11 +464,28 @@ En la busqueda ma
   	\label{clasesdepapers}
   \end{figure}  
 
-  Con este proceso en mente, cada vez que se encontraba un documento de interés se pasaba por las diferentes aplicaciones, considerando el DOI como la clave primaria y dato principal para la identificación de los documentos.
-  Para complementar el proceso se uso el \textit{script} en \textit{Phython}  \ref{doigenerator}.
+  Con este proceso en mente, cada vez que se encontró un documento de interés se pasaba por las diferentes aplicaciones, considerando el DOI como la clave primaria por hacer una analogía y como dato principal para el seguimiento de los documentos y el control de los documentos repetidos. Para complementar el proceso  de escaneo de articulos se uso el \textit{script} en \textit{Phython}  \ref{doigenerator}.
   
   \lstinputlisting[label=doigenerator, title=\textbf{doigenerator.py:}, caption= El Snipet de código ``doigenerator.py"  se usa para consultar las citaciones generales de un documento mediante el \textit{webservices} de \textit{Scopus}.  ]{src/doigenerator.py}
   
+  En el \textit{script} \ref{doigenerator} se observa que en la línea $4$ se hace uso de un archivo \footnote{ \attachfile[icon=Paperclip,mimetype=aplication/ris]{etc/sms.ris}{sms.ris}} que posteriormente en el ciclo es consultado en el campo del DOI, esté parámetro se pasa al \textit{webservices} en la línea $9$ junto con un \textit{token} de autenticación que nos permitio acceder a los metadatos que se necesitaban para complementar la información en la aplicación \textit{library}. Para replicar este ejercicio sera necesario remitirse a la  \href{https://dev.elsevier.com/api_docs.html}{página de \textit{Elsevier}}y obtener un nuevo \textit{token} para la autenticación y uso del \textit{webservices}.
+  
+  \subsection{Análisis de palabras claves}
+  Como se mostró en la Figura \ref{keywords} en el \textit{podium} encontramos, $15$ documentos con la palabra clave: \text{Data mining},   $9$ documentos con la palabra clave: \text{Feature selection} y  $5$ documentos con la palabra clave: \text{Software product lines} estos resultados indicarón que en este trabajo de investigación las palabras claves de nuestro estudio estaban muy orientadas por el titulo, y al cambiar la tecnología de indexación era necesario definir palabras adicionales que propongan un contenido que no se encuentre ni en el titulo, ni en el \textit{abstract},  por consiguiente se definio que las palabras claves que se tendrán en cuenta para productos derivados de esta investigación serán: \textit{Product line engineering, PMML, RIPS, Java, Phyton scikit-learn.} Considerando estas palabras se pueden proponer la siguiente generación de cadenas de busqueda en los trabajos futuros.
+
+   \subsection{Proceso de extracción}
+   El proceso de extracción de los datos esta dado por la aplicación \textit{library}, en este proceso se usaron expresiones regulares.
+   \begin{lstlisting}[frame=single,label=regex, title=\textbf{regex}, caption= Ejemplo de regex en Splunk]  index=paper | 
+   rex field=_raw "A1\s*\-\s*(?P<autor>.*?)\n" max_match=10| 
+   rex field=_raw "KW\s*\-\s*(?P<palabra_clave>.*?)\n" max_match=20 | 
+   rex field=_raw "JF\s*\-\s*(?P<journal>.*?)\n" | 
+   rex field=_raw "TY\s*\-\s*(?P<tipo_documento>.*?)\n" |
+   rex field=_raw "Y1\s*\-\s*(?P<fecha>.*?)\/" | 
+   rex field=_raw "T1\s*\-\s*(?P<titulo>.*?)\n" | 
+   top palabra_clave
+   \end{lstlisting}
+   
+   En el codigo \ref{regex} tomamos en cuenta unas tuberias ($\mid$) para recoger todos los campos de nuestro archivo \textit{sms.ris} y luego hacer el \textit{podium} de las palabras claves.
   
   \section{Diseño del prototipo}
   Acá tengo que mostrar lo de iris las clases los códigos de iris

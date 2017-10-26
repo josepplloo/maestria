@@ -1,0 +1,2529 @@
+TY  - JOUR
+T1  - Situation prediction based on fuzzy clustering for industrial complex processes
+A1  - Isaza, Claudia V.
+A1  - Sarmiento, Henry O.
+A1  - Kempowsky-Hamon, Tatiana
+A1  - LeLann, Marie-Veronique
+Y1  - 2014/09//
+KW  - Complex process
+KW  - Fuzzy clustering
+KW  - Markov’s chain
+KW  - Situation prediction
+PB  - Elsevier Inc.
+JF  - Information Sciences
+VL  - 279
+IS  - 7
+SP  - 785
+EP  - 804
+DO  - 10.1016/j.ins.2014.04.030
+UR  - http://www.sciencedirect.com/science/article/pii/S0020025514004770
+UR  - http://linkinghub.elsevier.com/retrieve/pii/S0020025514004770
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Isaza et al. - 2014 - Situation prediction based on fuzzy clustering for industrial complex processes.pdf
+N2  - Prediction of process behavior is important and useful to understand the system status and to take early control actions during operation. This paper presents a fuzzy clustering approach for predicting situations (functional states) in complex process industries. The proposed methodology combines a static measurement, such as the result of a fuzzy classifier trained with historical process data, and an estimation algorithm based on Markov‘s theory for discrete event systems. The situation prediction function is integrated into a process monitoring system without increasing the computational cost, which makes real-time implementation feasible. The monitoring strategy includes two principal stages: an offline stage for designing the fuzzy classifier and the predictor, and an online stage for identifying current process situations and for estimating predicted functional states. Thus, at each sample time, the results of a fuzzy classifier are used as inputs in the prediction procedure. An attractive feature of our proposed method, for situation prediction, is that it provides information about the evolution of the process. The proposed approach was tested on a monitoring system for a power transmission line, and also for monitoring a boiler subsystem of a steam generator. Experimental results indicate that our proposed technique in this paper is effective and can be used as a tool, for operators, to be used in industrial process decision making.
+ER  - 
+TY  - JOUR
+T1  - Validation and reconstruction of flow meter data in the Barcelona water distribution network
+A1  - Quevedo, J.
+A1  - Puig, V.
+A1  - Cembrano, G.
+A1  - Blanch, J.
+A1  - Aguilar, J.
+A1  - Saporta, D.
+A1  - Benito, G.
+A1  - Hedo, M.
+A1  - Molina, A.
+Y1  - 2010/06//
+KW  - Fault detection
+KW  - Flow meter
+KW  - Fuzzy logic classifier
+KW  - Sensor failure
+KW  - Telecontrol system
+KW  - Water distribution network
+PB  - Elsevier
+JF  - Control Engineering Practice
+VL  - 18
+IS  - 6
+SP  - 640
+EP  - 651
+DO  - 10.1016/j.conengprac.2010.03.003
+UR  - http://dx.doi.org/10.1016/j.conengprac.2010.03.003
+UR  - http://linkinghub.elsevier.com/retrieve/pii/S0967066110000791
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Quevedo et al. - 2010 - Validation and reconstruction of flow meter data in the Barcelona water distribution network.pdf
+N2  - This paper presents a signal analysis methodology to validate (detect) and reconstruct the missing and false data of a large set of flow meters in the telecontrol system of a water distribution network. The proposed methodology is based on two time-scale forecasting models: a daily model based on a ARIMA time series, while the 10-min model is based on distributing the daily flow using a 10-min demand pattern. The demand patterns have been determined using two methods: correlation analysis and an unsupervised fuzzy logic classification, named LAMDA algorithm. Finally, the proposed methodology has been applied to the Barcelona water distribution network, providing very good results. © 2010 Elsevier Ltd.
+ER  - 
+TY  - JOUR
+T1  - Automaton based on fuzzy clustering methods for monitoring industrial processes
+A1  - Botía, Javier F.
+A1  - Isaza, Claudia
+A1  - Kempowsky, Tatiana
+A1  - Le Lann, Marie Véronique
+A1  - Aguilar-Martín, Joseph
+Y1  - 2013/04//
+KW  - Fuzzy automaton
+KW  - Fuzzy clustering method
+KW  - Hebbian functions
+JF  - Engineering Applications of Artificial Intelligence
+VL  - 26
+IS  - 4
+SP  - 1211
+EP  - 1220
+DO  - 10.1016/j.engappai.2012.11.003
+UR  - http://linkinghub.elsevier.com/retrieve/pii/S0952197612002886
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Botía et al. - 2013 - Automaton based on fuzzy clustering methods for monitoring industrial processes.pdf
+N2  - Fuzzy clustering allows finding classes through the historical data in order to associate them with functional states useful to represent the complex industrial processes behavior. By means of classes, an automaton can be established that determines the current and the next connections of functional states of a process. When fuzzy clustering is used, the connections in the historical data are considered but it does not find other important connections. To solve this limitation, a new method to seek the most important connections among functional states is proposed. Initially, the approach defines an initial transition degrees matrix, where all connections are taken into account. Through a proposed update step, the most important connections are obtained, which they describe the real behavior of a process. In addition, a new distance criterion is defined to improve the update step. The final transition degrees matrix is used to construct a fuzzy automaton that it is validated by human operator's experience. The approach was tested in a steam generator process. Applying three fuzzy clustering algorithms in case of study, the proposed method finds the same transition matrix. The new connections were validated by the human operator. Crown Copyright © 2012 Published by Elsevier Ltd. All rights reserved.
+ER  - 
+TY  - BOOK
+T1  - Advances in Product Family and Product Platform Design
+A1  - Simpson, Timothy W
+A1  - Jiao, Jianxin Roger
+ED  - Simpson, Timothy W.
+ED  - Jiao, Jianxin
+ED  - Siddique, Zahed
+ED  - Hölttä-Otto, Katja
+Y1  - 2014///
+PB  - Springer New York
+CY  - New York, NY
+SN  - 978-1-4614-7936-9
+DO  - 10.1007/978-1-4614-7937-6
+UR  - http://link.springer.com/10.1007/978-1-4614-7937-6
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Simpson, Jiao - 2014 - Advances in Product Family and Product Platform Design.pdf
+ER  - 
+TY  - CONF
+T1  - A feature-oriented modeling approach for embedded product line engineering
+A1  - Guanzhong Yang
+A1  - Yaru Zhang
+Y1  - 2015/08//
+KW  - -
+KW  - concept
+KW  - domain
+KW  - embedded
+KW  - feature modeling
+PB  - IEEE
+JF  - 2015 12th International Conference on Fuzzy Systems and Knowledge Discovery (FSKD)
+SP  - 1607
+EP  - 1612
+SN  - 978-1-4673-7682-2
+DO  - 10.1109/FSKD.2015.7382185
+UR  - http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=7382185
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Guanzhong Yang, Yaru Zhang - 2015 - A feature-oriented modeling approach for embedded product line engineering.pdf
+ER  - 
+TY  - CHAP
+T1  - Evolution of Software Product Lines
+A1  - Botterweck, Goetz
+A1  - Pleuss, Andreas
+Y1  - 2014///
+PB  - Springer Berlin Heidelberg
+JF  - Evolving Software Systems
+VL  - 234
+SP  - 265
+EP  - 295
+CY  - Berlin, Heidelberg
+SN  - 978-3-642-45397-7
+DO  - 10.1007/978-3-642-45398-4_9
+UR  - http://link.springer.com/10.1007/978-3-642-45398-4_9
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Botterweck, Pleuss - 2014 - Evolution of Software Product Lines.pdf
+N2  - Highly dynamic software systems are applications whose operations are particularly affected by changing requirements and uncertainty in their execution environments. Ideally such systems must evolve while they execute. To achieve this, highly dynamic software systems must be instrumented with self-adaptation mechanisms to monitor selected requirements and environment conditions to assess the need for evolution, plan desired changes, as well as validate and verify the resulting system. This chapter introduces fundamental concepts, methods, and techniques gleaned from self-adaptive systems engineering, as well as discusses their application to runtime evolution and their relationship with off-line software evolution theories. To illustrate the presented concepts, the chapter revisits a case study conducted as part of our research work, where self-adaptation techniques allow the engineering of a dynamic context monitoring infrastructure that is able to evolve at runtime. In other words, the monitoring infrastructure supports changes in monitoring requirements without requiring maintenance tasks performed manually by developers. The goal of this chapter is to introduce practitioners, researchers and students to the foundational elements of self-adaptive software, and their application to the continuos evolution of software systems at runtime.
+ER  - 
+TY  - JOUR
+T1  - Software Product Line Engineering for e-Learning Applications : A Case Study
+A1  - Pablo, S
+A1  - Garc, Diego
+A1  - Zorrilla, Marta
+A1  - Matem, Dpto
+Y1  - 2012///
+JF  - Proceedings of the 2012 International Symposium on Computers in Education (SIIE)
+SP  - 1 
+EP  -  6
+SN  - 978-1-4673-4743-3
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Pablo et al. - 2012 - Software Product Line Engineering for e-Learning Applications A Case Study.pdf
+ER  - 
+TY  - JOUR
+T1  - Breathing ontological knowledge into feature model synthesis: an empirical study
+A1  - Bécan, Guillaume
+A1  - Acher, Mathieu
+A1  - Baudry, Benoit
+A1  - Nasr, Sana Ben
+Y1  - 2016/08//
+KW  - Feature model
+KW  - Model management
+KW  - Refactoring
+KW  - Reverse engineering
+KW  - Software product lines
+KW  - Variability
+JF  - Empirical Software Engineering
+VL  - 21
+IS  - 4
+SP  - 1794
+EP  - 1841
+DO  - 10.1007/s10664-014-9357-1
+UR  - http://link.springer.com/10.1007/s10664-014-9357-1
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Bécan et al. - 2016 - Breathing ontological knowledge into feature model synthesis an empirical study.pdf
+N2  - Feature Models (FMs) are a popular formalism for modeling and reasoning about the configurations of a software product line. As the manual construction of an FM is time-consuming and error-prone, management operations have been developed for reverse engineering, merging, slicing, or refactoring FMs from a set of configurations/dependencies. Yet the synthesis of meaningless ontological relations in the FM – as defined by its feature hierarchy and feature groups – may arise and cause severe difficulties when reading, maintaining or exploiting it. Numerous synthesis techniques and tools have been proposed, but only a few consider both configuration and ontolog-ical semantics of an FM. There are also few empirical studies investigating ontological aspects when synthesizing FMs. In this article, we define a generic, ontologic-aware synthesis procedure that computes the likely siblings or parent candidates for a given feature. We develop six heuristics for clustering and weighting the logical, syntactical and semantical relationships between feature names. We then perform an empirical evaluation on hundreds of FMs, coming from the SPLOT repository and Wikipedia. We provide evidence that a fully automated synthesis (i.e., without any user intervention) is likely to produce FMs far from the ground truths. As the role of the user is crucial, we empirically analyze the strengths and weak-nesses of heuristics for computing ranking lists and different kinds of clusters. We show that a hybrid approach mixing logical and ontological techniques outperforms state-of-the-art solutions. We believe our approach, environment, and empirical results support researchers and practitioners working on reverse engineering and management of FMs.
+ER  - 
+TY  - CHAP
+T1  - Comparing Approaches to Implement Feature Model Composition
+A1  - Acher, Mathieu
+A1  - Collet, Philippe
+A1  - Lahire, Philippe
+A1  - France, Robert
+Y1  - 2010///
+JF  - Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)
+VL  - 6138 LNCS
+SP  - 3
+EP  - 19
+SN  - 3642135943
+DO  - 10.1007/978-3-642-13595-8_3
+UR  - http://link.springer.com/10.1007/978-3-642-13595-8_3
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Acher et al. - 2010 - Comparing Approaches to Implement Feature Model Composition.pdf
+N1  - Un diagrama de caracteristicas es la representación de una familia.
+Un FM describe el conjunto de las combinaciones validas entre caracteristicas.
+En la actualidad la creación de los modelos de caracteristicas depende de los procesos industriales(servicios),cada uno tiene su modelo de caracteristicas y el modelo de caracteristicas general se puede sacar con la intersección de los modelos en todo el proceso.
+se conocen como Multi level features
+trees
+AGG (sistema de trasnformación algebraico)Taentzer, G es una interfaz gráfica que pretende pasar del algebra relacional a los grafos y generar nuevos grafos a partir de unos ya existentes.
+En este articulo se presenta una comparativa de estos software 
+EL sosftware AGG, Kompose provee una resistencia a fallar en las operaciones donde no se puede generar un FM por que no hay suficientes caracteristicas.
+MBE y AOM no tienen destreza para implementar la union de modelos de caracteristicas.
+Las trasnformaciones semanticas o los modelos de preservación semantica guardan o incluyen la semantica a diferencia de los anteriores
+N2  - The use of Feature Models (FMs) to define the valid combinations of features in Software Product Lines (SPL) is becoming commonplace. To enhance the scalability of FMs, support for composing FMs describing different SPL aspects is needed. Some composition operators, with interesting property preservation capabilities, have already been defined but a comprehensive and efficient implementation is still to be proposed. In this paper, we systematically compare strengths and weaknesses of different implementation approaches. The study provides some evidence that using generic model composition frameworks are not helping much in the realization, whereas a specific solution is finally necessary and clearly stands out by its qualities.
+ER  - 
+TY  - JOUR
+T1  - Formalizing interactive staged feature model configuration
+A1  - Bagheri, Ebrahim
+A1  - Noia, Tommaso Di
+A1  - Gasevic, Dragan
+A1  - Ragone, Azzurra
+Y1  - 2012/06//
+KW  - Feature models
+KW  - Logic languages
+KW  - Soft constraints
+KW  - Software product lines
+KW  - Variability
+JF  - Journal of Software: Evolution and Process
+VL  - 24
+IS  - 4
+SP  - 375
+EP  - 400
+SN  - 9781450330565
+DO  - 10.1002/smr.534
+UR  - http://doi.wiley.com/10.1002/smr.534
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Bagheri et al. - 2012 - Formalizing interactive staged feature model configuration.pdf
+N2  - Feature modeling an attractive technique for capturing commonality as well as variability within an application domain for generative programming and software product line engineering. Feature models symbolize an overarching representation of the possible application configuration space, and can hence be customized based on specific domain requirements and stakeholder goals. Most interactive or semiautomated feature model customization processes neglect the need to have a holistic approach towards the integration and satisfaction of the stakeholder's soft and hard constraints, and the application-domain integrity constraints. In this paper, we will show how the structure and constraints of a feature model can be modeled uniformly through Propositional Logic extended with concrete domains, called P(N). Furthermore, we formalize the representation of soft constraints in fuzzy P(N) and explain how semiautomated feature model customization is performed in this setting. The model configuration derivation process that we propose respects the soundness and completeness properties. © 2011 John Wiley & Sons, Ltd.
+ER  - 
+TY  - CONF
+T1  - Looking for Product Line Feature Models Defects: Towards a Systematic Classification of Verification Criteria
+A1  - Salinesi, Camille
+A1  - Rolland, Colette
+A1  - Diaz, Daniel
+A1  - Mazo, Raúl
+Y1  - 2009/08//
+PB  - IEEE
+JF  - 2009 17th IEEE International Requirements Engineering Conference
+SP  - 385
+EP  - 386
+SN  - 978-0-7695-3761-0
+DO  - 10.1109/RE.2009.57
+UR  - http://ieeexplore.ieee.org/document/5328480/
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Salinesi et al. - 2009 - Looking for Product Line Feature Models Defects Towards a Systematic Classification of Verification Criteria.pdf
+N2  - Product line models (PLM) are important artifacts in product line engineering. Due to their size and complexity, it is difficult to detect defects in PLMs. The challenge is however important: any error in a PLM will inevitably impact configuration, generating issues such as incorrect product models, inconsistent architectures, poor reuse, difficulty to customize products, etc. Surveys on feature-based PLM verification approaches show that there are many verification criteria, that these criteria are defined in different ways, and that different ways of working are proposed to look for defect. The goal of this paper is to systematize PLM verification. Based on our literature review, we propose a list of 23 verification criteria that we think cover those available in the literature.
+ER  - 
+TY  - JOUR
+T1  - Conjoint Analysis of Software Product Lines: A Feature Based Approach
+A1  - Muller, Johannes
+A1  - Lillack, Max
+Y1  - 2011///
+KW  - -software product line
+KW  - conjoint analysis
+KW  - feature modeling
+KW  - marketing
+KW  - ment
+KW  - product manage-
+KW  - scoping
+JF  - 2011 37th EUROMICRO Conference on Software Engineering and Advanced Applications
+SP  - 374
+EP  - 377
+SN  - 978-1-4577-1027-8
+DO  - 10.1109/SEAA.2011.73
+UR  - http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=6068370
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Muller, Lillack - 2011 - Conjoint Analysis of Software Product Lines A Feature Based Approach.pdf
+N2  - Today many software systems are developed for a wide even anonymous audience. If needs of customers are too diverse, offering one software product can be too inflexible. In that situation offering a Software Product Line (SPL) can be economically advantageous. However, product management of SPLs has to decide what features to realize. This decision requires information on the utility features spend to customers and customer’s willingness to pay (WTP). Conjoint Analysis (CA) is a promising way to measure both. However, the design and implementation of a conjoint study is costly even though much of the work to design a conjoint study has already been done in Software Product Line Engineering (SPLE). To utilize the work of SPLE for the design of conjoint surveys, we propose a procedure to automatically derive conjoint surveys from Feature Models and report on our implementation of a conjoint survey generator and a web-based surveying tool.
+ER  - 
+TY  - CONF
+T1  - Optimized feature selection towards functional and non-functional requirements in Software Product Lines
+A1  - Lian, Xiaoli
+A1  - Zhang, Li
+Y1  - 2015/03//
+KW  - Evolutionary computation
+KW  - Feature Models
+KW  - Feature Selection
+KW  - IBEAHD
+KW  - IBEAε+
+KW  - IVEA
+KW  - Multi-objective Optimization
+KW  - NFR optimization
+KW  - NSGA-II
+KW  - Non-functional requirements optimization
+KW  - Optimization
+KW  - Portals
+KW  - SPEA2
+KW  - Security
+KW  - Sociology
+KW  - Software
+KW  - Software Product Line
+KW  - Statistics
+KW  - feature selection
+KW  - genetic algorithms
+KW  - multiobjective optimization algorithm
+KW  - nonfunctional requirements
+KW  - numerical constraint
+KW  - optimized feature selection
+KW  - selection method
+KW  - software product line
+KW  - software product lines
+KW  - two-dimensional fitness function
+KW  - violation-dominance principle
+PB  - IEEE
+JF  - 2015 IEEE 22nd International Conference on Software Analysis, Evolution, and Reengineering (SANER)
+SP  - 191
+EP  - 200
+SN  - 978-1-4799-8469-5
+DO  - 10.1109/SANER.2015.7081829
+UR  - http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=7081829
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Lian, Zhang - 2015 - Optimized feature selection towards functional and non-functional requirements in Software Product Lines.pdf
+N2  - As an important research issue in software product line, feature selection is extensively studied. Besides the basic functional requirements (FRs), the non-functional requirements (NFRs) are also critical during feature selection. Some NFRs have numerical constraints, while some have not. Without clear criteria, the latter are always expected to be the best possible. However, most existing selection methods ignore the combination of constrained and unconstrained NFRs and FRs. Meanwhile, the complex constraints and dependencies among features are perpetual challenges for feature selection. To this end, this paper proposes a multi-objective optimization algorithm IVEA to optimize the selection of features with NFRs and FRs by considering the relations among these features. Particularly, we first propose a two-dimensional fitness function. One dimension is to optimize the NFRs without quantitative constraints. The other one is to assure the selected features satisfy the FRs, and conform to the relations among features. Second, we propose a violation-dominance principle, which guides the optimization under FRs and the relations among features. We conducted comprehensive experiments on two feature models with different sizes to evaluate IVEA with state-of-the-art multi-objective optimization algorithms, including IBEAHD, IBEAε+, NSGA-II and SPEA2. The results showed that the IVEA significantly outperforms the above baselines in the NFRs optimization. Meanwhile, our algorithm needs less time to generate a solution that meets the FRs and the constraints on NFRs and fully conforms to the feature model.
+ER  - 
+TY  - CONF
+T1  - Sample Spaces and Feature Models: There and Back Again
+A1  - Czarnecki, Krzysztof
+A1  - She, Steven
+A1  - Wasowski, Andrzej
+Y1  - 2008/09//
+PB  - IEEE
+JF  - 2008 12th International Software Product Line Conference
+SP  - 22
+EP  - 31
+SN  - 978-0-7695-3303-2
+DO  - 10.1109/SPLC.2008.49
+UR  - http://ieeexplore.ieee.org/document/4626837/
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Czarnecki, She, Wasowski - 2008 - Sample Spaces and Feature Models There and Back Again.pdf
+N2  - We present probabilistic feature models (PFMs) and illustrate their use by discussing modeling, mining and interactive configuration. PFMs are formalized as a set of formulas in a certain probabilistic logic. Such formulas can express both hard and soft constraints and have a well defined semantics by denoting a set of joint probability distributions over features. We show how PFMs can be mined from a given set of feature configurations using data mining techniques. Finally, we demonstrate how PFMs can be used in configuration in order to provide automated support for choice propagation based on both hard and soft constraints. We believe that these results constitute solid foundations for the construction of reverse engineering tools for software product lines and configurators using soft constraints.
+ER  - 
+TY  - CONF
+T1  - Feature Relations Graphs: A Visualisation Paradigm for Feature Constraints in Software Product Lines
+A1  - Martinez, Jabier
+A1  - Ziadi, Tewfik
+A1  - Mazo, Raul
+A1  - Bissyande, Tegawende F.
+A1  - Klein, Jacques
+A1  - Traon, Yves Le
+Y1  - 2014/09//
+PB  - IEEE
+JF  - 2014 Second IEEE Working Conference on Software Visualization
+SP  - 50
+EP  - 59
+SN  - 978-1-4799-6150-4
+DO  - 10.1109/VISSOFT.2014.18
+UR  - http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=6980213
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Martinez et al. - 2014 - Feature Relations Graphs A Visualisation Paradigm for Feature Constraints in Software Product Lines.pdf
+N2  - Software Product Line Engineering is a mature approach enabling the derivation of product variants by assembling reusable assets. In this context, domain experts widely use Feature Models as the most accepted formalism for capturing commonality and variability in terms of features. Feature Models also describe the constraints in feature combinations. In industrial settings, domain experts often deal with Software Product Lines with high numbers of features and constraints. Furthermore, the set of features are often regrouped in different subsets that are overseen by different stakeholders in the process. Consequently, the management of the complexity of large Feature Models becomes challenging. In this paper we propose a dedicated interactive visualisation paradigm to help domain experts and stakeholders to manage the challenges in maintaining the constraints among features. We build Feature Relations Graphs (Frogs) by mining existing product configurations. For each feature, we are able to display a Frog which shows the impact, in terms of constraints, of the considered feature on all the other features. The objective is to help domain experts to 1) obtain a better understanding of feature constraints, 2) potentially refine the existing feature model by uncovering and formalizing missing constraints and 3) serve as a recommendation system, during the configuration of a new product, based on the tendencies found in existing configurations. The paper illustrates the visualisation paradigm with the industrial case study of Renault's Electric Parking System Software Product Line.
+ER  - 
+TY  - JOUR
+T1  - Analysis of non-functional properties in software product lines: A systematic review
+A1  - Soares, Larissa Rocha
+A1  - Potena, Pasqualina
+A1  - Machado, Ivan Do Carmo
+A1  - Crnkovic, Ivica
+A1  - De Almeida, Eduardo Santana D
+Y1  - 2014///
+KW  - Non-functional Properties
+KW  - Product Derivation
+KW  - Software Product Lines
+KW  - Systematic Literature Review
+JF  - Proceedings - 40th Euromicro Conference Series on Software Engineering and Advanced Applications, SEAA 2014
+SP  - 328
+EP  - 335
+SN  - 9781479957941
+DO  - 10.1109/SEAA.2014.48
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Soares et al. - 2014 - Analysis of non-functional properties in software product lines A systematic review.pdf
+N2  - Software Product Lines (SPL) approach has been widely developed in academia and successfully applied in industry. Based on the selection of features, stakeholders can efficiently derive tailor-made programs satisfying different requirements. While SPL was very successful at building products based on identified features, achievements and preservation of many nonfunctional properties (NFPs) remain challenging. A knowledge how to deal with NFPs is still not fully obtained. In this paper, we present a systematic literature review of NFPs analysis for SPL products, focusing on runtime NFPs. The goal of the paper is twofold: (i) to present an holistic overview of SPL approaches that have been reported regarding the analysis of runtime NFPs, and (ii) to categorize NFPs treated in the scientific literature regarding development of SPLs. We analyzed 36 research papers, and identified that system performance attributes are typically the most considered. The results also aid future research studies in NFPs analysis by providing an unbiased view of the body of empirical evidence and by guiding future research directions.
+ER  - 
+TY  - CONF
+T1  - Reverse Engineering Complex Feature Correlations for Product Line Configuration Improvement
+A1  - Zhang, Bo
+A1  - Becker, Martin
+Y1  - 2014/08//
+KW  - feature correlation mining
+KW  - product line configuration improvement
+KW  - variability reverse engineering
+PB  - IEEE
+JF  - 2014 40th EUROMICRO Conference on Software Engineering and Advanced Applications
+SP  - 320
+EP  - 327
+SN  - 978-1-4799-5795-8
+DO  - 10.1109/SEAA.2014.34
+UR  - http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=6928830
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Zhang, Becker - 2014 - Reverse Engineering Complex Feature Correlations for Product Line Configuration Improvement.pdf
+N2  - As a Software Product Line (SPL) evolves with increasing number of variant features and feature values, the feature correlations become extremely intricate. However, these correlations are often incompletely documented (e.g., In feature models) so that most features can only be configured manually. In order to make product configuration processes more efficient, we present an approach to extracting complex feature correlations from existing product configurations using association mining techniques. Then these correlations are pruned and prioritized in order to minimize the effort of correlation validation. Our approach is conducted on an industrial SPL with 100 product configurations across 480 features. While 80 out of the 100 configurations are used as training data to automatically extract 4834 complex feature correlations, the rest 20 configurations are used as test data to evaluate the improvement potential of configuration efficiency. In the end, avg. 25% features in each of the 20 products can be configured automatically.
+ER  - 
+TY  - CONF
+T1  - Using fuzzy modeling for consistent definitions of product qualities in requirements
+A1  - Davril, Jean-Marc
+A1  - Cordy, Maxime
+A1  - Heymans, Patrick
+A1  - Acher, Mathieu
+Y1  - 2015/08//
+KW  - Cameras
+KW  - Documentation
+KW  - Frequency modulation
+KW  - Portable computers
+KW  - Pragmatics
+KW  - Product design
+KW  - Quality assessment
+PB  - IEEE
+JF  - 2015 IEEE Second International Workshop on Artificial Intelligence for Requirements Engineering (AIRE)
+SP  - 1
+EP  - 8
+SN  - 978-1-5090-0125-5
+DO  - 10.1109/AIRE.2015.7337624
+UR  - http://ieeexplore.ieee.org/document/7337624/
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Davril et al. - 2015 - Using fuzzy modeling for consistent definitions of product qualities in requirements.pdf
+ER  - 
+TY  - CONF
+T1  - Mining features from the object-oriented source code of software variants by combining lexical and structural similarity
+A1  - Al-msie'deen, R.
+A1  - Seriai, A.-D.
+A1  - Huchard, Marianne
+A1  - Urtado, Christelle
+A1  - Vauttier, Sylvain
+Y1  - 2013/08//
+KW  - Code Dependencies
+KW  - Computer Science/Software Engineering
+KW  - Feature Mining
+KW  - Formal Concept Analysis
+KW  - Informatique/Génie Logiciel
+KW  - Latent Semantic Indexing
+KW  - Software Product Line
+KW  - Software Product Variants
+KW  - Structural Similarity
+PB  - IEEE
+JF  - 2013 IEEE 14th International Conference on Information Reuse & Integration (IRI)
+SP  - 586
+EP  - 593
+SN  - 978-1-4799-1050-2
+DO  - 10.1109/IRI.2013.6642522
+UR  - http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=6642522
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Al-msie'deen et al. - 2013 - Mining features from the object-oriented source code of software variants by combining lexical and structur.pdf
+N2  - Migrating software product variants which are deemed similar into a product line is a challenging task with main impact in software reengineering. To exploit existing software variants to build a software product line (SPL), the ﬁrst step is to mine the feature model of this SPL which involves extracting common and optional features. Thus, we propose, in this paper, a new approach to mine features from the object-oriented source code of software variants by using lexical and structural similarity. To validate our approach, we applied it on ArgoUML, Health Watcher and Mobile Media software. The results of this evaluation showed that most of the features were identiﬁed.
+ER  - 
+TY  - CONF
+T1  - RECoVar: A solution framework towards reverse engineering variability
+A1  - Zhang, Bo
+A1  - Becker, Martin
+Y1  - 2013/05//
+KW  - Variability modeling
+KW  - product line analysis
+KW  - reverse engineering
+PB  - IEEE
+JF  - 2013 4th International Workshop on Product LinE Approaches in Software Engineering (PLEASE)
+SP  - 45
+EP  - 48
+SN  - 978-1-4673-6449-2
+DO  - 10.1109/PLEASE.2013.6608664
+UR  - http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=6608664
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Zhang, Becker - 2013 - RECoVar A solution framework towards reverse engineering variability.pdf
+N2  - As a Software Product Line (SPL) evolves variability specifications in problem space and variability realizations in solution space erode over time and impact productivity during development. On the one hand, the variability model tends to be incomplete and inconsistent with the core assets; on the other hand, the core assets become overly complex, which make them difficult to understand and maintain. In this paper, we present the RECoVar framework towards reverse engineering of SPL variability. The framework includes two approaches: a) code-based variability model extraction; and b) complex feature correlation mining. These two approaches help to extract various variability information, so that variability specifications and realizations can be maintained in an efficient way.
+ER  - 
+TY  - CONF
+T1  - Domain analysis for mining software repositories: Towards feature-based DSL construction
+A1  - Huang, Changyun
+A1  - Yamashita, Kazuhiro
+A1  - Kamei, Yasutaka
+A1  - Hisazumi, Kenji
+A1  - Ubayashi, Naoyasu
+Y1  - 2013/05//
+PB  - IEEE
+JF  - 2013 4th International Workshop on Product LinE Approaches in Software Engineering (PLEASE)
+SP  - 41
+EP  - 44
+SN  - 978-1-4673-6449-2
+DO  - 10.1109/PLEASE.2013.6608663
+UR  - http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6608663%5Cnhttp://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=6608663
+UR  - http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=6608663
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Huang et al. - 2013 - Domain analysis for mining software repositories Towards feature-based DSL construction.pdf
+N2  - The mining software repositories (MSR) analyze data stored in software repositories and discover meaningful information to support software development. However, MSR is complex due to conducting large scale data collection with various repositories. To help practitioners perform MSR analysis, one possible way is to apply the approaches of software product line (SPL) to the MSR domain to understand variability and commonality for the domain, and to construct domain specific languages (DSLs) because DSLs have high readability to reduce the complexity of the procedure of MSR. In this paper, we construct a SQL-based DSL to support MSR and provide a systematic approach to conduct Feature-Oriented Domain Analysis (FODA) for MSR towards the construction of the DSL. We provide the syntax of the DSL and explain how to locate language elements of the DSL to the four-layer structure used in FODA. © 2013 IEEE.
+ER  - 
+TY  - CONF
+T1  - Extracting product features and opinions from product reviews using dependency analysis
+A1  - Sompras, Gamgarn
+A1  - Lalitrojwong, Pattarachai
+Y1  - 2010/08//
+KW  - Customer review
+KW  - Dependency analysis
+KW  - Opinion extraction
+KW  - Opinion mining
+PB  - IEEE
+JF  - 2010 Seventh International Conference on Fuzzy Systems and Knowledge Discovery
+VL  - 5
+IS  - Fskd
+SP  - 2358
+EP  - 2362
+SN  - 978-1-4244-5931-5
+DO  - 10.1109/FSKD.2010.5569865
+UR  - http://ieeexplore.ieee.org/document/5569865/
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Sompras, Lalitrojwong - 2010 - Extracting product features and opinions from product reviews using dependency analysis.pdf
+N2  - In web pages, the reviews are written in natural language and are unstructured-free-texts scheme. Online product reviews is considered as a significant informative resource which is useful for both potential customers and product manufacturers. The task of manually scanning through large amounts of review one by one is computational burden and is not practically implemented with respect to businesses and customer perspectives. Therefore it is more efficient to automatically process the various reviews and provide the necessary information in a suitable form. The task of product feature and opinion is to find product features that customers refer to their topic reviews. It would be useful to characterize the opinions about product. In this paper, we propose an approach to extract product features and to identify the opinions associated with these features from reviews through syntactic information based on dependency analysis. ©2010 IEEE.
+ER  - 
+TY  - JOUR
+T1  - Supporting Domain Analysis through Mining and Recommending Features from Online Product Listings
+A1  - Hariri, Negar
+A1  - Castro-Herrera, Carlos
+A1  - Mirakhorli, Mehdi
+A1  - Cleland-Huang, Jane
+A1  - Mobasher, Bamshad
+Y1  - 2013/12//
+KW  - Domain analysis
+KW  - association rule mining
+KW  - clustering
+KW  - k-nearest neighbor
+KW  - recommender systems
+JF  - IEEE Transactions on Software Engineering
+VL  - 39
+IS  - 12
+SP  - 1736
+EP  - 1752
+SN  - 0098-5589 VO - 39
+DO  - 10.1109/TSE.2013.39
+UR  - http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=6582404
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Hariri et al. - 2013 - Supporting Domain Analysis through Mining and Recommending Features from Online Product Listings.pdf
+N2  - Domain analysis is a labor-intensive task in which related software systems are analyzed to discover their common and variable parts. Many software projects include extensive domain analysis activities, intended to jumpstart the requirements process through identifying potential features. In this paper, we present a recommender system that is designed to reduce the human effort of performing domain analysis. Our approach relies on data mining techniques to discover common features across products as well as relationships among those features. We use a novel incremental diffusive algorithm to extract features from online product descriptions, and then employ association rule mining and the (k)-nearest neighbor machine learning method to make feature recommendations during the domain analysis process. Our feature mining and feature recommendation algorithms are quantitatively evaluated and the results are presented. Also, the performance of the recommender system is illustrated and evaluated within the context of a case study for an enterprise-level collaborative software suite. The results clearly highlight the benefits and limitations of our approach, as well as the necessary preconditions for its success.
+ER  - 
+TY  - CONF
+T1  - Extracting Software Functional Requirements from Free Text Documents
+A1  - Mu, Yunhe
+A1  - Wang, Yinglin
+A1  - Guo, Jianmei
+Y1  - 2009///
+KW  - Functional requirement
+KW  - Information extract
+KW  - Product line
+KW  - Rule-based
+KW  - Variability model
+PB  - IEEE
+JF  - 2009 International Conference on Information and Multimedia Technology
+SP  - 194
+EP  - 198
+SN  - 978-1-4244-5383-2
+DO  - 10.1109/ICIMT.2009.47
+UR  - http://ieeexplore.ieee.org/document/5381217/
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Mu, Wang, Guo - 2009 - Extracting Software Functional Requirements from Free Text Documents.pdf
+N2  - The acquisition of requirements assets are important in software product line (SPL) engineering for it help enhancing the effectiveness of reuse. Traditional methods are heavily based on manual effort. This appears to be a barrier for many organizations which tend to launch a SPL. In this paper, we propose an approach to extract functional requirements by analyzing text-based software requirements specifications (SRSs). We analyze the linguistic characterization of SRSs. According to it we define extended functional requirements framework (EFRF) which consists of 10 semantic cases, then we generate converting rules. We introduce an NLP (natural language process) approach to build EFRFs from documents based on the concept of EFRF and the converting rules. The extracted EFRFs are suitable for expression and modeling of functional requirements variability. We apply our method to an auto-marker software product line. The result shows the approach has high accuracy and efficiency, and the approach is readily scalable and extensible.
+ER  - 
+TY  - CONF
+T1  - On-Demand Cluster Analysis for Product Line Functional Requirements
+A1  - Niu, Nan
+A1  - Easterbrook, Steve
+Y1  - 2008/09//
+KW  - DP industry
+KW  - on demand cluster analysis
+KW  - pattern clustering
+KW  - product line functional requirements
+KW  - semantic analysis
+KW  - software engineering
+KW  - software product line engineering
+KW  - statistical analysis
+KW  - systems analysis
+PB  - IEEE
+JF  - 2008 12th International Software Product Line Conference
+SP  - 87
+EP  - 96
+SN  - 978-0-7695-3303-2
+DO  - 10.1109/SPLC.2008.11
+UR  - http://ieeexplore.ieee.org/document/4626843/
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Niu, Easterbrook - 2008 - On-Demand Cluster Analysis for Product Line Functional Requirements.pdf
+N2  - We propose an on-demand clustering framework for analyzing the functional requirements in a product line. Our approach is novel in that the objects to be clustered capture the domain's action themes at a primitive level, and the essential attributes are uncovered via semantic analysis. We provide automatic support to complement domain analysis by quickly identifying important entities and functionalities. A second contribution is our recognition of stakeholders' different goals in cluster analysis, e.g., feature identification for users versus system decomposition for designers. We thus advance the literature by examining requirements clusters that overlap and those causing a minimal information loss, and by facilitating the discovery of product line variabilities. A proof-of-concept example is presented to show the applicability and usefulness of our approach.
+ER  - 
+TY  - CONF
+T1  - Cross domain web information extraction with multi-level feature model
+A1  - Chen, Qian
+A1  - Zhu, Wenhao
+A1  - Ju, Chaoyou
+A1  - Zhang, Wu
+Y1  - 2014/08//
+KW  - Cross domain
+KW  - Information extraction
+KW  - Multi-level feature model
+PB  - IEEE
+JF  - 2014 10th International Conference on Natural Computation (ICNC)
+SP  - 780
+EP  - 784
+SN  - 978-1-4799-5151-2
+DO  - 10.1109/ICNC.2014.6975936
+UR  - http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=6975936
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Chen et al. - 2014 - Cross domain web information extraction with multi-level feature model.pdf
+ER  - 
+TY  - JOUR
+T1  - Product portfolio identification based on association rule mining
+A1  - Jiao, Jianxin
+A1  - Zhang, Yiyang
+Y1  - 2005/02//
+KW  - association rules
+KW  - customer satisfaction
+KW  - data mining
+KW  - mass customization
+KW  - product
+KW  - product portfolio
+KW  - requirement management
+KW  - variety
+JF  - Computer-Aided Design
+VL  - 37
+IS  - 2
+SP  - 149
+EP  - 172
+SN  - 6567904143
+DO  - 10.1016/j.cad.2004.05.006
+UR  - http://linkinghub.elsevier.com/retrieve/pii/S0010448504001010
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Jiao, Zhang - 2005 - Product portfolio identification based on association rule mining.pdf
+N2  - It has been well recognized that product portfolio planning has far-reaching impact on the company’s business success in competition. In general, product portfolio planning involves two main stages, namely portfolio identification and portfolio evaluation and selection. The former aims to capture and understand customer needs effectively and accordingly to transform them into specifications of product offerings. The latter concerns how to determine an optimal configuration of these identified offerings with the objective of achieving best profit performance. Current research and industrial practice have mainly focused on the economic justification of a given product portfolio, whereas the portfolio identification issue has been received only limited attention. This article intends to develop explicit decision support to improve product portfolio identification by efficient knowledge discovery from past sales and product records. As one of the important applications of data mining, association rule mining lends itself to the discovery of useful patterns associated with requirement analysis enacted among customers, marketing folks, and designers. An association rule mining system (ARMS) is proposed for effective product portfolio identification. Based on a scrutiny into the product definition process, the article studies the fundamental issues underlying product portfolio identification. The ARMS differentiates the customer needs from functional requirements involved in the respective customer and functional domains. Product portfolio identification entails the identification of functional requirement clusters in conjunction with the mappings from customer needs to these clusters. While clusters of functional requirements are identified based on fuzzy clustering analysis, the mapping mechanism between the customer and functional domains is incarnated in association rules. The ARMS architecture and implementation issues are discussed in detail. An application of the proposed methodology and system in a consumer electronics company to generate a vibration motor portfolio for mobile phones is also presented.
+ER  - 
+TY  - JOUR
+T1  - A Review of Relational Machine Learning for Knowledge Graphs
+A1  - Nickel, Maximilian
+A1  - Murphy, Kevin
+A1  - Tresp, Volker
+A1  - Gabrilovich, Evgeniy
+Y1  - 2016/01//
+KW  - graph-based models
+KW  - knowledge extraction
+KW  - knowledge graphs
+KW  - latent feature models
+KW  - statistical relational
+JF  - Proceedings of the IEEE
+VL  - 104
+IS  - 1
+SP  - 11
+EP  - 33
+DO  - 10.1109/JPROC.2015.2483592
+UR  - http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=7358050
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Nickel et al. - 2016 - A Review of Relational Machine Learning for Knowledge Graphs.pdf
+N2  - Relational machine learning studies methods for the statistical analysis of relational, or graph-structured, data. In this paper, we provide a review of how such statistical models can be “trained” on large knowledge graphs, and then used to predict new facts about the world (which is equivalent to predicting new edges in the graph). In particular, we discuss two different kinds of statistical relational models, both of which can scale to massive datasets. The first is based on tensor factorization methods and related latent variable models. The second is based on mining observable patterns in the graph. We also show how to combine these latent and observable models to get improved modeling power at decreased computational cost. Finally, we discuss how such statistical models of graphs can be combined with text-based information extraction methods for automatically constructing knowledge graphs from theWeb. In particular, we discuss Google’s Knowledge Vault project.
+ER  - 
+TY  - JOUR
+T1  - On breaking the curse of dimensionality in reverse engineering feature models
+A1  - Davril, Jean Marc
+A1  - Heymans, Patrick
+A1  - Bécan, Guillaume
+A1  - Acher, Mathieu
+Y1  - 2015///
+JF  - CEUR Workshop Proceedings
+VL  - 1453
+SP  - 19
+EP  - 22
+UR  - http://ceur-ws.org/Vol-1453/04_DavrilHeymansBecanAcher_OnBreakingTheCurseOfDimensionality_Confws-15_p19.pdf
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Davril et al. - 2015 - On breaking the curse of dimensionality in reverse engineering feature models.pdf
+N2  - Feature models have become one of the most widely used formalism for representing the variability among the products of a product line. The design of a feature model from a set of existing products can help stakeholders communicate on the commonalities and differences between the products, facilitate the adoption of mass customization strategies, or support the definition of the solution space of a product configurator (i.e. The sets of products that will be and will not be offered to the targeted customers). As the manual construction of feature models proves to be a time-consuming and error prone task, researchers have proposed various approaches for automatically deriving feature models from available product data. Existing reverse engineering techniques mostly rely on data mining algorithms that search for frequently occurring patterns between the features of the available product configurations. However, when the number of features is too large, the sparsity among the configurations can reduce the quality of the extracted model. In this paper, we discuss motivations for the development of dimensionality reduction techniques for product lines in order to support the extraction of feature models in the case of high-dimensional product spaces. We use a real world dataset to illustrate the problems arising with high dimensionality and present four research questions to address them.
+ER  - 
+TY  - CONF
+T1  - Model mining for robust feature selection
+A1  - Woznica, Adam
+A1  - Nguyen, Phong
+A1  - Kalousis, Alexandros
+Y1  - 2012///
+KW  - all or part of
+KW  - classification
+KW  - data
+KW  - feature selection
+KW  - high-dimensional
+KW  - model mining
+KW  - or hard copies of
+KW  - permission to make digital
+KW  - stability
+KW  - this work for
+PB  - ACM Press
+JF  - Proceedings of the 18th ACM SIGKDD international conference on Knowledge discovery and data mining - KDD '12
+SP  - 913
+EP  - 913
+CY  - New York, New York, USA
+SN  - 9781450314626
+DO  - 10.1145/2339530.2339674
+UR  - http://dl.acm.org/citation.cfm?doid=2339530.2339674
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Woznica, Nguyen, Kalousis - 2012 - Model mining for robust feature selection.pdf
+N2  - A common problem with most of the feature selection meth- ods is that they often produce feature sets–models–that are not stable with respect to slight variations in the training data. Different authors tried to improve the feature selec- tion stability using ensemble methods which aggregate dif- ferent feature sets into a single model. However, the ex- isting ensemble feature selection methods suffer from two main shortcomings: (i) the aggregation treats the features independently and does not account for their interactions, and (ii) a single feature set is returned, nevertheless, in var- ious applications there might be more than one feature sets, potentially redundant, with similar information content. In this work we address these two limitations. We present a general framework in which we mine over different feature models produced from a given dataset in order to extract patterns over the models. We use these patterns to derive more complex feature model aggregation strategies that ac- count for feature interactions, and identify core and distinct feature models. We conduct an extensive experimental eval- uation of the proposed framework where we demonstrate its effectiveness over a number of high-dimensional problems from the fields of biology and text-mining.
+ER  - 
+TY  - JOUR
+T1  - Regularization and variable selection via the elastic net
+A1  - Zou, Hui
+A1  - Hastie, Trevor
+Y1  - 2005/04//
+KW  - Grouping effect
+KW  - LARS algorithm
+KW  - Lasso
+KW  - P ≫ n problem
+KW  - Penalization
+KW  - Variable selection
+JF  - Journal of the Royal Statistical Society: Series B (Statistical Methodology)
+VL  - 67
+IS  - 2
+SP  - 301
+EP  - 320
+SN  - 1369-7412
+DO  - 10.1111/j.1467-9868.2005.00503.x
+UR  - http://doi.wiley.com/10.1111/j.1467-9868.2005.00503.x
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Zou, Hastie - 2005 - Regularization and variable selection via the elastic net.pdf
+N2  - We propose the elastic net, a new regularization and variable selection method. Real world data and a simulation study show that the elastic net often outperforms the lasso, while enjoying a similar sparsity of representation. In addition, the elastic net encourages a grouping effect, where strongly correlated predictors tend to be in or out of the model together.The elastic net is particularly useful when the number of predictors (p) is much bigger than the number of observations (n). By contrast, the lasso is not a very satisfactory variable selection method in the pn case. An algorithm called LARS-EN is proposed for computing elastic net regularization paths efficiently, much like algorithm LARS does for the lasso.
+ER  - 
+TY  - JOUR
+T1  - Variability Mining: Consistent Semi-automatic Detection of Product-Line Features
+A1  - Kastner, Christian
+A1  - Dreiling, Alexander
+A1  - Ostermann, Klaus
+Y1  - 2014/01//
+KW  - LEADT
+KW  - Variability
+KW  - feature
+KW  - feature location
+KW  - mining
+KW  - reverse engineering
+KW  - software product line
+JF  - IEEE Transactions on Software Engineering
+VL  - 40
+IS  - 1
+SP  - 67
+EP  - 82
+SN  - 0098-5589 VO - 40
+DO  - 10.1109/TSE.2013.45
+UR  - http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=6613490
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Kastner, Dreiling, Ostermann - 2014 - Variability Mining Consistent Semi-automatic Detection of Product-Line Features.pdf
+N2  - Software product line engineering is an efficient means to generate a set of tailored software products from a common implementation. However, adopting a product-line approach poses a major challenge and significant risks, since typically legacy code must be migrated toward a product line. Our aim is to lower the adoption barrier by providing semi-automatic tool support-called variability mining -to support developers in locating, documenting, and extracting implementations of product-line features from legacy code. Variability mining combines prior work on concern location, reverse engineering, and variability-aware type systems, but is tailored specifically for the use in product lines. Our work pursues three technical goals: (1) we provide a consistency indicator based on a variability-aware type system, (2) we mine features at a fine level of granularity, and (3) we exploit domain knowledge about the relationship between features when available. With a quantitative study, we demonstrate that variability mining can efficiently support developers in locating features.
+ER  - 
+TY  - JOUR
+T1  - Intelligent software product line configurations: A literature review
+A1  - Afzal, Uzma
+A1  - Mahmood, Tariq
+A1  - Shaikh, Zubair
+Y1  - 2016/11//
+KW  - Artificial intelligence
+KW  - Automated feature selection
+KW  - Inconsistencies
+KW  - Industrial SPL tools
+KW  - Literature review
+KW  - Predictive analytics
+KW  - Software product line
+PB  - Elsevier B.V.
+JF  - Computer Standards & Interfaces
+VL  - 48
+SP  - 30
+EP  - 48
+DO  - 10.1016/j.csi.2016.03.003
+UR  - http://dx.doi.org/10.1016/j.csi.2016.03.003
+UR  - http://linkinghub.elsevier.com/retrieve/pii/S0920548916300198
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Afzal, Mahmood, Shaikh - 2016 - Intelligent software product line configurations A literature review(2).pdf
+N2  - A software product line (SPL) is a set of industrial software-intensive systems for configuring similar software products in which personalized feature sets are configured by different business teams. The integration of these feature sets can generate inconsistencies that are typically resolved through manual deliberation. This is a time-consuming process and leads to a potential loss of business resources. Artificial intelligence (AI) techniques can provide the best solution to address this issue autonomously through more efficient configurations, lesser inconsistencies and optimized resources. This paper presents the first literature review of both research and industrial AI applications to SPL configuration issues. Our results reveal only 19 relevant research works which employ traditional AI techniques on small feature sets with no real-life testing or application in industry. We categorize these works in a typology by identifying 8 perspectives of SPL. We also show that only 2 standard industrial SPL tools employ AI in a limited way to resolve inconsistencies. To inject more interest and application in this domain, we motivate and present future research directions. Particularly, using real-world SPL data, we demonstrate how predictive analytics (a state of the art AI technique) can separately model inconsistent and consistent patterns, and then predict inconsistencies in advance to help SPL designers during the configuration of a product.
+ER  - 
+TY  - JOUR
+T1  - Issue-based variability management
+A1  - Thurimella, Anil Kumar
+A1  - Bruegge, Bernd
+Y1  - 2012/09//
+KW  - Empirical software engineering
+KW  - Product line engineering
+KW  - Rationale management
+KW  - Requirements engineering
+PB  - Elsevier B.V.
+JF  - Information and Software Technology
+VL  - 54
+IS  - 9
+SP  - 933
+EP  - 950
+DO  - 10.1016/j.infsof.2012.02.005
+UR  - http://dx.doi.org/10.1016/j.infsof.2012.02.005
+UR  - http://linkinghub.elsevier.com/retrieve/pii/S0950584912000481
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Thurimella, Bruegge - 2012 - Issue-based variability management.pdf
+N2  - Context: Variability management is a key activity in software product line engineering. This paper focuses on managing rationale information during the decision-making activities that arise during variability management. By decision-making we refer to systematic problem solving by considering and evaluating various alternatives. Rationale management is a branch of science that enables decision-making based on the argumentation of stakeholders while capturing the reasons and justifications behind these decisions. Objective: Decision-making should be supported to identify variability in domain engineering and to resolve variation points in application engineering. We capture the rationale behind variability management decisions. The captured rationale information is useful to evaluate future changes of variability models as well as to handle future instantiations of variation points. We claim that maintaining rationale will enhance the longevity of variability models. Furthermore, decisions should be performed using a formal communication between domain engineering and application engineering. Method: We initiate the novel area of issue-based variability management (IVM) by extending variability management with rationale management. The key contributions of this paper are: (i) an issue-based variability management methodology (IVMM), which combines questions, options and criteria (QOC) and a specific variability approach; (ii) a meta-model for IVMM and a process for variability management and (iii) a tool for the methodology, which was developed by extending an open source rationale management tool. Results: Rationale approaches (e.g. questions, options and criteria) guide distributed stakeholders when selecting choices for instantiating variation points. Similarly, rationale approaches also aid the elicitation of variability and the evaluation of changes. The rationale captured within the decision-making process can be reused to perform future decisions on variability. Conclusion: IVMM was evaluated comparatively based on an experimental survey, which provided evidence that IVMM is more effective than a variability modeling approach that does not use issues. © 2012 Elsevier B.V. All rights reserved.
+ER  - 
+TY  - JOUR
+T1  - Rialto: A Knowledge Discovery suite for data analysis
+A1  - Manco, Giuseppe
+A1  - Rullo, Pasquale
+A1  - Gallucci, Lorenzo
+A1  - Paturzo, Mirko
+Y1  - 2016/10//
+KW  - Business a
+KW  - Data mining
+KW  - Knowledge Discovery process
+KW  - knowledge discovery process
+PB  - Elsevier Ltd
+JF  - Expert Systems with Applications
+VL  - 59
+SP  - 145
+EP  - 164
+DO  - 10.1016/j.eswa.2016.04.022
+UR  - http://linkinghub.elsevier.com/retrieve/pii/S0957417416301889
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Manco et al. - 2016 - Rialto A Knowledge Discovery suite for data analysis.pdf
+ER  - 
+TY  - JOUR
+T1  - Hybrid decision tree and naïve Bayes classifiers for multi-class classification tasks
+A1  - Farid, Dewan Md
+A1  - Zhang, Li
+A1  - Rahman, Chowdhury Mofizur
+A1  - Hossain, M.A.
+A1  - Strachan, Rebecca
+Y1  - 2014/03//
+KW  - Classification
+KW  - Data mining
+KW  - Decision tree
+KW  - Hybrid
+KW  - Naïve Bayes classifier
+PB  - Elsevier Ltd
+JF  - Expert Systems with Applications
+VL  - 41
+IS  - 4
+SP  - 1937
+EP  - 1946
+SN  - 0957-4174
+DO  - 10.1016/j.eswa.2013.08.089
+UR  - http://dx.doi.org/10.1016/j.eswa.2013.08.089
+UR  - http://linkinghub.elsevier.com/retrieve/pii/S0957417413007100
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Farid et al. - 2014 - Hybrid decision tree and naïve Bayes classifiers for multi-class classification tasks.pdf
+N2  - In this paper, we introduce two independent hybrid mining algorithms to improve the classification accuracy rates of decision tree (DT) and naïve Bayes (NB) classifiers for the classification of multi-class problems. Both DT and NB classifiers are useful, efficient and commonly used for solving classification problems in data mining. Since the presence of noisy contradictory instances in the training set may cause the generated decision tree suffers from overfitting and its accuracy may decrease, in our first proposed hybrid DT algorithm, we employ a naïve Bayes (NB) classifier to remove the noisy troublesome instances from the training set before the DT induction. Moreover, it is extremely computationally expensive for a NB classifier to compute class conditional independence for a dataset with high dimensional attributes. Thus, in the second proposed hybrid NB classifier, we employ a DT induction to select a comparatively more important subset of attributes for the production of naïve assumption of class conditional independence. We tested the performances of the two proposed hybrid algorithms against those of the existing DT and NB classifiers respectively using the classification accuracy, precision, sensitivity-specificity analysis, and 10-fold cross validation on 10 real benchmark datasets from UCI (University of California, Irvine) machine learning repository. The experimental results indicate that the proposed methods have produced impressive results in the classification of real life challenging multi-class problems. They are also able to automatically extract the most valuable training datasets and identify the most effective attributes for the description of instances from noisy complex training databases with large dimensions of attributes. © 2013 Elsevier Ltd. All rights reserved.
+ER  - 
+TY  - JOUR
+T1  - The effect of tuning, feature engineering, and feature selection in data mining applied to rainfed sugarcane yield modelling
+A1  - Bocca, Felipe F.
+A1  - Rodrigues, Luiz Henrique Antunes
+Y1  - 2016///
+KW  - artificial neural networks
+KW  - boosted regression trees
+PB  - Elsevier B.V.
+JF  - Computers and Electronics in Agriculture
+VL  - 128
+SP  - 67
+EP  - 76
+DO  - 10.1016/j.compag.2016.08.015
+UR  - http://dx.doi.org/10.1016/j.compag.2016.08.015
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Bocca, Rodrigues - 2016 - The effect of tuning, feature engineering, and feature selection in data mining applied to rainfed sugarcane y.pdf
+N2  - Crop yield models can assist decision makers within any agro-industrial supply chain, even with regard to decisions that are unrelated to the crop production. Considering the characteristics of the mechanisms and data related to yield, data mining techniques are suitable candidates for modelling. The use of these techniques within a context with feature engineering, feature selection, and proper tuning can further improve performance beyond a simple replacement of multiple linear regression. To evaluate the impact of the different steps in the mentioned context, we evaluated sugarcane (Saccharum spp.) yield modelling with data obtained from a sugarcane mill. For a combination of six techniques, tuning, feature selection, and feature engineering, leading to 66 combinations, we assessed final model performance. Average performance across combinations resulted in a mean absolute error (MAE) of 6.42Mgha−1. Using different techniques led to a range of MAE from 4.57 to 8.80Mgha−1 on average. The best and worst performances for an individual model were MAEs of 4.11 and 9.00Mgha−1. Models with lower performance were close to simply predicting yield from the average yield for each number of cuts (MAE of 9.86Mgha−1). Tuning and feature engineering reduced the MAE on average by 1.17 and 0.64Mgha−1, respectively. Feature selection removed nearly 40% of the features but increased the MAE by 0.19Mgha−1. The performance of models was improved by simple strategies such as decomposing weather attributes and detailing fertilisation. Evaluation of feature importance provided by the RReliefF feature selection algorithm was used to explain the performance gains. If empirical models are needed, they will rely on using advanced techniques, but they will need proper algorithm tuning and feature engineering to extract most of the information from datasets. Based on the results, we recommend following the presented workflow for the development of yield models.
+ER  - 
+TY  - JOUR
+T1  - Extract minimum positive and maximum negative features for imbalanced binary classification
+A1  - Wang, Jinghua
+A1  - You, Jane
+A1  - Li, Qin
+A1  - Xu, Yong
+Y1  - 2012/03//
+KW  - Feature subspace extraction
+KW  - Imbalanced binary classification
+KW  - Maximum negative feature
+KW  - Minimum positive feature
+KW  - Pattern classification
+PB  - Elsevier
+JF  - Pattern Recognition
+VL  - 45
+IS  - 3
+SP  - 1136
+EP  - 1145
+SN  - 0031-3203
+DO  - 10.1016/j.patcog.2011.09.004
+UR  - http://dx.doi.org/10.1016/j.patcog.2011.09.004
+UR  - http://linkinghub.elsevier.com/retrieve/pii/S0031320311003827
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Wang et al. - 2012 - Extract minimum positive and maximum negative features for imbalanced binary classification.pdf
+N2  - In an imbalanced dataset, the positive and negative classes can be quite different in both size and distribution. This degrades the performance of many feature extraction methods and classifiers. This paper proposes a method for extracting minimum positive and maximum negative features (in terms of absolute value) for imbalanced binary classification. This paper develops two models to yield the feature extractors. Model 1 first generates a set of candidate extractors that can minimize the positive features to be zero, and then chooses the ones among these candidates that can maximize the negative features. Model 2 first generates a set of candidate extractors that can maximize the negative features, and then chooses the ones that can minimize the positive features. Compared with the traditional feature extraction methods and classifiers, the proposed models are less likely affected by the imbalance of the dataset. Experimental results show that these models can perform well when the positive class and negative class are imbalanced in both size and distribution. © 2011 Elsevier Ltd. All rights reserved.
+ER  - 
+TY  - JOUR
+T1  - Feature extraction approaches from natural language requirements for reuse in software product lines: A systematic literature review
+A1  - Bakar, Noor Hasrina
+A1  - Kasirun, Zarinah M.
+A1  - Salleh, Norsaremah
+Y1  - 2015/08//
+KW  - Feature extractions
+KW  - Natural language requirements
+KW  - Requirements reuse
+KW  - Software product lines
+KW  - Systematic literature review
+PB  - Elsevier Ltd.
+JF  - Journal of Systems and Software
+VL  - 106
+SP  - 132
+EP  - 149
+SN  - 01641212
+DO  - 10.1016/j.jss.2015.05.006
+UR  - http://dx.doi.org/10.1016/j.jss.2015.05.006
+UR  - http://linkinghub.elsevier.com/retrieve/pii/S0164121215001004
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Bakar, Kasirun, Salleh - 2015 - Feature extraction approaches from natural language requirements for reuse in software product lines (2).pdf
+N2  - Abstract Requirements for implemented system can be extracted and reused for a production of a new similar system. Extraction of common and variable features from requirements leverages the benefits of the software product lines engineering (SPLE). Although various approaches have been proposed in feature extractions from natural language (NL) requirements, no related literature review has been published to date for this topic. This paper provides a systematic literature review (SLR) of the state-of-the-art approaches in feature extractions from NL requirements for reuse in SPLE. We have included 13 studies in our synthesis of evidence and the results showed that hybrid natural language processing approaches were found to be in common for overall feature extraction process. A mixture of automated and semi-automated feature clustering approaches from data mining and information retrieval were also used to group common features, with only some approaches coming with support tools. However, most of the support tools proposed in the selected studies were not made available publicly and thus making it hard for practitioners' adoption. As for the evaluation, this SLR reveals that not all studies employed software metrics as ways to validate experiments and case studies. Finally, the quality assessment conducted confirms that practitioners' guidelines were absent in the selected studies.
+ER  - 
+TY  - JOUR
+T1  - Forested landslide detection using LiDAR data and the random forest algorithm: A case study of the Three Gorges, China
+A1  - Chen, Weitao
+A1  - Li, Xianju
+A1  - Wang, Yanxin
+A1  - Chen, Gang
+A1  - Liu, Shengwei
+Y1  - 2014/09//
+KW  - Feature selection
+KW  - Landslide mapping
+KW  - LiDAR
+KW  - Random forest
+KW  - The Three Gorges
+KW  - Topographic analysis
+PB  - Elsevier Inc.
+JF  - Remote Sensing of Environment
+VL  - 152
+SP  - 291
+EP  - 301
+SN  - 00344257
+DO  - 10.1016/j.rse.2014.07.004
+UR  - http://dx.doi.org/10.1016/j.rse.2014.07.004
+UR  - http://linkinghub.elsevier.com/retrieve/pii/S0034425714002491
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Chen et al. - 2014 - Forested landslide detection using LiDAR data and the random forest algorithm A case study of the Three Gorges, Chi.pdf
+N2  - The Three Gorges region of central western China is one of the most landslide-prone regions in the world. However, landslide detection based on field surveys and optical remote sensing and synthetic aperture radar (SAR) techniques remains difficult owing to the dense vegetation cover and mountain shadow. In the present study, an area of Zigui County in the Three Gorges region was selected to test the feasibility of detecting landslides by employing novel features extracted from a LiDAR-derived DTM. Additionally, two small sites-Site 1 and Site 2-were selected for training and were used to classify each other. In addition to the aspect, DTM, and slope images, the following feature sets were proposed to improve the accuracy of landslide detection: (1) the mean aspect, DTM, and slope textures based on four texture directions; (2) aspect, DTM, and slope textures based on aspect; and (3) the moving average and standard deviation (stdev) filter of aspect, DTM, and slope. By combining a feature selection method and the RF algorithm, the classification accuracy was evaluated and landslide boundaries were determined. The results can be summarized as follows. (1) The feature selection method demonstrated that the proposed features provided information useful for effective landslide identification. (2) Feature selection achieved an improvement of about 0.44% in the overall classification accuracy, with the feature set reduced by 74%, from 39 to 10; this can speed up the training of the RF model. (3) When fifty randomly selected 20% of landslide pixels (PLS) and 20% of non-landslide pixels (PNLS) (i.e., 20% of PLS and PNLS) were utilized in addition to the selected feature subsets for training, the test sets (i.e., the remaining 80% of PLS and PNLS) yielded an average overall classification accuracy of 78.24%. The cross training and classification for Site 1 and Site 2 provided overall classification accuracies of 62.65% and 64.50%, respectively. This shows that the random sampling design (which suffered some of the effects of spatial auto-correlation) and the proposed method in this present study contribute jointly to the classification accuracy. (4) Using the Canny operator to delineate landslide boundaries based on the classification results of PLS and PNLS, we obtained results consistent with the referenced landslide inventory maps. Thus, the proposed procedure, which combines LiDAR data, a feature selection method, and the RF algorithm, can identify forested landslides effectively in the Three Gorges region. © 2014 Elsevier Inc.
+ER  - 
+TY  - JOUR
+T1  - Unsupervised probabilistic feature selection using ant colony optimization
+A1  - Dadaneh, Behrouz Zamani
+A1  - Markid, Hossein Yeganeh
+A1  - Zakerolhosseini, Ali
+Y1  - 2016/07//
+KW  - Ant colony optimization
+KW  - Classification accuracy
+KW  - Feature selection
+KW  - Filter approaches
+KW  - Unsupervised methods
+PB  - Elsevier Ltd
+JF  - Expert Systems with Applications
+VL  - 53
+SP  - 27
+EP  - 42
+DO  - 10.1016/j.eswa.2016.01.021
+UR  - http://dx.doi.org/10.1016/j.eswa.2016.01.021
+UR  - http://linkinghub.elsevier.com/retrieve/pii/S0957417416000312
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Dadaneh, Markid, Zakerolhosseini - 2016 - Unsupervised probabilistic feature selection using ant colony optimization.pdf
+N2  - Feature selection (FS) is one of the most important fields in pattern recognition, which aims to pick a subset of relevant and informative features from an original feature set. There are two kinds of FS algorithms depending on the presence of information about dataset class labels: supervised and unsupervised algorithms. Supervised approaches utilize class labels of dataset in the process of feature selection. On the other hand, unsupervised algorithms act in the absence of class labels, which makes their process more difficult. In this paper, we propose unsupervised probabilistic feature selection using ant colony optimization (UPFS). The algorithm looks for the optimal feature subset in an iterative process. In this algorithm, we utilize inter-feature information which shows the similarity between the features that leads the algorithm to decreased redundancy in the final set. In each step of the ACO algorithm, to select the next potential feature, we calculate the amount of redundancy between current feature and all those which have been selected thus far. In addition, we utilize a matrix to hold ant related pheromone which shows the rate of the co-presence of every pair of features in solutions. Afterwards, features are ranked based on a probability function extracted from the matrix; then, their m-top is returned as the final solution. We compare the performance of UPFS with 15 well-known supervised and unsupervised feature selection methods using different classifiers (support vector machine, naive Bayes, and k-nearest neighbor) on 10 well-known datasets. The experimental results show the efficiency of the proposed method compared to the previous related methods.
+ER  - 
+TY  - JOUR
+T1  - Requirements modeling languages for software product lines: A systematic literature review
+A1  - Sepúlveda, Samuel
+A1  - Cravero, Ania
+A1  - Cachero, Cristina
+Y1  - 2016/01//
+KW  - Modeling languages
+KW  - Requirements engineering
+KW  - Software product lines
+KW  - Systematic literature review
+JF  - Information and Software Technology
+VL  - 69
+SP  - 16
+EP  - 36
+DO  - 10.1016/j.infsof.2015.08.007
+UR  - http://linkinghub.elsevier.com/retrieve/pii/S0950584915001494
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Sepúlveda, Cravero, Cachero - 2016 - Requirements modeling languages for software product lines A systematic literature review.pdf
+N2  - Context: Software product lines (SPLs) have reached a considerable level of adoption in the software industry, having demonstrated their cost-effectiveness for developing higher quality products with lower costs. For this reason, in the last years the requirements engineering community has devoted much effort to the development of a myriad of requirements modelling languages for SPLs. Objective: In this paper, we review and synthesize the current state of research of requirements modelling languages used in SPLs with respect to their degree of empirical validation, origin and context of use, level of expressiveness, maturity, and industry adoption. Method: We have conducted a systematic literature review with six research questions that cover the main objective. It includes 54 studies, published from 2000 to 2013. Results: The mean level of maturity of the modelling languages is 2.59 over 5, with 46% of them falling within level 2 or below -no implemented abstract syntax reported-. They show a level of expressiveness of 0.7 over 1.0. Some constructs (feature, mandatory, optional, alternative, exclude and require) are present in all the languages, while others (cardinality, attribute, constraint and label) are less common. Only 6% of the languages have been empirically validated, 41% report some kind of industry adoption and 71% of the languages are independent from any development process. Last but not least, 57% of the languages have been proposed by the academia, while 43% have been the result of a joint effort between academia and industry. Conclusions: Research on requirements modeling languages for SPLs has generated a myriad of languages that differ in the set of constructs provided to express SPL requirements. Their general lack of empirical validation and adoption in industry, together with their differences in maturity, draws the picture of a discipline that still needs to evolve.
+ER  - 
+TY  - JOUR
+T1  - Toward automated feature model configuration with optimizing non-functional requirements
+A1  - Asadi, Mohsen
+A1  - Soltani, Samaneh
+A1  - Gasevic, Dragan
+A1  - Hatala, Marek
+A1  - Bagheri, Ebrahim
+Y1  - 2014/09//
+KW  - Feature model configuration
+KW  - Non-functional interdependencies
+KW  - Software product lines
+KW  - Stakeholders' preferences
+PB  - Elsevier B.V.
+JF  - Information and Software Technology
+VL  - 56
+IS  - 9
+SP  - 1144
+EP  - 1165
+DO  - 10.1016/j.infsof.2014.03.005
+UR  - http://dx.doi.org/10.1016/j.infsof.2014.03.005
+UR  - http://linkinghub.elsevier.com/retrieve/pii/S0950584914000640
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Asadi et al. - 2014 - Toward automated feature model configuration with optimizing non-functional requirements.pdf
+N2  - Context A software product line is a family of software systems that share some common features but also have significant variabilities. A feature model is a variability modeling artifact, which represents differences among software products with respect to the variability relationships among their features. Having a feature model along with a reference model developed in the domain engineering lifecycle, a concrete product of the family is derived by binding the variation points in the feature model (called configuration process) and by instantiating the reference model. Objective In this work we address the feature model configuration problem and propose a framework to automatically select suitable features that satisfy both the functional and non-functional preferences and constraints of stakeholders. Additionally, interdependencies between various non-functional properties are taken into account in the framework. Method The proposed framework combines Analytical Hierarchy Process (AHP) and Fuzzy Cognitive Maps (FCM) to compute the non-functional properties weights based on stakeholders' preferences and interdependencies between non-functional properties. Afterwards, Hierarchical Task Network (HTN) planning is applied to find the optimal feature model configuration. Result Our approach improves state-of-art of feature model configuration by considering positive or negative impacts of the features on non-functional properties, the stakeholders' preferences, and non-functional interdependencies. The approach presented in this paper extends earlier work presented in [1] from several distinct perspectives including mechanisms handling interdependencies between non-functional properties, proposing a novel tooling architecture, and offering visualization and interaction techniques for representing functional and non-functional aspects of feature models. Conclusion our experiments show the scalability of our configuration approach when considering both functional and non-functional requirements of stakeholders. ?? 2014 Elsevier B.V. All rights reserved.
+ER  - 
+TY  - JOUR
+T1  - Automated Discovery of Lead Users and Latent Product Features by Mining Large Scale Social Media Networks
+A1  - Tuarob, Suppawong
+A1  - Tucker, Conrad S.
+Y1  - 2015/07//
+JF  - Journal of Mechanical Design
+VL  - 137
+IS  - 7
+SP  - 071402
+EP  - 071402
+DO  - 10.1115/1.4030049
+UR  - http://mechanicaldesign.asmedigitalcollection.asme.org/article.aspx?doi=10.1115/1.4030049
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Tuarob, Tucker - 2015 - Automated Discovery of Lead Users and Latent Product Features by Mining Large Scale Social Media Networks.pdf
+ER  - 
+TY  - JOUR
+T1  - Bibliometric and Social Network Analysis for Data Mining: The Intellectual Structure of Tourism Destination Literature
+A1  - Wang, Cheng-Hua
+A1  - Chen, Shiu-Chun
+Y1  - 2014/01//
+KW  - associate professor
+KW  - bibliometric
+KW  - business and operations management
+KW  - data mining
+KW  - graduate school of
+KW  - intellectual structure
+KW  - social network analysis
+KW  - tourism destination
+JF  - Journal of Testing and Evaluation
+VL  - 42
+IS  - 1
+SP  - 20120285
+EP  - 20120285
+SN  - 0090-3973
+DO  - 10.1520/JTE20120285
+UR  - http://www.astm.org/doiLink.cgi?JTE20120285
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Wang, Chen - 2014 - Bibliometric and Social Network Analysis for Data Mining The Intellectual Structure of Tourism Destination Literatur.pdf
+N2  - Data mining can extract useful information from large databases. This paper presents the evolution of the intellectual structure in tourism destination literature as determined by means of bibliometric and social network analysis of 17 552 citations of 414 articles published in Social Sciences Citation Index and Sciences Citation Index journals from 1955 to 2011. This study found that tourism destination research is organized into four different concentrations of interest: destination image, tourist experience and stakeholder involvement, structural equation modeling, and customer relationship management. Future tourism destination research will probably continue to focus on these topics. This study presents a new way for researchers to profile development patterns objectively and provides a key reading method for searching useful research directions. Copyright © 2014 by ASTM International.
+ER  - 
+TY  - JOUR
+T1  - A Data-Driven Network Analysis Approach to Predicting Customer Choice Sets for Choice Modeling in Engineering Design
+A1  - Wang, Mingxian
+A1  - Chen, Wei
+Y1  - 2015/07//
+KW  - analytics
+KW  - choice modeling
+KW  - choice set
+KW  - customer preference
+KW  - data
+KW  - network analysis
+KW  - product association
+JF  - Journal of Mechanical Design
+VL  - 137
+IS  - 7
+SP  - 071409
+EP  - 071409
+DO  - 10.1115/1.4030160
+UR  - http://mechanicaldesign.asmedigitalcollection.asme.org/article.aspx?doi=10.1115/1.4030160
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Wang, Chen - 2015 - A Data-Driven Network Analysis Approach to Predicting Customer Choice Sets for Choice Modeling in Engineering Design.pdf
+N2  - In this paper, we propose a data-driven network analysis based approach to predict individual choice set for customer choice modeling. Taking into account product associations and customer heterogeneity, we apply data analytics to mine existing data of customer choice set, which is then used to predict choice set for individual customers in a new choice modeling scenario. Product association network is constructed first to identify product communities based on existing data of customer choice sets, where links between products reflect the proximity or similarity of two products in customers' perceptual space. To account for customer heterogeneity, customers are classified into clusters (segments) based on their profile attributes and for each cluster the product consideration frequency is computed. For predicting choice sets, a probabilistic sampling approach is proposed integrating product associations, customer segments, and the link strengths in the product association network. In case studies, we first implement the approach using an example with simulated choice set data. The quality of predicted choice sets is examined by assessing the estimation bias of the developed choice model. We then demonstrate the proposed approach using actual survey data of vehicle choice, illustrating the impact of choice sets on the customer utility representation and the agreement between choice model and reality. From both examples, improved choice modeling results are consistently observed using the predicted choice sets, demonstrating the benefits of the proposed method for choice modeling.
+ER  - 
+TY  - JOUR
+T1  - Modeling Information Needs in Engineering Databases Using Tacit Knowledge
+A1  - Song, Shuang
+A1  - Dong, Andy
+A1  - Agogino, Alice
+Y1  - 2002///
+JF  - Journal of Computing and Information Science in Engineering
+VL  - 2
+IS  - 3
+SP  - 199
+EP  - 199
+DO  - 10.1115/1.1528921
+UR  - http://computingengineering.asmedigitalcollection.asme.org/article.aspx?articleid=1399467
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Song, Dong, Agogino - 2002 - Modeling Information Needs in Engineering Databases Using Tacit Knowledge.pdf
+ER  - 
+TY  - JOUR
+T1  - Optimal Product Portfolio Formulation by Merging Predictive Data Mining With Multilevel Optimization
+A1  - Tucker, Conrad S.
+A1  - Kim, Harrison M.
+Y1  - 2008///
+JF  - Journal of Mechanical Design
+VL  - 130
+IS  - 4
+SP  - 041103
+EP  - 041103
+SN  - 1563478234
+DO  - 10.1115/1.2838336
+UR  - http://mechanicaldesign.asmedigitalcollection.asme.org/article.aspx?articleid=1449682
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Tucker, Kim - 2008 - Optimal Product Portfolio Formulation by Merging Predictive Data Mining With Multilevel Optimization.pdf
+N2  - This paper addresses two important fundamental areas in product family formulation that have recently begun to receive great attention. First is the incorporation of market demand that we address through a data mining approach where realistic customer preference data are translated into performance design targets. Second is product architecture reconfiguration that we model as a dynamic design entity. The dynamic approach to product architecture optimization differs from conventional static approaches in that a product architecture is not fixed at the initial stage of product design, but rather evolves with fluctuations in customer performance preferences. The benefits of direct customer input in product family design will be realized through the cell phone product family example presented in this work. An optimal family of cell phones is created with modularity decisions made analytically at the engineering level that maximize company profit. Copyright © 2008 by ASME.
+ER  - 
+TY  - JOUR
+T1  - A Multidomain Engineering Change Propagation Model to Support Uncertainty Reduction and Risk Management in Design
+A1  - Hamraz, Bahram
+A1  - Caldwell, Nicholas H. M.
+A1  - John Clarkson, P.
+Y1  - 2012///
+KW  - change propagation
+KW  - design structure matrix
+KW  - engineering change management
+KW  - functional reasoning
+KW  - mechanical design
+JF  - Journal of Mechanical Design
+VL  - 134
+IS  - 10
+SP  - 100905
+EP  - 100905
+SN  - 1050-0472
+DO  - 10.1115/1.4007397
+UR  - http://mechanicaldesign.asmedigitalcollection.asme.org/article.aspx?articleid=1484826
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Hamraz, Caldwell, John Clarkson - 2012 - A Multidomain Engineering Change Propagation Model to Support Uncertainty Reduction and Risk Ma.pdf
+N2  - Engineering change (EC) is a source of uncertainty. While the number of changes to a design can be optimized, their existence cannot be eliminated. Each change is accompanied by intended and unintended impacts both of which might propagate and cause further knock-on changes. Such change propagation causes uncertainty in design time, cost, and quality and thus needs to be predicted and controlled. Current engineering change propagation models map the product connectivity into a single-domain network and model change propagation as spread within this network. Those models miss out most dependencies from other domains and suffer from â€œhidden dependenciesâ€ . This paper proposes the function-behavior-structure (FBS) linkage model, a multidomain model which combines concepts of both the function-behavior-structure model from Gero and colleagues with the change prediction method (CPM) from Clarkson and colleagues. The FBS linkage model is represented in a network and a corresponding multidomain matrix of structural, behavioral, and functional elements and their links. Change propagation is described as spread in that network using principles of graph theory. The model is applied to a diesel engine. The results show that the FBS linkage model is promising and improves current methods in several ways: The model (1) accounts explicitly for all possible dependencies between product elements, (2) allows capturing and modeling of all relevant change requests, (3) improves the understanding of why and how changes propagate, (4) is scalable to different levels of decomposition, and (5) is flexible to present the results on different levels of abstraction. All these features of the FBS linkage model can help control and counteract change propagation and reduce uncertainty and risk in design.
+ER  - 
+TY  - JOUR
+T1  - Product Lines ’ Feature-Oriented Engineering for Reuse : A Formal Approach
+A1  - Ndjodo, Marcel Fouda
+A1  - Ngoumou, Amougou
+Y1  - 2010///
+KW  - feature-
+KW  - product line engineering
+VL  - 7
+IS  - 5
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Ndjodo, Ngoumou - 2010 - Product Lines ’ Feature-Oriented Engineering for Reuse A Formal Approach.pdf
+ER  - 
+TY  - JOUR
+T1  - Deep Patient: An Unsupervised Representation to Predict the Future of Patients from the Electronic Health Records
+A1  - Miotto, Riccardo
+A1  - Li, Li
+A1  - Kidd, Brian A.
+A1  - Dudley, Joel T.
+Y1  - 2016/05//
+JF  - Scientific Reports
+VL  - 6
+IS  - April
+SP  - 26094
+EP  - 26094
+DO  - 10.1038/srep26094
+UR  - http://www.nature.com/articles/srep26094
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Miotto et al. - 2016 - Deep Patient An Unsupervised Representation to Predict the Future of Patients from the Electronic Health Records.pdf
+ER  - 
+TY  - JOUR
+T1  - Probabilistic machine learning and artificial intelligence
+A1  - Ghahramani, Zoubin
+Y1  - 2015/05//
+JF  - Nature
+VL  - 521
+IS  - 7553
+SP  - 452
+EP  - 459
+SN  - 0028-0836
+DO  - 10.1038/nature14541
+UR  - http://dx.doi.org/10.1038/nature14541
+UR  - http://www.nature.com/doifinder/10.1038/nature14541
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Ghahramani - 2015 - Probabilistic machine learning and artificial intelligence.pdf
+N2  - How can a machine learn from experience? Probabilistic modelling provides a framework for understanding what learning is, and has therefore emerged as one of the principal theoretical and practical approaches for designing machines that learn from data acquired through experience. The probabilistic framework, which describes how to represent and manipulate uncertainty about models and predictions, has a central role in scientific data analysis, machine learning, robotics, cognitive science and artificial intelligence. This Review provides an introduction to this framework, and discusses some of the state-of-the-art advances in the field, namely, probabilistic programming, Bayesian optimization, data compression and automatic model discovery.
+ER  - 
+TY  - JOUR
+T1  - IDENTIFYING DEAD FEATURES AND THEIR CAUSES IN PRODUCT LINE MODELS: AN ONTOLOGICAL APPROACH
+A1  - GIRALDO, GLORIA LUCIA
+A1  - RINCÓN-PEREZ, LUISA
+A1  - MAZO, RAUL
+Y1  - 2014/01//
+KW  - Product lines
+KW  - SQWRL.
+KW  - dead features
+KW  - feature models
+KW  - ontologies
+JF  - DYNA
+VL  - 81
+IS  - 183
+SP  - 68
+EP  - 68
+DO  - 10.15446/dyna.v81n183.36348
+UR  - http://dyna.medellin.unal.edu.co/en/verResumenEN.php?id_articulo=v81n183a08
+UR  - http://www.revistas.unal.edu.co/index.php/dyna/article/view/36348
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/GIRALDO, RINCÓN-PEREZ, MAZO - 2014 - IDENTIFYING DEAD FEATURES AND THEIR CAUSES IN PRODUCT LINE MODELS AN ONTOLOGICAL APPROACH.pdf
+N2  - Feature Models (FMs) are a notation to represent differences and commonalities between products derived from a product line. However, product line modelers could unintentionally incorporate dead features in FMs. A dead feature is a type of defect, which implies that one or more features are not present in any product of the product line. Some authors have used ontologies in product lines, but they have not exploited ontology reasoning to identify and explain causes for defects in FMs in natural language. In this paper, we propose an ontology that represents FMs in OWL (Web Ontology Language). Then, we use SQWRL (Semantic Query-enhanced Web Rule Language) to identify dead features in a FM and identify and explain certain causes of this defect in natural language. Our preliminary empirical evaluation confirms the benefits of our approach.
+ER  - 
+TY  - JOUR
+T1  - Automatically composing reusable software components for mobile devices
+A1  - White, Jules
+A1  - Schmidt, DouglasC. C
+A1  - Wuchner, Egon
+A1  - Nechypurenko, Andrey
+Y1  - 2008/03//
+KW  - Constraint Satisfaction
+KW  - constraint
+KW  - feature modeling
+KW  - product-lines
+KW  - satisfaction
+KW  - software reuse
+JF  - Journal of the Brazilian Computer Society
+VL  - 14
+IS  - 1
+SP  - 25
+EP  - 44
+SN  - 01046500 (ISSN)
+DO  - 10.1007/BF03192550
+UR  - http://dx.doi.org/10.1007/BF03192550
+UR  - http://link.springer.com/10.1007/BF03192550
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/White et al. - 2008 - Automatically composing reusable software components for mobile devices.pdf
+N2  - Product-line architectures (PLAs) are an effective mechanism for facilitating the reuse of software components on different mobile devices. Mobile applications are typically delivered to devices using over-the-air provisioning services that allow a mobile phone to download and install software over a cellular network connection. Current techniques for automating product-line variant selection do not address the unique requirements (such as the need to consider resource constraints) of dynamically selecting a variant for over- the-air provisioning. This paper presents the following contributions to product-line variant selection for mobile devices: (1) it describes how a constraint solver can be used to dynamically select a product-line variant while adhering to resource constraints, (2) it presents architectures for automatically discovering device capabilities mapping them to product-line feature models, (3) and it includes results from experiments and field tests with an automated variant selector, and (4) it describes PLA design rules that can be used to increase the performance of automated constraint-based variant selection. Our empirical results show that fast au- tomated variant selection from a feature model is possible if certain product-line design guidelines are followed.
+ER  - 
+TY  - CONF
+T1  - Variability
+A1  - Weyns, Danny
+Y1  - 2014///
+PB  - ACM Press
+JF  - Proceedings of the 18th International Software Product Line Conference on Companion Volume for Workshops, Demonstrations and Tools - SPLC '14
+SP  - 12
+EP  - 12
+CY  - New York, New York, USA
+SN  - 9781450327398
+DO  - 10.1145/2647908.2655959
+UR  - http://dl.acm.org/citation.cfm?doid=2647908.2655959
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Weyns - 2014 - Variability.pdf
+ER  - 
+TY  - CONF
+T1  - Feature model augmentation with sentiment analysis for product line planning
+A1  - Zhou, F.
+A1  - Jiao, R. J.
+Y1  - 2015/12//
+KW  - Analytical models
+KW  - Consumer electronics
+KW  - Electronic publishing
+KW  - Feature extraction
+KW  - Feature model
+KW  - Fires
+KW  - High definition video
+KW  - Kindle fire tablet case study
+KW  - Sentiment analysis
+KW  - commonality
+KW  - customer opinionated preference information
+KW  - customer preference
+KW  - customer preference information
+KW  - customer services
+KW  - feature model augmentation
+KW  - individual customer need
+KW  - individual product feature
+KW  - online product review
+KW  - product line planning
+KW  - product variant
+KW  - production planning
+KW  - sentiment analysis
+KW  - variability
+PB  - IEEE
+JF  - 2015 IEEE International Conference on Industrial Engineering and Engineering Management (IEEM)
+SP  - 1689
+EP  - 1693
+SN  - 978-1-4673-8066-9
+DO  - 10.1109/IEEM.2015.7385935
+UR  - http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=7385935
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Zhou, Jiao - 2015 - Feature model augmentation with sentiment analysis for product line planning.pdf
+N2  - A feature model is able to identify commonality and variability within a product line, helping stakeholders configure product variants and seize opportunities for reuse. However, no direct customer preference information is incorporated in the feature model when it comes to the question-how many product variants are needed in order to satisfy individual customer needs. This paper proposes to mine customer preference information for individual product features by sentiment analysis of online product reviews. The features commented by the users of a product are used to augment a simple feature model predefined with customer opinionated preference information. In such a way, the customer preference information is considered as one attribute of the features in the model, helping designers make informed decisions when trading off between commonality and variability of a product line. Finally, we present a Kindle Fire tablet case study to demonstrate the proposed method.
+ER  - 
+TY  - CONF
+T1  - A systematic mapping study on mining software repositories
+A1  - de F. Farias, Mário André
+A1  - Novais, Renato
+A1  - Júnior, Methanias Colaço
+A1  - da Silva Carvalho, Luís Paulo
+A1  - Mendonça, Manoel
+A1  - Spínola, Rodrigo Oliveira
+Y1  - 2016///
+KW  - Systematic mapping study
+KW  - empirical
+KW  - empirical software engineering
+KW  - mining software repository
+KW  - secondary study
+KW  - software engineering
+KW  - systematic mapping study
+PB  - ACM Press
+JF  - Proceedings of the 31st Annual ACM Symposium on Applied Computing - SAC '16
+SP  - 1472
+EP  - 1479
+CY  - New York, New York, USA
+SN  - 9781450337397
+DO  - 10.1145/2851613.2851786
+UR  - http://dl.acm.org/citation.cfm?doid=2851613.2851786
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/de F. Farias et al. - 2016 - A systematic mapping study on mining software repositories.pdf
+ER  - 
+TY  - CONF
+T1  - Empirical comparison of regression methods for variability-aware performance prediction
+A1  - Valov, Pavel
+A1  - Guo, Jianmei
+A1  - Czarnecki, Krzysztof
+Y1  - 2015///
+PB  - ACM Press
+JF  - Proceedings of the 19th International Conference on Software Product Line - SPLC '15
+SP  - 186
+EP  - 190
+CY  - New York, New York, USA
+SN  - 9781450336130
+DO  - 10.1145/2791060.2791069
+UR  - http://dl.acm.org/citation.cfm?id=2791060.2791069
+UR  - http://dl.acm.org/citation.cfm?doid=2791060.2791069
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Valov, Guo, Czarnecki - 2015 - Empirical comparison of regression methods for variability-aware performance prediction.pdf
+ER  - 
+TY  - CONF
+T1  - Applying semantic web technology to feature modeling
+A1  - Zaid, Lamia Abo
+A1  - Kleinermann, Frederic
+A1  - De Troyer, Olga
+Y1  - 2009///
+KW  - Feature models
+KW  - OWL
+KW  - ontologies
+KW  - software variabil
+PB  - ACM Press
+JF  - Proceedings of the 2009 ACM symposium on Applied Computing - SAC '09
+SP  - 1252
+EP  - 1252
+CY  - New York, New York, USA
+SN  - 9781605581668
+DO  - 10.1145/1529282.1529563
+UR  - http://portal.acm.org/citation.cfm?doid=1529282.1529563
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Zaid, Kleinermann, De Troyer - 2009 - Applying semantic web technology to feature modeling.pdf
+N2  - Feature models are models used to capture differences and commonalities between software features, enabling the representation of variability within software. There are many variations of feature models and different notations are often used to represent the same information. Currently support for validating or integrating feature models is missing. In this paper, we provide an ontology framework for feature modeling which consists of an ontology that formally provides a specification for feature models. In addition, we provide means to integrate segmented feature models and provide a rule based model consistency check and conflict detection. We use SWRL rules to implement the rules and a DL reasoner to evaluate the rules and infer extra interesting information regarding the variability of the software.
+ER  - 
+TY  - CONF
+T1  - Strategies for consistency checking on software product lines
+A1  - Santos, Alcemir Rodrigues
+A1  - de Oliveira, Raphael Pereira
+A1  - de Almeida, Eduardo Santana
+Y1  - 2015///
+KW  - consistency checking
+KW  - literature review
+KW  - mapping study
+KW  - software product line engineering
+PB  - ACM Press
+JF  - Proceedings of the 19th International Conference on Evaluation and Assessment in Software Engineering - EASE '15
+IS  - Section 3
+SP  - 1
+EP  - 14
+CY  - New York, New York, USA
+SN  - 9781450333504
+DO  - 10.1145/2745802.2745806
+UR  - http://dl.acm.org/citation.cfm?doid=2745802.2745806
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Santos, de Oliveira, de Almeida - 2015 - Strategies for consistency checking on software product lines.pdf
+ER  - 
+TY  - CONF
+T1  - Feature Models in Linux
+A1  - Rothberg, Valentin
+A1  - Dintzner, Nicolas
+A1  - Ziegler, Andreas
+A1  - Lohmann, Daniel
+Y1  - 2016///
+KW  - CADOS
+KW  - Configurability
+KW  - Feature Models
+KW  - Kconfig
+KW  - Linux
+PB  - ACM Press
+JF  - Proceedings of the Tenth International Workshop on Variability Modelling of Software-intensive Systems - VaMoS '16
+SP  - 65
+EP  - 72
+CY  - New York, New York, USA
+SN  - 9781450340199
+DO  - 10.1145/2866614.2866624
+UR  - http://doi.acm.org/10.1145/2866614.2866624
+UR  - http://dl.acm.org/citation.cfm?doid=2866614.2866624
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Rothberg et al. - 2016 - Feature Models in Linux.pdf
+ER  - 
+TY  - CONF
+T1  - Capturing variability in space and time with hyper feature models
+A1  - Seidl, Christoph
+A1  - Schaefer, Ina
+A1  - Aßmann, Uwe
+Y1  - 2013///
+KW  - evolution
+KW  - hfm
+KW  - hyper feature model
+KW  - seco
+KW  - software ecosystem
+KW  - software product line
+KW  - spl
+KW  - variability in time
+PB  - ACM Press
+JF  - Proceedings of the Eighth International Workshop on Variability Modelling of Software-Intensive Systems - VaMoS '14
+SP  - 1
+EP  - 8
+CY  - New York, New York, USA
+SN  - 9781450325561
+DO  - 10.1145/2556624.2556625
+UR  - http://dl.acm.org/citation.cfm?doid=2556624.2556625
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Seidl, Schaefer, Aßmann - 2013 - Capturing variability in space and time with hyper feature models.pdf
+N2  - Software product lines (SPLs) and software ecosystems (SECOs) are approaches to capturing families of closely related software systems in terms of common and variable functionality. SPLs and especially SECOs are subject to evolution to adapt to new or changed requirements resulting in different versions of the software family and its variable assets. These versions may have to be maintained and used for products even after they were superseded by newer versions. Variability models describing valid combinations of variable assets, such as feature models, capture variability in space (configuration), but not variability in time (evolution) making it impossible to respect versions of variable assets in product definitions on a conceptual level. In this paper, we propose Hyper Feature Models (HFMs) explicitly providing feature versions as configurable units for product definition. Furthermore, we provide a version-aware constraint language to specify dependencies between features and ranges of feature versions as well as a procedure to automatically select valid combinations of versions for a pre-configuration of features. We demonstrate our approach in a case study. © 2014 ACM.
+ER  - 
+TY  - JOUR
+T1  - Fault-based product-line testing: effective sample generation based on feature-diagram mutation
+A1  - Reuling, Dennis
+A1  - Bürdek, Johannes
+A1  - Rotärmel, Serge
+A1  - Lochau, Malte
+A1  - Kelter, Udo
+Y1  - 2015///
+KW  - combinatorial interaction testing
+KW  - mutation testing
+JF  - Proceedings of the 19th International Conference on Software Product Line
+SP  - 131
+EP  - 140
+SN  - 9781450336130
+DO  - 10.1145/2791060.2791074
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Reuling et al. - 2015 - Fault-based product-line testing effective sample generation based on feature-diagram mutation.pdf
+N2  - Testing every member of a product line individually is of-ten impracticable due to large number of possible product configurations. Thus, feature models are frequently used to generate samples, i.e., subsets of product configurations under test. Besides the extensively studied combinatorial interaction testing (CIT) approach for coverage-driven sam-ple generation, only few approaches exist so far adopting mutation testing to emulate faults in feature models to be detected by a sample. In this paper, we present a mutation-based sampling framework for fault-based product-line test-ing. We define a comprehensive catalog of atomic mutation operators on the graphical representation of feature models. This way, we are able (1) to also define complex mutation operators emulating more subtle faults, and (2) to classify operators semantically, e.g., to avoid redundant and equiv-alent mutants. We further introduce similarity-based mu-tant selection and higher order mutation strategies to reduce testing efforts. Our implementation is based on the graph transformation engine Henshin and is evaluated concerning effectiveness/efficiency trade-offs.
+ER  - 
+TY  - CONF
+T1  - Guaranteeing Configuration Validity in Evolving Software Product Lines
+A1  - Nieke, Michael
+A1  - Seidl, Christoph
+A1  - Schuster, Sven
+Y1  - 2016///
+KW  - Configuration
+KW  - Evolution
+KW  - Software Product Line (SPL)
+KW  - Temporal Feature Model (TFM)
+PB  - ACM Press
+JF  - Proceedings of the Tenth International Workshop on Variability Modelling of Software-intensive Systems - VaMoS '16
+SP  - 73
+EP  - 80
+CY  - New York, New York, USA
+SN  - 9781450340199
+DO  - 10.1145/2866614.2866625
+UR  - http://dl.acm.org/citation.cfm?id=2866614.2866625
+UR  - http://dl.acm.org/citation.cfm?doid=2866614.2866625
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Nieke, Seidl, Schuster - 2016 - Guaranteeing Configuration Validity in Evolving Software Product Lines.pdf
+ER  - 
+TY  - JOUR
+T1  - Variability Modeling of Cryptographic Components: Clafer Experience Report
+A1  - Nadi, Sarah
+A1  - Krüger, Stefan
+Y1  - 2015///
+KW  - Clafer
+KW  - Cryptography
+KW  - Variability Modeling
+JF  - Proceedings of the Tenth International Workshop on Variability Modelling of Software-intensive Systems
+SP  - 105
+EP  - 112
+SN  - 978-1-4503-4019-9
+DO  - 10.1145/2866614.2866629
+UR  - http://doi.acm.org/10.1145/2866614.2866629
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Nadi, Krüger - 2015 - Variability Modeling of Cryptographic Components Clafer Experience Report.pdf
+ER  - 
+TY  - CONF
+T1  - VariaMos
+A1  - Mazo, Raúl
+A1  - Muñoz-Fernández, Juan C
+A1  - Rincón, Luisa
+A1  - Salinesi, Camille
+A1  - Tamura, Gabriel
+Y1  - 2015///
+KW  - 2
+KW  - 3
+KW  - 4
+KW  - and constraint
+KW  - constraints
+KW  - dopler
+KW  - dynamic product line
+KW  - goals
+KW  - models
+KW  - ovm
+KW  - product line engineering
+KW  - simulation
+KW  - tool
+KW  - variability
+PB  - ACM Press
+JF  - Proceedings of the 19th International Conference on Software Product Line - SPLC '15
+SP  - 374
+EP  - 379
+CY  - New York, New York, USA
+SN  - 9781450336130
+DO  - 10.1145/2791060.2791103
+UR  - http://dl.acm.org/citation.cfm?doid=2791060.2791103
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Mazo et al. - 2015 - VariaMos.pdf
+N2  - This paper presents the new release of VariaMos, a Java-based tool for defining variability modeling languages, modeling (dynamic) product lines and cyber-physical self-adaptive systems, and supporting automated verification, analysis, configuration and simulation of these models. In particular, we describe the characteristics of this new version regarding its first release: (1) the capability to create languages for modeling systems with variability, even with different views; (2) the capability to use the created language to model (dynamic) product lines; (3) the capability to analyze and configure these models according to the changing context and requirements; and (4) the capability to execute them over several simulation scenarios. Finally, we show how to use VariaMos with an example, and we compare it with other tools found in the literature.
+ER  - 
+TY  - CONF
+T1  - On lazy and eager interactive reconfiguration
+A1  - Janota, Mikoláš
+A1  - Botterweck, Goetz
+A1  - Marques-Silva, Joao
+Y1  - 2013///
+KW  - interactive configuration
+KW  - minimal correction sets
+KW  - sat
+PB  - ACM Press
+JF  - Proceedings of the Eighth International Workshop on Variability Modelling of Software-Intensive Systems - VaMoS '14
+SP  - 1
+EP  - 8
+CY  - New York, New York, USA
+SN  - 9781450325561
+DO  - 10.1145/2556624.2556644
+UR  - http://dl.acm.org/citation.cfm?doid=2556624.2556644
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Janota, Botterweck, Marques-Silva - 2013 - On lazy and eager interactive reconfiguration.pdf
+ER  - 
+TY  - CONF
+T1  - Applying graph-based data mining concepts to the educational sphere
+A1  - London, András
+A1  - Pelyhe, Áron
+A1  - Holló, Csaba
+A1  - Németh, Tamás
+Y1  - 2015///
+KW  - complex networks
+KW  - data mining
+KW  - educational evaluation
+KW  - graph mining
+KW  - mathematical modeling
+PB  - ACM Press
+JF  - Proceedings of the 16th International Conference on Computer Systems and Technologies - CompSysTech '15
+SP  - 358
+EP  - 365
+CY  - New York, New York, USA
+SN  - 9781450333573
+DO  - 10.1145/2812428.2812436
+UR  - http://doi.acm.org/10.1145/2812428.2812436
+UR  - http://dl.acm.org/citation.cfm?doid=2812428.2812436
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/London et al. - 2015 - Applying graph-based data mining concepts to the educational sphere.pdf
+N2  - In this study, we discuss the possible application of the ubiquitous complex network approach for information extraction from educational data. Since a huge amount of data (which is detailed as well) is produced by the complex administration systems of educational institutes, instead of the classical statistical methods, new types of data processing techniques are required to handle it. We define several suitable network representations of students, teachers and subjects in public education and present some possible ways of how graph mining techniques can be used to get detailed information about them. Depending on the construction of the underlying graph, we examine several network models and discuss which are the most appropriate graph mining tools (like community detection and ranking and centrality measures) that can be applied on them. Lastly, we attempt to highlight the many advantages of using graph-based data mining in educational data against the classical evaluation techniques.
+ER  - 
+TY  - CONF
+T1  - Search based software engineering for software product line engineering
+A1  - Harman, M.
+A1  - Jia, Y.
+A1  - Krinke, J.
+A1  - Langdon, W. B.
+A1  - Petke, J.
+A1  - Zhang, Y.
+Y1  - 2014///
+KW  - genetic programming
+KW  - program synthesis
+KW  - sbse
+KW  - spl
+PB  - ACM Press
+JF  - Proceedings of the 18th International Software Product Line Conference on - SPLC '14
+VL  - 1
+SP  - 5
+EP  - 18
+CY  - New York, New York, USA
+SN  - 9781450327404
+DO  - 10.1145/2648511.2648513
+UR  - http://doi.acm.org/10.1145/2648511.2648513
+UR  - http://dl.acm.org/citation.cfm?doid=2648511.2648513
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Harman et al. - 2014 - Search based software engineering for software product line engineering.pdf
+N2  - This paper1 presents a survey of work on Search Based Software Engineering (SBSE) for Software Product Lines (SPLs). We have attempted to be comprehensive, in the sense that we have sought to include all papers that ap- ply computational search techniques to problems in software product line engineering. Having surveyed the recent explo- sion in SBSE for SPL research activity, we highlight some di- rections for future work. We focus on suggestions for the de- velopment of recent advances in genetic improvement, show- ing how these might be exploited by SPL researchers and practitioners: Genetic improvement may grow new prod- ucts with new functional and non-functional features and graft these into SPLs. It may also merge and parameterise multiple branches to cope with SPL branchmania.
+ER  - 
+TY  - JOUR
+T1  - Code Smells Revisited: A Variability Perspective
+A1  - Fenske, Wolfram
+A1  - Schulze, Sandro
+Y1  - 2015///
+KW  - Code Smells
+KW  - Design Defects
+KW  - Software Product Lines
+KW  - Variability
+JF  - Proceedings of the Ninth International Workshop on Variability Modelling of Software-intensive Systems
+SP  - 3:3
+EP  - -3:10
+SN  - 978-1-4503-3273-6
+DO  - 10.1145/2701319.2701321
+UR  - http://doi.acm.org/10.1145/2701319.2701321
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Fenske, Schulze - 2015 - Code Smells Revisited A Variability Perspective.pdf
+N2  - Highly-configurable software systems (also called software product lines) gain momentum in both, academia and industry. For instance, the Linux kernel comes with over 12 000 configuration options and thus, can be customized to run on nearly every kind of system. To a large degree, this configurability is achieved through variable code structures, for instance, using conditional compilation. Such source code variability adds a new dimension of complexity, thus giving rise to new possibilities for design flaws. Code smells are an established concept to describe design flaws or decay in source code. However, existing smells have no notion of variability and thus do not support flaws regarding variable code structures. In this paper, we propose an initial catalog of four variability-aware code smells. We discuss the appearance and negative effects of these smells and present code examples from real-world systems. To evaluate our catalog, we have conducted a survey amongst 15 researchers from the field of software product lines. The results confirm that our proposed smells (a) have been observed in existing product lines and (b) are considered to be problematic for common software development activities, such as program comprehension, maintenance, and evolution.
+ER  - 
+TY  - JOUR
+T1  - Towards Understanding Cognitive Aspects of Configuration Knowledge Formalization
+A1  - Felfernig, Alexander
+A1  - Reiterer, Stefan
+A1  - Stettinger, Martin
+A1  - Tiihonen, Juha
+Y1  - 2015///
+KW  - Cognitive Aspects
+KW  - Empirical Studies
+KW  - Knowledge Engineering
+KW  - Variability Modeling
+JF  - Proceedings of the Ninth International Workshop on Variability Modelling of Software-intensive Systems - VaMoS '15
+SP  - 117
+EP  - 123
+SN  - 9781450332736
+DO  - 10.1145/2701319.2701327
+UR  - http://dl.acm.org/citation.cfm?id=2701319.2701327
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Felfernig et al. - 2015 - Towards Understanding Cognitive Aspects of Configuration Knowledge Formalization.pdf
+N2  - Knowledge about formal (semantic) interpretations of natural language domain descriptions is crucial for avoiding communication overheads between domain experts and knowledge engineers. In this paper we report preliminary results of an empirical study in which we investigated in which way natural language statements are formalized by knowledge engineers. We summarize the findings of our study and discuss aspects to be taken into account in order to avoid additional (often not needed) iterations in configuration knowledge engineering processes. This work is exploratory and intended to figure out open issues for future work.
+ER  - 
+TY  - CONF
+T1  - Statistical analysis of probabilistic models of software product lines with quantitative constraints
+A1  - ter Beek, M. H.
+A1  - Legay, A.
+A1  - Lafuente, A. Lluch
+A1  - Vandin, A.
+Y1  - 2015///
+PB  - ACM Press
+JF  - Proceedings of the 19th International Conference on Software Product Line - SPLC '15
+SP  - 11
+EP  - 15
+CY  - New York, New York, USA
+SN  - 9781450336130
+DO  - 10.1145/2791060.2791087
+UR  - http://dl.acm.org/citation.cfm?doid=2791060.2791087
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/ter Beek et al. - 2015 - Statistical analysis of probabilistic models of software product lines with quantitative constraints.pdf
+ER  - 
+TY  - JOUR
+T1  - A systematic survey of online data mining technology intended for law enforcement
+A1  - Edwards M., Rashid A Rayson P
+Y1  - 2015///
+JF  - ACM Computing Surveys
+VL  - 48,1, 15,,
+IS  - http://www.scopus.com/inward/record.url?eid=2-s2.0-84945398245&partnerID=40&md5=328a99120df9ccad49817e34c6c79c2b
+DO  - 10.1145/2811403
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Edwards M. - 2015 - A systematic survey of online data mining technology intended for law enforcement.pdf
+ER  - 
+TY  - JOUR
+T1  - Intelligent Techniques for Configuration Knowledge Evolution
+A1  - Felfernig, Alexander
+A1  - Reiterer, Stefan
+A1  - Stettinger, Martin
+A1  - Tiihonen, Juha
+Y1  - 2015///
+KW  - Automated Debugging
+KW  - Configuration
+KW  - Feature Models
+JF  - Proceedings of the Ninth International Workshop on Variability Modelling of Software-intensive Systems - VaMoS '15
+SP  - 51
+EP  - 58
+SN  - 9781450332736
+DO  - 10.1145/2701319.2701320
+UR  - http://dl.acm.org/citation.cfm?id=2701319.2701320
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Felfernig et al. - 2015 - Intelligent Techniques for Configuration Knowledge Evolution.pdf
+N2  - Automated testing and debugging of knowledge bases (such as configuration knowledge bases and feature models) is an important contribution to manage knowledge evolution efficiently. However, existing approaches rely on the assumption of consistent test suites which are always kept up-to-date within the scope of different knowledge base maintenance cycles. In this paper we introduce diagnosis techniques that actively guide stakeholders (knowledge engineers and domain experts) in the process of testing and debugging knowledge bases. These techniques take into account faulty test cases and constraints and recommend diagnoses which are the source of a given inconsistency.
+ER  - 
+TY  - CONF
+T1  - Synthesis of attributed feature models from product descriptions
+A1  - Bécan, Guillaume
+A1  - Behjati, Razieh
+A1  - Gotlieb, Arnaud
+A1  - Acher, Mathieu
+Y1  - 2015///
+KW  - attributed feature models
+KW  - product descriptions
+PB  - ACM Press
+JF  - Proceedings of the 19th International Conference on Software Product Line - SPLC '15
+SP  - 1
+EP  - 10
+CY  - New York, New York, USA
+SN  - 9781450336130
+DO  - 10.1145/2791060.2791068
+UR  - http://dl.acm.org/citation.cfm?doid=2791060.2791068
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Bécan et al. - 2015 - Synthesis of attributed feature models from product descriptions.pdf
+N2  - Feature modeling is a widely used formalism to characterize a set of products (also called configurations). \r\nAs a manual elaboration is a long and arduous task, numerous techniques have been proposed to reverse engineer feature models from various kinds of artefacts. But none of them synthesize feature attributes (or constraints over attributes) despite the practical relevance of attributes for documenting the different values across a range of products.\r\nIn this report, we develop an algorithm for synthesizing attributed feature models given a set of product descriptions. \r\nWe present sound, complete, and parametrizable techniques for computing all possible hierarchies, feature groups, placements of feature attributes, domain values, and constraints. \r\nWe perform a complexity analysis w.r.t. number of features, attributes, configurations, and domain size. We also evaluate the scalability of our synthesis procedure using randomized configuration matrices. \r\nThis report is a first step that aims to describe the foundations for synthesizing attributed feature models.
+ER  - 
+TY  - CONF
+T1  - Collaborative Context Features for Critical Systems
+A1  - Capilla, Rafael
+A1  - Hinchey, Mike
+A1  - Díaz, Francisco J.
+Y1  - 2015///
+KW  - Feature modeling
+KW  - adaptation
+KW  - context features
+KW  - context-aware systems
+KW  - runtime
+PB  - ACM Press
+JF  - Proceedings of the Ninth International Workshop on Variability Modelling of Software-intensive Systems - VaMoS '15
+SP  - 43
+EP  - 50
+CY  - New York, New York, USA
+SN  - 9781450332736
+DO  - 10.1145/2701319.2701322
+UR  - http://dl.acm.org/citation.cfm?id=2701319.2701322
+UR  - http://dl.acm.org/citation.cfm?doid=2701319.2701322
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Capilla, Hinchey, Díaz - 2015 - Collaborative Context Features for Critical Systems.pdf
+ER  - 
+TY  - CONF
+T1  - From feature modeling to context variability modeling
+A1  - Capilla, Rafael
+Y1  - 2014///
+PB  - ACM Press
+JF  - Proceedings of the 18th International Software Product Line Conference on Companion Volume for Workshops, Demonstrations and Tools - SPLC '14
+SP  - 13
+EP  - 13
+CY  - New York, New York, USA
+SN  - 9781450327398
+DO  - 10.1145/2647908.2655960
+UR  - http://dl.acm.org/citation.cfm?doid=2647908.2655960
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Capilla - 2014 - From feature modeling to context variability modeling.pdf
+ER  - 
+TY  - CONF
+T1  - Software process line discovery
+A1  - Blum, Fabian Rojas
+A1  - Simmonds, Jocelyn
+A1  - Bastarrica, María Cecilia
+Y1  - 2015///
+KW  - noise
+KW  - process discovery
+KW  - software process lines
+KW  - variability
+PB  - ACM Press
+JF  - Proceedings of the 2015 International Conference on Software and System Process - ICSSP 2015
+IS  - August 2015
+SP  - 127
+EP  - 136
+CY  - New York, New York, USA
+SN  - 9781450333467
+DO  - 10.1145/2785592.2785605
+UR  - http://dl.acm.org/citation.cfm?doid=2785592.2785605
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Blum, Simmonds, Bastarrica - 2015 - Software process line discovery.pdf
+ER  - 
+TY  - CONF
+T1  - Analyzing the Feature Models Maintainability over their Evolution Process
+A1  - Bezerra, Carla I M
+A1  - Monteiro, José Maria
+A1  - Andrade, Rossana M C
+A1  - Rocha, Lincoln S
+Y1  - 2016///
+KW  - Evolution
+KW  - Feature Model
+KW  - Maintainability
+PB  - ACM Press
+JF  - Proceedings of the Tenth International Workshop on Variability Modelling of Software-intensive Systems - VaMoS '16
+SP  - 17
+EP  - 24
+CY  - New York, New York, USA
+SN  - 9781450340199
+DO  - 10.1145/2866614.2866617
+UR  - http://doi.acm.org/10.1145/2866614.2866617
+UR  - http://dl.acm.org/citation.cfm?doid=2866614.2866617
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Bezerra et al. - 2016 - Analyzing the Feature Models Maintainability over their Evolution Process.pdf
+ER  - 
+TY  - CONF
+T1  - A survey of variability modeling in industrial practice
+A1  - Berger, Thorsten
+A1  - Rublack, Ralf
+A1  - Nair, Divya
+A1  - Atlee, Joanne M.
+A1  - Becker, Martin
+A1  - Czarnecki, Krzysztof
+A1  - Wąsowski, Andrzej
+Y1  - 2013///
+PB  - ACM Press
+JF  - Proceedings of the Seventh International Workshop on Variability Modelling of Software-intensive Systems - VaMoS '13
+SP  - 1
+EP  - 1
+CY  - New York, New York, USA
+SN  - 9781450315418
+DO  - 10.1145/2430502.2430513
+UR  - http://dl.acm.org/citation.cfm?doid=2430502.2430513
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Berger et al. - 2013 - A survey of variability modeling in industrial practice.pdf
+N2  - Over more than two decades, numerous variability modeling techniques have been introduced in academia and industry. However, little is known about the actual use of these techniques. While dozens of experience reports on software product line engineering exist, only very few focus on variability modeling. This lack of empirical data threatens the validity of existing techniques, and hinders their improvement. As part of our effort to improve empirical understanding of variability modeling, we present the results of a survey questionnaire distributed to industrial practitioners. These results provide insights into application scenarios and perceived benefits of variability modeling, the notations and tools used, the scale of industrial models, and experienced challenges and mitigation strategies.
+ER  - 
+TY  - CONF
+T1  - Variability Hiding in Contracts for Dependent Software Product Lines
+A1  - Thüm, Thomas
+A1  - Winkelmann, Tim
+A1  - Schröter, Reimar
+A1  - Hentschel, Martin
+A1  - Krüger, Stefan
+Y1  - 2016///
+KW  - Multi product line
+KW  - deductive verification
+KW  - method contracts
+PB  - ACM Press
+JF  - Proceedings of the Tenth International Workshop on Variability Modelling of Software-intensive Systems - VaMoS '16
+SP  - 97
+EP  - 104
+CY  - New York, New York, USA
+SN  - 9781450340199
+DO  - 10.1145/2866614.2866628
+UR  - http://doi.acm.org/10.1145/2866614.2866628
+UR  - http://dl.acm.org/citation.cfm?doid=2866614.2866628
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Thüm et al. - 2016 - Variability Hiding in Contracts for Dependent Software Product Lines.pdf
+ER  - 
+TY  - JOUR
+T1  - A Classification and Survey of Analysis Strategies for Software Product Lines
+A1  - Thüm, Thomas
+A1  - Apel, Sven
+A1  - Kästner, Christian
+A1  - Schaefer, Ina
+A1  - Saake, Gunter
+Y1  - 2014/06//
+JF  - ACM Computing Surveys
+VL  - 47
+IS  - 1
+SP  - 1
+EP  - 45
+DO  - 10.1145/2580950
+UR  - http://dl.acm.org/citation.cfm?doid=2620784.2580950
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Thüm et al. - 2014 - A Classification and Survey of Analysis Strategies for Software Product Lines.pdf
+N2  - Software-product-line engineering has gained considerable momentum in recent years, both in industry and in academia. A software product line is a family of software products that share a common set of features. Software product lines challenge traditional analysis techniques, such as type checking, model checking, and theorem proving, in their quest of ensuring correctness and reliability of software. Simply creating and analyzing all products of a product line is usually not feasible, due to the potentially exponential number of valid feature combinations. Recently, researchers began to develop analysis techniques that take the distinguishing properties of software product lines into account, for example, by checking feature-related code in isolation or by exploiting variability information during analysis. The emerging field of product-line analyses is both broad and diverse, so it is difficult for researchers and practitioners to understand their similarities and differences. We propose a classification of product-line analyses to enable systematic research and application. Based on our insights with classifying and comparing a corpus of 123 research articles, we develop a research agenda to guide future research on product-line analyses.
+ER  - 
+TY  - CONF
+T1  - Smart OptiSelect Preference Based Innovative Framework for User-in-the-Loop Feature Selection in Software Product Lines
+A1  - Yamany, Ahmed Eid El
+A1  - Elgamel, Mohamed Shaheen
+Y1  - 2015/05//
+KW  - feature models
+KW  - machine learning
+KW  - multi-objective optimization
+KW  - non-dominant solutions
+KW  - optimal feature selection
+KW  - pareto front
+KW  - search-based software engineering
+KW  - software product lines
+KW  - uil
+KW  - user-in-the-loop
+PB  - Al-Zaytoonah University of Jordan
+JF  - The 7th International Conference on Information Technology
+VL  - 2015
+SP  - 657
+EP  - 666
+SN  - 9789957858339
+DO  - 10.15849/icit.2015.0114
+UR  - http://icit.zuj.edu.jo/icit15/DOI/Software_Engineering/0114.pdf
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Yamany, Elgamel - 2015 - Smart OptiSelect Preference Based Innovative Framework for User-in-the-Loop Feature Selection in Software Produ.pdf
+ER  - 
+TY  - JOUR
+T1  - A holistic approach to feature modeling for product line requirements engineering
+A1  - Lee, Jaejoon
+A1  - Kang, Kyo C.
+A1  - Sawyer, Pete
+A1  - Lee, Hyesun
+Y1  - 2014/11//
+KW  - Feature modeling
+KW  - Feature modeling viewpoints
+KW  - Feature space
+KW  - Goal modeling
+KW  - Product line requirements engineering
+JF  - Requirements Engineering
+VL  - 19
+IS  - 4
+SP  - 377
+EP  - 395
+DO  - 10.1007/s00766-013-0183-6
+UR  - http://link.springer.com/10.1007/s00766-013-0183-6
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Lee et al. - 2014 - A holistic approach to feature modeling for product line requirements engineering.pdf
+ER  - 
+TY  - JOUR
+T1  - Dependable Dynamic Software Product Line--a Systematic Mapping Study
+A1  - Eleutério, Jane D A S
+A1  - Gaia, Felipe N
+A1  - Rodrigues, Genaína N
+A1  - Rubira, Cecília M F
+Y1  - 2015///
+IS  - April
+DO  - 10.13140/RG.2.1.2717.4880
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Eleutério et al. - 2015 - Dependable Dynamic Software Product Line--a Systematic Mapping Study.pdf
+N2  - Software Product Lines (SPLs) are emerging techniques where several artifacts are reused (domain), and some are customized (variation points). An SPL can bind variation points statically (compilation time) or dynamically (runtime). Dynamic Software Product Lines (DSPLs) us e dynamic bind ing to adapt to the environment or requirements changes. DSPLs are commonly used to build dependable systems, defined as systems with the ability to avoid service failures more frequent or severe than is acceptable. Main dependability attribu tes are availability, confidentiality, integrity, reliability, maintainability, and safety. To better understand this context, a Systematic Mapping Study (SMS) was applied searching proposals that include dependability attributes in DSPLs. Our results sugg est that few studies handle dependability in DSPL context. We selected only nine primary studies in this context. Also, four of them provide explicit support for SOA and were analyzed as a secondary result
+ER  - 
+TY  - BOOK
+T1  - Collaboration and Technology
+A1  - Boughzala, I.; Oh, O.; Reiter-Palmon, R.
+ED  - Antunes, Pedro
+ED  - Gerosa, Marco Aurélio
+ED  - Sylvester, Allan
+ED  - Vassileva, Julita
+ED  - de Vreede, Gert-Jan
+Y1  - 2013///
+PB  - Springer Berlin Heidelberg
+JF  - Collaboration and Technology
+VL  - 8224
+T3  - Lecture Notes in Computer Science
+IS  - November
+SP  - 94
+EP  - 109
+CY  - Berlin, Heidelberg
+SN  - 978-3-642-41346-9
+DO  - 10.1007/978-3-642-41347-6
+UR  - http://link.springer.com/10.1007/978-3-642-41347-6
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Boughzala, I. Oh, O. Reiter-Palmon - 2013 - Collaboration and Technology.pdf
+ER  - 
+TY  - CHAP
+T1  - Adapting the i* Framework for Software Product Lines
+A1  - António, Sandra
+A1  - Araújo, João
+A1  - Silva, Carla
+Y1  - 2009///
+KW  - Goal-oriented approach
+KW  - feature model
+KW  - i* Framework
+KW  - requirements engineering
+KW  - software product line
+JF  - Proceedings of the {ER} 2009 Workshops ({CoMoL}, {ETheCoM}, {FP-UML}, {MOST-ONISW}, {QoIS}, {RIGiM}, {SeCoGIS)} on Advances in Conceptual Modeling - Challenging Perspectives
+SP  - 286
+EP  - 295
+SN  - 978-3-642-04946-0
+DO  - 10.1007/978-3-642-04947-7_34
+UR  - http://dx.doi.org/10.1007/978-3-642-04947-7_34
+UR  - http://link.springer.com/10.1007/978-3-642-04947-7_34
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/António, Araújo, Silva - 2009 - Adapting the i Framework for Software Product Lines.pdf
+N2  - Feature modeling is an important technique to capture commonalities and variabilities in a software product line ({SPL).} However, this kind of models shows a specific perspective, which is not sufficient to express all the characteristics and constraints of an {SPL.} Using a goal-oriented approach, such as i*, to complement (and help define) feature models would improve such models enhancing meaning and justification to features. Goal-oriented modelling provides a way to identify variabilities at an early phase of requirements, allowing alternative options to satisfy stakeholder's goals. The aim of this work is to benefit software product lines from the framework i*, a more expressive approach to requirements engineering of {SPLs.}
+ER  - 
+TY  - JOUR
+T1  - A systematic test case selection methodology for product lines: results and insights from an industrial case study
+A1  - Wang, Shuai
+A1  - Ali, Shaukat
+A1  - Gotlieb, Arnaud
+A1  - Liaaen, Marius
+Y1  - 2016/08//
+KW  - Component family model
+KW  - Feature model
+KW  - Product line
+KW  - Test case selection
+JF  - Empirical Software Engineering
+VL  - 21
+IS  - 4
+SP  - 1586
+EP  - 1622
+SN  - 13823256 (ISSN)
+DO  - 10.1007/s10664-014-9345-5
+UR  - http://link.springer.com/10.1007/s10664-014-9345-5
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Wang et al. - 2016 - A systematic test case selection methodology for product lines results and insights from an industrial case study.pdf
+N2  - In the context of product lines, test case selection aims at obtaining a set of relevant test cases for a product from the entire set of test cases available for a product line. While working on a research-based innovation project on automated testing of product lines of Video Conferencing Systems (VCSs) developed by Cisco, we felt the need to devise a cost-effective way of selecting relevant test cases for a product. To fulfill such need, we propose a systematic and automated test selection methodology using: 1) Feature Model for Testing (FM_T) to capture commonalities and variabilities of a product line; 2) Component Family Model for Testing (CFM_T) to model the structure of test case repository; 3) A tool to automatically build restrictions from CFM_T to FM_T and traces from CFM_T to the actual test cases. Using our methodology, a test engineer is only required to select relevant features through FM_T at a higher level of abstraction for a product and the corresponding test cases will be obtained automatically. We evaluate our methodology by applying it to a VCS product line called Saturn with seven commercial products and the results show that our methodology can significantly reduce cost measured as test selection time and at the same time achieves higher effectiveness (feature coverage, feature pairwise coverage and fault detection) as compared with the current manual process. Moreover, we conduct a questionnaire-based study to solicit the views of test engineers who are involved in developing FM_T and CFM_T. The results show that test engineers are positive about adapting our methodology in their current practice. Finally, we present a set of lessons learnt while applying product line engineering at Cisco for test case selection.
+ER  - 
+TY  - JOUR
+T1  - Modeling of compressive strength and UPV of high-volume mineral-admixtured concrete using rule-based M5 rule and tree model M5P classifiers
+A1  - Ayaz, Yaşar
+A1  - Kocamaz, Adnan Fatih
+A1  - Karakoç, Mehmet Burhan
+Y1  - 2015/09//
+KW  - Compressive strength
+KW  - Concrete
+KW  - Data mining
+KW  - M5 rule
+KW  - Tree model M5P
+KW  - UPV
+JF  - Construction and Building Materials
+VL  - 94
+SP  - 235
+EP  - 240
+DO  - 10.1016/j.conbuildmat.2015.06.029
+UR  - http://www.sciencedirect.com/science/article/pii/S0950061815007114
+UR  - http://linkinghub.elsevier.com/retrieve/pii/S0950061815007114
+N2  - Compressive strength and UPV parameters are the methods that are used to determine high-volume mineral admixture concrete quality. But experiments for all levels of these parameters are expensive, difficult and time consuming. For determination of output values, classifiers with model extraction features can be used. In this study, classifiers, with the rule-based M5 rule and tree model M5P in the area of data mining are used to predict the compressive strength and UPV of concrete mixtures after 3, 7, 28 and 120 days of curing. The M5 rule and tree model M5P are tested using the available test data of 40 different concrete mix-designs gathered from literature [1]. The input of the model is a variable data set corresponding to concrete mixture proportions. The findings of this study indicated that the M5 rule and tree model M5P models are sufficient tools for estimating the compressive strength and UPV of concrete. 97{%} and 87{%} success is obtained in predicting compressive strength and UPV results, respectively.
+ER  - 
+TY  - JOUR
+T1  - Wordification: Propositionalization by unfolding relational data into bags of words
+A1  - Perovšek, Matic
+A1  - Vavpetič, Anže
+A1  - Kranjc, Janez
+A1  - Cestnik, Bojan
+A1  - Lavrač, Nada
+Y1  - 2015/10//
+KW  - Classification
+KW  - Inductive Logic Programming
+KW  - Propositionalization
+KW  - Relational Data Mining
+KW  - Text mining
+KW  - Wordification
+JF  - Expert Systems with Applications
+VL  - 42
+IS  - 17-18
+SP  - 6442
+EP  - 6456
+DO  - 10.1016/j.eswa.2015.04.017
+UR  - http://www.sciencedirect.com/science/article/pii/S095741741500247X
+UR  - http://linkinghub.elsevier.com/retrieve/pii/S095741741500247X
+N2  - Inductive Logic Programming (ILP) and Relational Data Mining (RDM) address the task of inducing models or patterns from multi-relational data. One of the established approaches to RDM is propositionalization, characterized by transforming a relational database into a single-table representation. This paper presents a propositionalization technique called wordification which can be seen as a transformation of a relational database into a corpus of text documents. Wordification constructs simple, easy to understand features, acting as words in the transformed Bag-Of-Words representation. This paper presents the wordification methodology, together with an experimental comparison of several propositionalization approaches on seven relational datasets. The main advantages of the approach are: simple implementation, accuracy comparable to competitive methods, and greater scalability, as it performs several times faster on all experimental databases. Furthermore, the wordification methodology and the evaluation procedure are implemented as executable workflows in the web-based data mining platform ClowdFlows. The implemented workflows include also several other ILP and RDM algorithms, as well as the utility components that were added to the platform to enable access to these techniques to a wider research audience.
+ER  - 
+TY  - JOUR
+T1  - Wind power forecasting using the <mml:math altimg="si14.gif" display="inline" overflow="scroll" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http
+A1  - Mangalova, E.
+A1  - Agafonov, E.
+Y1  - 2014/04//
+KW  - Cross-validation
+KW  - Data mining
+KW  - Energy forecasting*
+KW  - Feature selection
+KW  - Forecasting competitions*
+KW  - Nonparametric models
+KW  - Regression tree
+JF  - International Journal of Forecasting
+VL  - 30
+IS  - 2
+SP  - 402
+EP  - 406
+DO  - 10.1016/j.ijforecast.2013.07.008
+UR  - http://www.sciencedirect.com/science/article/pii/S0169207013000848
+UR  - http://linkinghub.elsevier.com/retrieve/pii/S0169207013000848
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Mangalova, Agafonov - 2014 - Wind power forecasting using the mmlmath altimg=si14.gif display=inline overflow=scroll xmlnsxocs=httpwww.e.pdf
+N2  - The paper deals with a modeling procedure which aims to predict the power output of wind farm electricity generators. The following modeling steps are proposed: factor selection, raw data pretreatment, model evaluation and optimization. Both heuristic and formal methods are combined to construct the model. The basic modeling approach here is the k-nearest neighbors method.
+ER  - 
+TY  - JOUR
+T1  - The effect of feature selection on financial distress prediction
+A1  - Liang, Deron
+A1  - Tsai, Chih-Fong
+A1  - Wu, Hsin-Ting
+Y1  - 2015/01//
+KW  - Bankruptcy prediction
+KW  - Credit scoring
+KW  - Data mining
+KW  - Feature selection
+KW  - Financial distress prediction
+JF  - Knowledge-Based Systems
+VL  - 73
+SP  - 289
+EP  - 297
+DO  - 10.1016/j.knosys.2014.10.010
+UR  - http://www.sciencedirect.com/science/article/pii/S0950705114003773
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Liang, Tsai, Wu - 2015 - The effect of feature selection on financial distress prediction.pdf
+N2  - Financial distress prediction is always important for financial institutions in order for them to assess the financial health of enterprises and individuals. Bankruptcy prediction and credit scoring are two important issues in financial distress prediction where various statistical and machine learning techniques have been employed to develop financial prediction models. Since there are no generally agreed upon financial ratios as input features for model development, many studies consider feature selection as a pre-processing step in data mining before constructing the models. However, most works only focused on applying specific feature selection methods over either bankruptcy prediction or credit scoring problem domains. In this work, a comprehensive study is conducted to examine the effect of performing filter and wrapper based feature selection methods on financial distress prediction. In addition, the effect of feature selection on the prediction models obtained using various classification techniques is also investigated. In the experiments, two bankruptcy and two credit datasets are used. In addition, three filter and two wrapper based feature selection methods combined with six different prediction models are studied. Our experimental results show that there is no the best combination of the feature selection method and the classification technique over the four datasets. Moreover, depending on the chosen techniques, performing feature selection does not always improve the prediction performance. However, on average performing the genetic algorithm and logistic regression for feature selection can provide prediction improvements over the credit and bankruptcy datasets respectively.
+ER  - 
+TY  - JOUR
+T1  - Description-oriented community detection using exhaustive subgroup discovery
+A1  - Atzmueller, Martin
+A1  - Doerfel, Stephan
+A1  - Mitzlaff, Folke
+Y1  - 2016/02//
+KW  - Community detection
+KW  - Exceptional model mining
+KW  - Exploratory data analysis
+KW  - Optimistic estimates
+KW  - Social network analysis
+KW  - Subgroup discovery
+JF  - Information Sciences
+VL  - 329
+SP  - 965
+EP  - 984
+DO  - 10.1016/j.ins.2015.05.008
+UR  - http://www.sciencedirect.com/science/article/pii/S0020025515003667
+UR  - http://linkinghub.elsevier.com/retrieve/pii/S0020025515003667
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Atzmueller, Doerfel, Mitzlaff - 2015 - Description-oriented community detection using exhaustive subgroup discovery.pdf
+N2  - Communities can intuitively be defined as subsets of nodes of a graph with a dense structure in the corresponding subgraph. However, for mining such communities usually only structural aspects are taken into account. Typically, no concise nor easily interpretable community description is provided. For tackling this issue, this paper focuses on description-oriented community detection using subgroup discovery. In order to provide both structurally valid and interpretable communities we utilize the graph structure as well as additional descriptive features of the graph’s nodes. A descriptive community pattern built upon these features then describes and identifies a community, i.e., a set of nodes, and vice versa. Essentially, we mine patterns in the “description space” characterizing interesting sets of nodes (i.e., subgroups) in the “graph space”; the interestingness of a community is evaluated by a selectable quality measure. We aim at identifying communities according to standard community quality measures, while providing characteristic descriptions of these communities at the same time. For this task, we propose several optimistic estimates of standard community quality functions to be used for efficient pruning of the search space in an exhaustive branch-and-bound algorithm. We demonstrate our approach in an evaluation using five real-world data sets, obtained from three different social media applications.
+ER  - 
+TY  - BOOK
+T1  - Statistical Learning with Sparsity
+A1  - Hastie, Trevor
+A1  - Tibshirani, Robert
+A1  - Wainwright, Martin
+Y1  - 2015///
+SN  - 9781498712170
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Hastie, Tibshirani, Wainwright - 2015 - Statistical Learning with Sparsity.pdf
+ER  - 
+TY  - CONF
+T1  - An empirical comparison of supervised learning algorithms
+A1  - Caruana, Rich
+A1  - Niculescu-Mizil, Alexandru
+Y1  - 2006///
+PB  - ACM Press
+JF  - Proceedings of the 23rd international conference on Machine learning - ICML '06
+VL  - C
+IS  - 1
+SP  - 161
+EP  - 168
+CY  - New York, New York, USA
+SN  - 1595933832
+DO  - 10.1145/1143844.1143865
+UR  - http://portal.acm.org/citation.cfm?doid=1143844.1143865
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Caruana, Niculescu-Mizil - 2006 - An empirical comparison of supervised learning algorithms.pdf
+N2  - A number of supervised learning methods have been introduced in the last decade. Unfortunately, the last comprehensive empirical evaluation of supervised learning was the Statlog Project in the early 90's. We present a large-scale empirical comparison between ten supervised learning methods: SVMs, neural nets, logistic regression, naive bayes, memory-based learning, random forests, decision trees, bagged trees, boosted trees, and boosted stumps. We also examine the effect that calibrating the models via Platt Scaling and Isotonic Regression has on their performance. An important aspect of our study is the use of a variety of performance criteria to evaluate the learning methods.
+ER  - 
+TY  - BOOK
+T1  - Experimentation in Software Engineering
+A1  - Wohlin, Claes
+A1  - Runeson, Per
+A1  - Höst, Martin
+A1  - Ohlsson, Magnus C.
+A1  - Regnell, Björn
+A1  - Wesslén, Anders
+Y1  - 2012///
+KW  - icle
+PB  - Springer Berlin Heidelberg
+JF  - Statewide Agricultural Land Use Baseline 2015
+VL  - 1
+CY  - Berlin, Heidelberg
+SN  - 978-3-642-29043-5
+DO  - 10.1007/978-3-642-29044-2
+UR  - http://link.springer.com/10.1007/978-3-642-29044-2
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Wohlin et al. - 2012 - Experimentation in Software Engineering.pdf
+ER  - 
+TY  - BOOK
+T1  - Advances in Product Family and Product Platform Design
+A1  - Kwak, Minjung
+A1  - Kim, Harrison
+ED  - Simpson, Timothy W.
+ED  - Jiao, Jianxin
+ED  - Siddique, Zahed
+ED  - Hölttä-Otto, Katja
+Y1  - 2014///
+PB  - Springer New York
+JF  - Advances in Product Family and Product Platform Design
+VL  - 43
+IS  - 3
+SP  - 707
+EP  - 735
+CY  - New York, NY
+SN  - 978-1-4614-7936-9
+DO  - 10.1007/978-1-4614-7937-6
+UR  - http://link.springer.com/10.1007/978-1-4614-7937-6
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Kwak, Kim - 2014 - Advances in Product Family and Product Platform Design.pdf
+ER  - 
+TY  - BOOK
+T1  - Systems and Software Variability Management
+A1  - Capilla, Rafael
+A1  - Bosch, J.
+A1  - Kang, Kyo-Chul
+ED  - Capilla, Rafael
+ED  - Bosch, Jan
+ED  - Kang, Kyo-Chul
+Y1  - 2013///
+PB  - Springer Berlin Heidelberg
+SP  - 317
+EP  - 317
+CY  - Berlin, Heidelberg
+SN  - 978-3-642-36582-9
+DO  - 10.1007/978-3-642-36583-6
+UR  - http://link.springer.com/10.1007/978-3-642-36583-6
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Capilla, Bosch, Kang - 2013 - Systems and Software Variability Management.pdf
+ER  - 
+TY  - BOOK
+T1  - Software Product Lines in Action
+A1  - van der Linden, Frank
+A1  - Schmid, Klaus
+A1  - Rommes, Eelco
+Y1  - 2007///
+PB  - Springer Berlin Heidelberg
+JF  - Software Product Lines in Action: The Best Industrial Practice in Product Line Engineering
+SP  - 1
+EP  - 333
+CY  - Berlin, Heidelberg
+SN  - 978-3-540-71436-1
+DO  - 10.1007/978-3-540-71437-8
+UR  - http://link.springer.com/10.1007/978-3-540-71437-8
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/van der Linden, Schmid, Rommes - 2007 - Software Product Lines in Action.pdf
+N2  - Software product lines represent perhaps the most exciting paradigm shift in software development since the advent of high-level programming languages. Nowhere else in software engineering have we seen such breathtaking improvements in cost, quality, time to market, and developer productivity, often registering in the order-of-magnitude range. While the underlying concepts are straightforward enough - building a family of related products or systems by planned and careful reuse of a base of generalized software development assets - the devil can be in the details, as successful product line practice can involve organizational change, business process change, and technology change. The authors ideally combine academic research results with industrial real-world experiences, thus presenting a broad view on product line engineering so that both managers and technical specialists will benefit from reading it. After presenting a common framework for the description of the industrial case studies, they capture the wealth of knowledge that eight companies have gathered during the introduction of the software product line engineering approach in their daily practice. After reading this book, you will understand all the relevant aspects, regarding business, architecture, process, and organizational issues, of applying software product line engineering. If you consider using a product line approach in your organization, or if you want to improve your current practices you will find a rich set of useful information at your fingertips - from practitioners to practitioners.
+ER  - 
+TY  - BOOK
+T1  - The Elements of Statistical Learning
+A1  - Hastie, Trevor
+A1  - Tibshirani, Robert
+A1  - Friedman, Jerome
+Y1  - 2009///
+PB  - Springer New York
+JF  - Elements
+VL  - 1
+T3  - Springer Series in Statistics
+SP  - 337
+EP  - 387
+CY  - New York, NY
+SN  - 978-0-387-84857-0
+DO  - 10.1007/b94608
+UR  - http://www.springerlink.com/index/10.1007/b94608
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Hastie, Tibshirani, Friedman - 2009 - The Elements of Statistical Learning(2).pdf
+N2  - During the past decade there has been an explosion in computation and information technology. With it has come vast amounts of data in a variety of fields such as medicine, biology, finance, and marketing. The challenge of understanding these data has led to the development of new tools in the field of statistics, and spawned new areas such as data mining, machine learning, and bioinformatics. Many of these tools have common underpinnings but are often expressed with different terminology. This book describes the important ideas in these areas in a common conceptual framework. While the approach is statistical, the emphasis is on concepts rather than mathematics. Many examples are given, with a liberal use of color graphics. It should be a valuable resource for statisticians and anyone interested in data mining in science or industry. The book's coverage is broad, from supervised learning (prediction) to unsupervised learning. The many topics include neural networks, support vector machines, classification trees and boosting-the first comprehensive treatment of this topic in any book. Trevor Hastie, Robert Tibshirani, and Jerome Friedman are professors of statistics at Stanford University. They are prominent researchers in this area: Hastie and Tibshirani developed generalized additive models and wrote a popular book of that title. Hastie wrote much of the statistical modeling software in S-PLUS and invented principal curves and surfaces. Tibshirani proposed the Lasso and is co-author of the very successful An Introduction to the Bootstrap. Friedman is the co-inventor of many data-mining tools including CART, MARS, and projection pursuit. FROM THE REVIEWS: TECHNOMETRICS "This is a vast and complex book. Generally, it concentrates on explaining why and how the methods work, rather than how to use them. Examples and especially the visualizations are principle features...As a source for the methods of statistical learning...it will probably be a long time before there is a competitor to this book."
+ER  - 
+TY  - BOOK
+T1  - Modern Multivariate Statistical Techniques
+A1  - Izenman, Alan J.
+Y1  - 2008/10//
+PB  - Springer New York
+JF  - Performance Evaluation
+VL  - 64
+T3  - Springer Texts in Statistics
+IS  - 9-12
+SP  - 856
+EP  - 875
+CY  - New York, NY
+SN  - 978-0-387-78188-4
+DO  - 10.1007/978-0-387-78189-1
+UR  - http://books.google.com/books?id=9tv0taI8l6YC
+UR  - http://linkinghub.elsevier.com/retrieve/pii/S0166531607000570
+UR  - http://link.springer.com/10.1007/978-0-387-78189-1
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Izenman - 2008 - Modern Multivariate Statistical Techniques.pdf
+N2  - Review From the reviews: .,."There are interesting and non-standard topics that are not usually included in a first course in measture-theoretic probability including Markov Chains and MCMC, the bootstrap, limit theorems for martingales and mixing sequences, Brownian motion and Markov processes. The material is well-suported with many end-of-chapter problems." D.L. McLeish for Short Book Reviews of the ISI, December 2006 "The reader sees not only how measure theory is used to develop probability theory, but also how probability theory is used in applications. a The discourse is delivered in a theorem proof format and thus is better suited for classroom a . The authors prose is generally well thought out a . will make an attractive choice for a two-semester course on measure and probability, or as a second course for students with a semester of measure or probability theory under their belt." (Peter C. Kiessler, Journal of the American Statistical Association, Vol. 102 (479), 2007) "The book is a well written self-contained textbook on measure and probability theory. It consists of 18 chapters. Every chapter contains many well chosen examples and ends with several problems related to the earlier developed theory (some with hints). a At the very end of the book there is an appendix collecting necessary facts from set theory, calculus and metric spaces. The authors suggest a few possibilities on how to use their book." (Kazimierz Musial, Zentralblatt MATH, Vol. 1125 (2), 2008) "The title of the book consists of the names of its two basic parts. The booka (TM)s third part is comprised of some special topics from probability theory. a The authors suggest using the book intwo-semester graduate programs in statistics or a one-semester seminar on special topics. The material of the book is standard a is clear, comprehensive and a ~without being intimidatinga (TM)." (Rimas NorvaiAa, Mathematical Reviews, Issue 2007 f) Product Description This is a graduate level textbook on measure theory and probability theory. The book can be used as a text for a two semester sequence of courses in measure theory and probability theory, with an option to include supplemental material on stochastic processes and special topics. It is intended primarily for first year Ph.D. students in mathematics and statistics although mathematically advanced students from engineering and economics would also find the book useful. Prerequisites are kept to the minimal level of an understanding of basic real analysis concepts such as limits, continuity, differentiability, Riemann integration, and convergence of sequences and series. A review of this material is included in the appendix. The book starts with an informal introduction that provides some heuristics into the abstract concepts of measure and integration theory, which are then rigorously developed. The first part of the book can be used for a standard real analysis course for both mathematics and statistics Ph.D. students as it provides full coverage of topics such as the construction of Lebesgue-Stieltjes measures on real line and Euclidean spaces, the basic convergence theorems, L p spaces, signed measures, Radon-Nikodym theorem, Lebesgue's decomposition theorem and the fundamental theorem of Lebesgue integration on R, product spaces and product measures, and Fubini-Tonelli theorems. It also provides an elementary introduction to Banach and Hilbert spaces, convolutions, Fourier series and Fourier and Plancherel transforms. Thus part I would be particularly useful for students in a typical Statistics Ph.D. program if a separate course on real analysis is not a standard requirement. Part II (chapters 6-13) provides full coverage of standard graduate level probability theory. It starts with Kolmogorov's probability model and Kolmogorov's existence theorem. It then treats thoroughly the laws of large numbers including renewal theory and ergodic theorems with applications and then weak convergence of probability distributions, characteristic functions, the Levy-Cramer continuity theorem and the central limit theorem as well as stable laws. It ends with conditional expectations and conditional probability, and an introduction to the theory of discrete time martingales. Part III (chapters 14-18) provides a modest coverage of discrete time Markov chains with countable and general state spaces, MCMC, continuous time discrete space jump Markov processes, Brownian motion, mixing sequences, bootstrap methods, and branching processes. It could be used for a topics/seminar course or as an introduction to stochastic processes. From the reviews: "...There are interesting and non-standard topics that are not usually included in a first course in measture-theoretic probability including Markov Chains and MCMC, the bootstrap, limit theorems for martingales and mixing sequences, Brownian motion and Markov processes. The material is well-suported with many end-of-chapter problems." D.L. McLeish for Short Book Reviews of the ISI, December 2006
+ER  - 
+TY  - JOUR
+T1  - Reusable knowledge in security requirements engineering: a systematic mapping study
+A1  - Souag, Amina
+A1  - Mazo, Raúl
+A1  - Salinesi, Camille
+A1  - Comyn-Wattiau, Isabelle
+Y1  - 2016/06//
+JF  - Requirements Engineering
+VL  - 21
+IS  - 2
+SP  - 251
+EP  - 283
+DO  - 10.1007/s00766-015-0220-8
+UR  - http://link.springer.com/10.1007/s00766-015-0220-8
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Souag et al. - 2016 - Reusable knowledge in security requirements engineering a systematic mapping study.pdf
+ER  - 
+TY  - JOUR
+T1  - Automated analysis of feature models 20 years later: A literature review
+A1  - Benavides, David
+A1  - Segura, Sergio
+A1  - Ruiz-Cortés, Antonio
+Y1  - 2010/09//
+KW  - automated analyses
+KW  - feature models
+KW  - literature review
+KW  - software product lines
+JF  - Information Systems
+VL  - 35
+IS  - 6
+SP  - 615
+EP  - 636
+DO  - 10.1016/j.is.2010.01.001
+UR  - http://linkinghub.elsevier.com/retrieve/pii/S0306437910000025
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Benavides, Segura, Ruiz-Cortés - 2010 - Automated analysis of feature models 20 years later A literature review.pdf
+ER  - 
+TY  - JOUR
+T1  - Planning for multiple-generation product lines using dynamic variable state models with data input from similar products
+A1  - Lin, Chun-Yu
+A1  - Okudan, Gül E.
+Y1  - 2013/05//
+KW  - Dynamic state variable models
+KW  - Multiple generation product lines
+PB  - Elsevier Ltd
+JF  - Expert Systems with Applications
+VL  - 40
+IS  - 6
+SP  - 2013
+EP  - 2022
+DO  - 10.1016/j.eswa.2012.10.022
+UR  - http://dx.doi.org/10.1016/j.eswa.2012.10.022
+UR  - http://linkinghub.elsevier.com/retrieve/pii/S0957417412011360
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Lin, Okudan - 2013 - Planning for multiple-generation product lines using dynamic variable state models with data input from similar pro.pdf
+N2  - Multiple-generation product lines require carefully planned strategies in order to reap the benefits of utilizing technology assets and resources efficiently over an elongated time span. In this paper, we build on our previous work in which we successfully implemented dynamic variable state models (DVSMs) to forecast the introduction timing of future generations for an existing multiple-generation product line. Here we implement DVSMs for the design of a new multiple-generation product line. We investigate the potential for using historical sales data about similar products to generate a complete set of forecasts and relevant strategic moves using DVSMs. We present a case study implementing the proposed framework on Apple Inc.'s iPad product line. Results show that the forecast performance of the model matches the realized real data, and hence we deem the DSVM to be appropriate for modeling a new multi-generation product line. © 2012 Elsevier Ltd. All rights reserved.
+ER  - 
+TY  - JOUR
+T1  - Multi Filtration Feature Selection (MFFS) to improve discriminatory ability in clinical data set
+A1  - Sasikala, S.
+A1  - Appavu alias Balamurugan, S.
+A1  - Geetha, S.
+Y1  - 2016/07//
+KW  - Biomedical classification
+KW  - Medical data mining
+KW  - Multi Filtration Feature Selection
+KW  - Principal Component Analysis
+KW  - Variance coverage factor
+JF  - Applied Computing and Informatics
+VL  - 12
+IS  - 2
+SP  - 117
+EP  - 127
+DO  - 10.1016/j.aci.2014.03.002
+UR  - http://www.sciencedirect.com/science/article/pii/S2210832714000088
+UR  - http://linkinghub.elsevier.com/retrieve/pii/S2210832714000088
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Sasikala, Appavu alias Balamurugan, Geetha - 2016 - Multi Filtration Feature Selection (MFFS) to improve discriminatory ability in clini.pdf
+N2  - Selection of optimal features is an important area of research in medical data mining systems. In this paper we introduce an efficient four-stage procedure – feature extraction, feature subset selection, feature ranking and classification, called as Multi-Filtration Feature Selection (MFFS), for an investigation on the improvement of detection accuracy and optimal feature subset selection. The proposed method adjusts a parameter named “variance coverage” and builds the model with the value at which maximum classification accuracy is obtained. This facilitates the selection of a compact set of superior features, remarkably at a very low cost. An extensive experimental comparison of the proposed method and other methods using four different classifiers (Naïve Bayes (NB), Support Vector Machine (SVM), multi layer perceptron (MLP) and J48 decision tree) and 22 different medical data sets confirm that the proposed MFFS strategy yields promising results on feature selection and classification accuracy for medical data mining field of research.
+ER  - 
+TY  - JOUR
+T1  - State reduction in molecular simulations
+A1  - Xue, Yuzhen
+A1  - Ludovice, Peter J.
+A1  - Grover, Martha A.
+A1  - Nedialkova, Lilia V.
+A1  - Dsilva, Carmeline J.
+A1  - Kevrekidis, Ioannis G.
+Y1  - 2013/04//
+KW  - Data mining
+KW  - Diffusion Maps
+KW  - Local Feature Analysis
+KW  - Model reduction
+KW  - Principal Component Analysis
+JF  - Computers & Chemical Engineering
+VL  - 51
+SP  - 102
+EP  - 110
+DO  - 10.1016/j.compchemeng.2012.06.029
+UR  - http://www.sciencedirect.com/science/article/pii/S009813541200213X
+UR  - http://linkinghub.elsevier.com/retrieve/pii/S009813541200213X
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Xue et al. - 2013 - State reduction in molecular simulations.pdf
+N2  - Model reduction is an important systems task with a long history in traditional chemical engineering modeling. We discuss its interplay with modern data-mining tools (such as Local Feature Analysis and Diffusion Maps) through illustrative examples, and comment on important open issues regarding applications to large systems arising in molecular/atomistic simulations.
+ER  - 
+TY  - JOUR
+T1  - Efficient classification of multi-labeled text streams by clashing
+A1  - Ñanculef, Ricardo
+A1  - Flaounas, Ilias
+A1  - Cristianini, Nello
+Y1  - 2014/09//
+KW  - Data streams
+KW  - Feature hashing
+KW  - Massive data mining
+KW  - Multi-label classification
+KW  - Text classification
+JF  - Expert Systems with Applications
+VL  - 41
+IS  - 11
+SP  - 5431
+EP  - 5450
+DO  - 10.1016/j.eswa.2014.02.017
+UR  - http://www.sciencedirect.com/science/article/pii/S0957417414000803
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Ñanculef, Flaounas, Cristianini - 2014 - Efficient classification of multi-labeled text streams by clashing.pdf
+N2  - We present a method for the classification of multi-labeled text documents explicitly designed for data stream applications that require to process a virtually infinite sequence of data using constant memory and constant processing time. Our method is composed of an online procedure used to efficiently map text into a low-dimensional feature space and a partition of this space into a set of regions for which the system extracts and keeps statistics used to predict multi-label text annotations. Documents are fed into the system as a sequence of words, mapped to a region of the partition, and annotated using the statistics computed from the labeled instances colliding in the same region. This approach is referred to as clashing. We illustrate the method in real-world text data, comparing the results with those obtained using other text classifiers. In addition, we provide an analysis about the effect of the representation space dimensionality on the predictive performance of the system. Our results show that the online embedding indeed approximates the geometry of the full corpus-wise TF and TF-IDF space. The model obtains competitive F measures with respect to the most accurate methods, using significantly fewer computational resources. In addition, the method achieves a higher macro-averaged F measure than methods with similar running time. Furthermore, the system is able to learn faster than the other methods from partially labeled streams.
+ER  - 
+TY  - JOUR
+T1  - A causal feature selection algorithm for stock prediction modeling
+A1  - Zhang, Xiangzhou
+A1  - Hu, Yong
+A1  - Xie, Kang
+A1  - Wang, Shouyang
+A1  - Ngai, E.W.T.
+A1  - Liu, Mei
+Y1  - 2014/10//
+KW  - Causal discovery
+KW  - Data mining
+KW  - Feature selection
+KW  - Stock prediction
+KW  - V-structure
+JF  - Neurocomputing
+VL  - 142
+SP  - 48
+EP  - 59
+DO  - 10.1016/j.neucom.2014.01.057
+UR  - http://www.sciencedirect.com/science/article/pii/S0925231214005359
+UR  - http://linkinghub.elsevier.com/retrieve/pii/S0925231214005359
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Zhang et al. - 2014 - A causal feature selection algorithm for stock prediction modeling.pdf
+N2  - A key issue of quantitative investment (QI) product design is how to select representative features for stock prediction. However, existing stock prediction models adopt feature selection algorithms that rely on correlation analysis. This paper is the first to apply observational data-based causal analysis to stock prediction. Causalities represent direct influences between various stock features (important for stock analysis), while correlations cannot distinguish direct influences from indirect ones. This study proposes the causal feature selection (CFS) algorithm to select more representative features for better stock prediction modeling. CFS first identifies causalities between variables and then, based on the results, generates a feature subset. Based on 13-year data from the Shanghai Stock Exchanges, comparative experiments were conducted between CFS and three well-known feature selection algorithms, namely, principal component analysis (PCA), decision trees (DT; CART), and the least absolute shrinkage and selection operator (LASSO). CFS performs best in terms of accuracy and precision in most cases when combined with each of the seven baseline models, and identifies 18 important consistent features. In conclusion, CFS has considerable potential to improve the development of QI product.
+ER  - 
+TY  - JOUR
+T1  - Feature selection for high-dimensional class-imbalanced data sets using Support Vector Machines
+A1  - Maldonado, Sebastián
+A1  - Weber, Richard
+A1  - Famili, Fazel
+Y1  - 2014/12//
+KW  - Data mining
+KW  - Dimensionality reduction
+KW  - Feature selection
+KW  - Imbalanced data set
+KW  - Support Vector Machine
+JF  - Information Sciences
+VL  - 286
+SP  - 228
+EP  - 246
+DO  - 10.1016/j.ins.2014.07.015
+UR  - http://www.sciencedirect.com/science/article/pii/S0020025514007154
+UR  - http://linkinghub.elsevier.com/retrieve/pii/S0020025514007154
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Maldonado, Weber, Famili - 2014 - Feature selection for high-dimensional class-imbalanced data sets using Support Vector Machines.pdf
+N2  - Feature selection and classification of imbalanced data sets are two of the most interesting machine learning challenges, attracting a growing attention from both, industry and academia. Feature selection addresses the dimensionality reduction problem by determining a subset of available features to build a good model for classification or prediction, while the class-imbalance problem arises when the class distribution is too skewed. Both issues have been independently studied in the literature, and a plethora of methods to address high dimensionality as well as class-imbalance has been proposed. The aim of this work is to simultaneously explore both issues, proposing a family of methods that select those attributes that are relevant for the identification of the target class in binary classification. We propose a backward elimination approach based on successive holdout steps, whose contribution measure is based on a balanced loss function obtained on an independent subset. Our experiments are based on six highly imbalanced microarray data sets, comparing our methods with well-known feature selection techniques, and obtaining a better prediction with consistently fewer relevant features.
+ER  - 
+TY  - JOUR
+T1  - Development of prediction models for next-day building energy consumption and peak power demand using data mining techniques
+A1  - Fan, Cheng
+A1  - Xiao, Fu
+A1  - Wang, Shengwei
+Y1  - 2014/08//
+KW  - Building energy prediction
+KW  - Clustering analysis
+KW  - Data mining
+KW  - Ensemble model
+KW  - Feature extraction
+KW  - Recursive feature elimination
+JF  - Applied Energy
+VL  - 127
+SP  - 1
+EP  - 10
+DO  - 10.1016/j.apenergy.2014.04.016
+UR  - http://www.sciencedirect.com/science/article/pii/S0306261914003596
+UR  - http://linkinghub.elsevier.com/retrieve/pii/S0306261914003596
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Fan, Xiao, Wang - 2014 - Development of prediction models for next-day building energy consumption and peak power demand using data mini.pdf
+N2  - This paper presents a data mining (DM) based approach to developing ensemble models for predicting next-day energy consumption and peak power demand, with the aim of improving the prediction accuracy. This approach mainly consists of three steps. Firstly, outlier detection, which merges feature extraction, clustering analysis, and the generalized extreme studentized deviate (GESD), is performed to remove the abnormal daily energy consumption profiles. Secondly, the recursive feature elimination (RFE), an embedded variable selection method, is applied to select the optimal inputs to the base prediction models developed separately using eight popular predictive algorithms. The parameters of each model are then obtained through leave-group-out cross validation (LGOCV). Finally, the ensemble model is developed and the weights of the eight predictive models are optimized using genetic algorithm (GA). The approach is adopted to analyze the large energy consumption data of the tallest building in Hong Kong. The prediction accuracies of the ensemble models measured by mean absolute percentage error (MAPE) are 2.32% and 2.85% for the next-day energy consumption and peak power demand respectively, which are evidently higher than those of individual base models. The results also show that the outlier detection method is effective in identifying the abnormal daily energy consumption profiles. The RFE process can significantly reduce the computation load while enhancing the model performance. The ensemble models are valuable for developing strategies of fault detection and diagnosis, operation optimization and interactions between buildings and smart grid.
+ER  - 
+TY  - JOUR
+T1  - An efficient PD data mining method for power transformer defect models using SOM technique
+A1  - Darabad, V.P.
+A1  - Vakilian, M.
+A1  - Blackburn, T.R.
+A1  - Phung, B.T.
+Y1  - 2015/10//
+KW  - BMU
+KW  - Ch
+KW  - DDF
+KW  - DGA
+KW  - DWT
+KW  - Data mining
+KW  - Defect model
+KW  - FRA
+KW  - GLCM
+KW  - GLDV
+KW  - Gs/s
+KW  - HFCT
+KW  - HV
+KW  - IR
+KW  - Lab
+KW  - Mpts
+KW  - Ms/s
+KW  - Ng
+KW  - PC
+KW  - PCA
+KW  - PD
+KW  - PDC
+KW  - PRPD
+KW  - Partial discharge
+KW  - Power transformer
+KW  - RVM
+KW  - SNE
+KW  - SOM
+KW  - SVM
+KW  - Support Vector Machine
+KW  - best match unit
+KW  - channel
+KW  - dielectric dissipation factor
+KW  - discrete wavelet transform
+KW  - dissolved gas analysis
+KW  - frequency response analysis
+KW  - giga sample per second
+KW  - gray level covariance matrix
+KW  - gray level difference vector
+KW  - gray level value
+KW  - high frequency current transformer
+KW  - high voltage
+KW  - insulation resistance
+KW  - laboratory
+KW  - mega points
+KW  - mega sample per second
+KW  - p.f.
+KW  - partial discharge
+KW  - phase resolved partial discharge
+KW  - polarization and depolarization current
+KW  - power frequency
+KW  - principal component
+KW  - principal component analysis
+KW  - recovery voltage measurement
+KW  - self-organizing map
+KW  - stochastic neighbor embedding
+JF  - International Journal of Electrical Power & Energy Systems
+VL  - 71
+SP  - 373
+EP  - 382
+DO  - 10.1016/j.ijepes.2015.03.016
+UR  - http://www.sciencedirect.com/science/article/pii/S0142061515001519
+UR  - http://linkinghub.elsevier.com/retrieve/pii/S0142061515001519
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Darabad et al. - 2015 - An efficient PD data mining method for power transformer defect models using SOM technique.pdf
+N2  - Suggestion and application of a set of new features for on-line Partial Discharge (PD) monitoring, where there is no information about the type of PD is a challenging task for condition assessment of power equipments, such as a power transformer. This is looked for in this paper. So far, in past various techniques have been employed to develop a comprehensive PD monitoring system, however limited success has been achieved. One of the challenging issues in this field is the discovering of proper features capable of differentiating the involvement of possible types of PD sources. In order to examine the efficiency of the method established in this paper, which is based on application of a set of new feature spaces, texture feature analysis, followed by application of principal component analysis (PCA) and self-organizing map (SOM) is used to analyze and interpret the time-domain-captured PD data. The results of this work demonstrate the capabilities of the aforementioned features space to be used as a supplementary knowledge-base to help experts making their decisions confidently.
+ER  - 
+TY  - JOUR
+T1  - The performance of corporate financial distress prediction models with features selection guided by domain knowledge and data mining approaches
+A1  - Zhou, Ligang
+A1  - Lu, Dong
+A1  - Fujita, Hamido
+Y1  - 2015/09//
+KW  - Data mining
+KW  - Domain knowledge
+KW  - Features selection
+KW  - Financial distress prediction
+JF  - Knowledge-Based Systems
+VL  - 85
+SP  - 52
+EP  - 61
+DO  - 10.1016/j.knosys.2015.04.017
+UR  - http://www.sciencedirect.com/science/article/pii/S0950705115001616
+UR  - http://linkinghub.elsevier.com/retrieve/pii/S0950705115001616
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Zhou, Lu, Fujita - 2015 - The performance of corporate financial distress prediction models with features selection guided by domain kno.pdf
+N2  - Experts in finance and accounting select feature subset for corporate financial distress prediction according to their professional understanding of the characteristics of the features, while researchers in data mining often believe that data alone can tell everything and they use various mining techniques to search the feature subset without considering the financial and accounting meanings of the features. This paper investigates the performance of different financial distress prediction models with features selection approaches based on domain knowledge or data mining techniques. The empirical results show that there is no significant difference between the best classification performance of models with features selection guided by data mining techniques and that by domain knowledge. However, the combination of domain knowledge and genetic algorithm based features selection method can outperform unique domain knowledge and unique data mining based features selection method on AUC performance.
+ER  - 
+TY  - JOUR
+T1  - A hybrid cost estimation framework based on feature-oriented data mining approach
+A1  - Sajadfar, Narges
+A1  - Ma, Yongsheng
+Y1  - 2015/08//
+KW  - Cost estimation
+KW  - Data mining
+KW  - ERP
+KW  - Feature modeling
+KW  - Welding feature
+JF  - Advanced Engineering Informatics
+VL  - 29
+IS  - 3
+SP  - 633
+EP  - 647
+DO  - 10.1016/j.aei.2015.06.001
+UR  - http://www.sciencedirect.com/science/article/pii/S1474034615000610
+UR  - http://linkinghub.elsevier.com/retrieve/pii/S1474034615000610
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Sajadfar, Ma - 2015 - A hybrid cost estimation framework based on feature-oriented data mining approach.pdf
+N2  - This paper presents an informatics framework to apply feature-based engineering concept for cost estimation supported with data mining algorithms. The purpose of this research work is to provide a practical procedure for more accurate cost estimation by using the commonly available manufacturing process data associated with ERP systems. The proposed method combines linear regression and data-mining techniques, leverages the unique strengths of the both, and creates a mechanism to discover cost features. The final estimation function takes the user’s confidence level over each member technique into consideration such that the application of the method can phase in gradually in reality by building up the data mining capability. A case study demonstrates the proposed framework and compares the results from empirical cost prediction and data mining. The case study results indicate that the combined method is flexible and promising for determining the costs of the example welding features. With the result comparison between the empirical prediction and five different data mining algorithms, the ANN algorithm shows to be the most accurate for welding operations.
+ER  - 
+TY  - JOUR
+T1  - Privacy preserving sub-feature selection in distributed data mining
+A1  - Bhuyan, Hemanta Kumar
+A1  - Kamila, Narendra Kumar
+Y1  - 2015/11//
+KW  - Distributed data mining
+KW  - Feature selection
+KW  - Fuzzy probability
+KW  - Fuzzy random variable
+KW  - Privacy
+JF  - Applied Soft Computing
+VL  - 36
+SP  - 552
+EP  - 569
+DO  - 10.1016/j.asoc.2015.06.060
+UR  - http://www.sciencedirect.com/science/article/pii/S1568494615004536
+UR  - http://linkinghub.elsevier.com/retrieve/pii/S1568494615004536
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Bhuyan, Kamila - 2015 - Privacy preserving sub-feature selection in distributed data mining.pdf
+N2  - This paper addresses the selection of sub-feature from each feature using fuzzy methodologies maintaining the privacy during collection of data from participating parties in distributed environment. Based on fuzzy random variables conditional expectation is used in which two fuzzy sets are generated using Borel set that helps to determine sub-feature within certain interval. The privacy and selection of sub-feature leading to a distinguished class is the main objective of this research work. These two problems are directly related to data mining problems of classification and characterization of feature. In many cases traditional techniques are not suitable for complex databases. However our methodology provides better way for selection of sub-features under different situations. The proposed model and techniques both presents extensive theoretical analysis and experimental results. The experiments show the effectiveness and performance based on real world data set.
+ER  - 
+TY  - JOUR
+T1  - Profit-based feature selection using support vector machines – General framework and an application for customer retention
+A1  - Maldonado, Sebastián
+A1  - Flores, Álvaro
+A1  - Verbraken, Thomas
+A1  - Baesens, Bart
+A1  - Weber, Richard
+Y1  - 2015/10//
+KW  - Churn prediction
+KW  - Customer retention
+KW  - Data mining
+KW  - Feature selection
+KW  - Maximum profit
+KW  - Support vector machines
+JF  - Applied Soft Computing
+VL  - 35
+SP  - 740
+EP  - 748
+DO  - 10.1016/j.asoc.2015.05.058
+UR  - http://www.sciencedirect.com/science/article/pii/S1568494615004093
+UR  - http://linkinghub.elsevier.com/retrieve/pii/S1568494615004093
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Maldonado et al. - 2015 - Profit-based feature selection using support vector machines – General framework and an application for cust.pdf
+N2  - Churn prediction is an important application of classification models that identify those customers most likely to attrite based on their respective characteristics described by e.g. socio-demographic and behavioral variables. Since nowadays more and more of such features are captured and stored in the respective computational systems, an appropriate handling of the resulting information overload becomes a highly relevant issue when it comes to build customer retention systems based on churn prediction models. As a consequence, feature selection is an important step of the classifier construction process. Most feature selection techniques; however, are based on statistically inspired validation criteria, which not necessarily lead to models that optimize goals specified by the respective organization. In this paper we propose a profit-driven approach for classifier construction and simultaneous variable selection based on support vector machines. Experimental results show that our models outperform conventional techniques for feature selection achieving superior performance with respect to business-related goals.
+ER  - 
+TY  - JOUR
+T1  - A hybrid data mining model of feature selection algorithms and ensemble learning classifiers for credit scoring
+A1  - Koutanaei, Fatemeh Nemati
+A1  - Sajedi, Hedieh
+A1  - Khanbabaei, Mohammad
+Y1  - 2015/11//
+KW  - Classification
+KW  - Credit scoring
+KW  - Data mining
+KW  - Ensemble learning
+KW  - Feature selection
+JF  - Journal of Retailing and Consumer Services
+VL  - 27
+SP  - 11
+EP  - 23
+DO  - 10.1016/j.jretconser.2015.07.003
+UR  - http://www.sciencedirect.com/science/article/pii/S0969698915300060
+UR  - http://linkinghub.elsevier.com/retrieve/pii/S0969698915300060
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Koutanaei, Sajedi, Khanbabaei - 2015 - A hybrid data mining model of feature selection algorithms and ensemble learning classifiers for.pdf
+N2  - Data mining techniques have numerous applications in credit scoring of customers in the banking field. One of the most popular data mining techniques is the classification method. Previous researches have demonstrated that using the feature selection (FS) algorithms and ensemble classifiers can improve the banks' performance in credit scoring problems. In this domain, the main issue is the simultaneous and the hybrid utilization of several FS and ensemble learning classification algorithms with respect to their parameters setting, in order to achieve a higher performance in the proposed model. As a result, the present paper has developed a hybrid data mining model of feature selection and ensemble learning classification algorithms on the basis of three stages. The first stage, as expected, deals with the data gathering and pre-processing. In the second stage, four FS algorithms are employed, including principal component analysis (PCA), genetic algorithm (GA), information gain ratio, and relief attribute evaluation function. In here, parameters setting of FS methods is based on the classification accuracy resulted from the implementation of the support vector machine (SVM) classification algorithm. After choosing the appropriate model for each selected feature, they are applied to the base and ensemble classification algorithms. In this stage, the best FS algorithm with its parameters setting is indicated for the modeling stage of the proposed model. In the third stage, the classification algorithms are employed for the dataset prepared from each FS algorithm. The results exhibited that in the second stage, PCA algorithm is the best FS algorithm. In the third stage, the classification results showed that the artificial neural network (ANN) adaptive boosting (AdaBoost) method has higher classification accuracy. Ultimately, the paper verified and proposed the hybrid model as an operative and strong model for performing credit scoring.
+ER  - 
+TY  - JOUR
+T1  - Mutual information criterion for feature selection from incomplete data
+A1  - Qian, Wenbin
+A1  - Shu, Wenhao
+Y1  - 2015/11//
+JF  - Neurocomputing
+VL  - 168
+SP  - 210
+EP  - 220
+DO  - 10.1016/j.neucom.2015.05.105
+UR  - http://linkinghub.elsevier.com/retrieve/pii/S0925231215008036
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Qian, Shu - 2015 - Mutual information criterion for feature selection from incomplete data.pdf
+ER  - 
+TY  - JOUR
+T1  - Product development with data mining techniques: A case on design of digital camera
+A1  - Bae, Jae Kwon
+A1  - Kim, Jinhwa
+Y1  - 2011/08//
+KW  - Association rule
+KW  - Data mining based methodology
+KW  - Decision tree based models
+KW  - New product development
+JF  - Expert Systems with Applications
+VL  - 38
+IS  - 8
+SP  - 9274
+EP  - 9280
+DO  - 10.1016/j.eswa.2011.01.030
+UR  - http://linkinghub.elsevier.com/retrieve/pii/S0957417411000509
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Bae, Kim - 2011 - Product development with data mining techniques A case on design of digital camera.pdf
+N2  - Many enterprises have been devoting a significant portion of their budget to product development in order to distinguish their products from those of their competitors and to make them better fit the needs and wants of customers. Hence, businesses should dBae, J. K., & Kim, J. (2011). Product development with data mining techniques: A case on design of digital camera. Expert Systems with Applications, 38(8), 9274–9280. doi:10.1016/j.eswa.2011.01.030evelop product designing that could satisfy the customers' requirements since this will increase the enterprise's competitiveness and it is an essential criterion to earning higher loyalties and profits. This paper investigates the following research issues in the development of new digital camera products: (1) What exactly are the customers' "needs" and "wants" for digital camera products? (2) What features is more importance than others? (3) Can product design and planning for product lines/product collection be integrated with the knowledge of customers? (4) How can the rules help us to make a strategy during we design new digital camera? To investigate these research issues, the Apriori and C5.0 algorithms are methodologies of association rules and decision trees for data mining, which is implemented to mine customer's needs. Knowledge extracted from data mining results is illustrated as knowledge patterns and rules on a product map in order to propose possible suggestions and solutions for product design and marketing. ?? 2011 Published by Elsevier Ltd.
+ER  - 
+TY  - JOUR
+T1  - Mining customer knowledge for product line and brand extension in retailing
+A1  - Liao, Shu-Hsien
+A1  - Chen, Chyuan-Meei
+A1  - Wu, Chung-Hsin
+Y1  - 2008/04//
+KW  - Association rules
+KW  - Brand extension
+KW  - Cluster analysis
+KW  - Data mining
+KW  - Knowledge extraction
+KW  - Product line extension
+KW  - Retailing
+JF  - Expert Systems with Applications
+VL  - 34
+IS  - 3
+SP  - 1763
+EP  - 1776
+SN  - 0957-4174
+DO  - 10.1016/j.eswa.2007.01.036
+UR  - http://linkinghub.elsevier.com/retrieve/pii/S095741740700053X
+L1  - file:///Users/josepplloo/Library/Application Support/Mendeley Desktop/Downloaded/Liao, Chen, Wu - 2008 - Mining customer knowledge for product line and brand extension in retailing.pdf
+N2  - Retailing consists of the final activities and steps needed to place a product in the hands of the consumer or to provide services to the consumer. In fact, retailing is actually the last step in a supply chain that may stretch from Europe or Asia to the customer's hometown. Therefore, any firm that sells a product or provides a service to the final consumer is performing the retailing function. On the other hand, product line extension, which adds depth to an existing product line by introducing new products in the same product category, can give customers greater choice and help to protect the firm from flanking attack by a competitor. In addition, a product line extension is marketed under the same general brand as a previous item or items. Thus, to distinguish the brand extension from the other item(s) under the primary brand, the retailer can either add secondary brand identification or add a generic brand. This paper investigates product line and brand extension issues in the Taiwan branch of a leading international retailing company, Carrefour, which is a hypermarket retailer. This paper develops a relational database and proposes Apriori algorithm and K-means as methodologies for association rule and cluster analysis for data mining, which is then implemented to mine customer knowledge from household customers. Knowledge extraction by data mining results is illustrated as knowledge patterns/rules and clusters in order to propose suggestions and solutions to the case firm for product line and brand extensions and knowledge management. ?? 2007.
+ER  - 
