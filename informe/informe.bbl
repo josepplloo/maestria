@@ -679,4 +679,17 @@ Kai Petersen, Sairam Vakkalanka, and Ludwik Kuzniarz.
   engineering: An update}.
 \newblock {\em Information and Software Technology}, 64:1--18, aug 2015.
 
+\bibitem{Maldonado2015}
+Sebasti{\'{a}}n Maldonado, {\'{A}}lvaro Flores, Thomas Verbraken, Bart Baesens,
+  and Richard Weber.
+\newblock {Profit-based feature selection using support vector machines –
+  General framework and an application for customer retention}.
+\newblock {\em Applied Soft Computing}, 35:740--748, oct 2015.
+
+\bibitem{Qian2015}
+Wenbin Qian and Wenhao Shu.
+\newblock {Mutual information criterion for feature selection from incomplete
+  data}.
+\newblock {\em Neurocomputing}, 168:210--220, nov 2015.
+
 \end{thebibliography}

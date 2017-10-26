@@ -488,10 +488,19 @@ Aplicando los criterios de exclusión y revisión, que se establecieron en la me
    En el codigo \ref{regex} tomamos en cuenta unas tuberias ($\mid$) para recoger todos los campos de nuestro archivo \textit{sms.ris} y luego hacer el \textit{podium} de las palabras claves.
   
   \section{Diseño del prototipo}
-  Acá tengo que mostrar lo de iris las clases los códigos de iris
- 
+  En el diseño de este trabajo de investigación se debía considerar usar una base de datos que no tuviera tantos registros pero a su vez fuese popular y muy interpretable, se decidió usar IRIS,  el \href{https://archive.ics.uci.edu/ml/datasets/iris}{\textit{dataset}} de iris está disponible en la web del repositorio de aprendizaje de maquinas para todo el publico y los conjuntos de datos que se encuentran en esta página son usados frecuentemente en la literatura\cite{Hastie2009,Izenman2006, Farid2014, Maldonado2015, Qian2015}.
+  Los datos en IRIS contiene tres clases de flores que necesitan ser clasificadas en \textit{Iris Setosa, Iris Versicolour \& Iris Virginica}, cada clase tiene $50$ registros,  en donde los atributos de clasificación están dados por \textit{sepal length in cm, sepal width in cm, petal length in cm \& petal width in cm.}\\
+  Para el pre procesamiento y el entendimiento de los datos no se realizo un esfuerzo significativo, los datos vienen de tal manera que es muy cómodo para un científico de datos el trabajo con ellos. por está razón, se ubica en el protagonista del desarrollo, el modelo generado en el estándar \href{http://dmg.org/pmml/pmml_examples/index.html}{PMML}, el cual el grupo de minería de datos (DMG) está orgulloso de presentar como un lenguaje de marcas de modelos predictivos (\textit{Predictive Model Markup Language}), PMML usa XML, el lenguaje de marcas extensible, para representar la estructura de los modelos en la MD, la estructura general de este estándar puede consultarse en la \href{http://dmg.org/pmml/v4-3/GeneralStructure.html}{página WEB} del \textit{data mining group}.
+  Con este estándar tan bien definido e inexplorado por las aplicaciones en el ecosistema de los grandes datos, se considero que era la piedra angular y la API para el desarrollo de un código en Java que fuese capaz de traducir las restricciones en el formato simple para modelos de caracteristicas,  \textit{Simple XML Feature Model format}(SXFM)\cite{Mendonca:2009:SSP:1639950.1640002}, y luego en trabajos futuros proponer una arquitectura mucho mas completa, con mas sabores de formatos. La mayor ventaja al trabajar con SXFM es que su estructura es muy simplificada. De esta menera se implemento el flujo de trábajo prsente en el modelo de la Figura \ref{modeloproducto} 
+  
+    \begin{figure}[h]
+  	\centering
+  	\includegraphics[width=\textwidth]{modeloproducto}
+  	\caption{Captura tomada de la aplicación \textit{Mendely}, en donde se presenta la selección de un documento con sus etiquetas.}
+  	\label{modeloproducto}
+  \end{figure}
 
-
+Con el modelo presente en la Figura \ref{modeloproducto} se consideraron los archivos\footnote{ \attachfile[icon=Paperclip,mimetype=aplication/pmml]{src/single_iris_dectree.xml}{iris.pmml}\attachfile[icon=Paperclip,mimetype=aplication/sxfm]{src/single_iris_dectree.xml.sxfm}{iris.sxfm}} la idea es mostrar un poco del modelo 
   \section{Implementación del prototipo(Caso de aplicación)}
   acá muestro los otros scripts que van antes de lo de iris, como fue que se hizo para tomar la data de la base de datos y todo eso
   Con \textit{Phyton\footnote{ \attachfile[icon=Paperclip,mimetype=aplication/zip]{src/underbrush.py}{underbrush.py} \attachfile[icon=Paperclip,mimetype=aplication/zip]{src/canopy.py}{canopy.py}}} se desarrollaron los scripts del preprocesamiento de los datos.
