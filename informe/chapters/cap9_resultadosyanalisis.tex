@@ -519,13 +519,60 @@ Con en el modelo de la Figura \ref{modeloproducto} se tuvieron en cuenta los arc
   
   \lstinputlisting[label=canopy3, linerange={35-50}, caption= {El Snipet de código ``canopy.py"  se usa para llevar los datos a una estructura de datos llamada ``dataframe", luego enmascarar los datos y filtrar los dato irrelevantes.} ]{src/canopy.py}   
   
-  En esta parte se establecen cuales son los elementos únicos como se ve en la línea $3$ para luego generar tantas mascaras para las etiquetas como sean necesarias. En la línea $14$ se toman solo los datos con el diagnostico \texttt{G800}. 
+  En la línea $3$ se establecen cuales son los elementos únicos para luego generar tantas mascaras para las etiquetas como sean necesarias. En la línea $14$ se toman solo los datos con el diagnostico \texttt{G800} tomado de forma arbitraria.
   De esta manera se pudo controlar y filtrar la información para que el software estadístico la pudiera consumir.
-  Debido a la necesidad constante de estar encontrando un diagnostico diferente se concibe el codigo \ref{underbrush1}.
+  En la elección del diagnostico se tuvo la necesidad constante de estar encontrando un diagnóstico diferente, para hacer pruebas en el futuro, por esta razón se desarrollo el código \ref{underbrush1}.
+  
   \lstinputlisting[label=underbrush1,linerange={1-6}, caption= El Snipet de código ``underbrush.py"  se usa para filtrar un campo en una estructura de datos llamada ``dataframe".  ]{src/underbrush.py}
-  Con este código se aprovecha que se tienen un conjunto de archivos,  del $0.01\%$ para buscar las mejores muestras de los diagnósticos, esto significa que los diagnósticos con una población de datos que tenga no mas de 24 códigos de procedimientos médicos, debido a que el software \textbf{R} no puede en este caso realizar una clasificación de esta dimensión (mayor a 24 dimensiones).
+  
+  Con este código se aprovecha que se tienen un conjunto de archivos que representan cada uno el $0.01\%$ de los datos, y se usó para buscar las mejores muestras de los diagnósticos, esto significa que los diagnósticos con una población de datos que tenga no mas de 24 códigos de procedimientos médicos, debido a que el software \textbf{R} no puede, en este caso, realizar una clasificación de esta dimensión (mayor a 24 dimensiones).
  
- esto fue el análisis de las variables 
+ Presentamos la Tabla \ref{variables} en donde mostramos las variables o las columnas de la base de datos.
+ 
+ \begin{longtable}{|c|p{10cm}|c|}
+ 	\caption{Resultados del análisis de las variables.}
+ 	\label{variables}\\
+ 	\hline
+ 	\textbf{Nombre de la variable} & \textbf{Descripción} & \textbf{Usada} \\
+ 	\hline
+ 	\endfirsthead
+ 	\multicolumn{3}{c}%
+ 	{\tablename\ \thetable\ -- \textit{Continuación de la página anterior}} \\
+ 	\hline
+   \textbf{Nombre de la variable} & \textbf{Descripción} & \textbf{Usada} \\
+ 	\hline
+ 	\endhead
+ 	\hline \multicolumn{3}{r}{\textit{Continúa en la siguiente página}} \\
+ 	\endfoot
+ 	\hline
+ 	\endlastfoot
+ 	PersonaID& ID de la persona. &NO\tabularnewline \hline
+ 	TipoEventoRIPSDesc&Evento en la Factura o lá orden médica&NO\tabularnewline \hline
+ 	Codigo: & id de la eps.&\tabularnewline \hline
+ 	RegimenAdministradoraDesc& ID del régimen puede ser Contributivo, Subsidiado, Vinculado, Particular, Otro ó Desplazado. & SI \tabularnewline \hline
+ 	DxPrincipal*& Diagnóstico principal.&SI\tabularnewline \hline
+ 	DxEgreso& Diagnóstico de salida.&NO\tabularnewline \hline
+ 	FinalidadProcedimientosCD&Si la finalidad es diagnostica ó terapéutica.&SI \tabularnewline \hline
+ 	FinalidadConsultaCD& Descripción de la consulta que se realiza&NO\tabularnewline \hline
+ 	TipoUsuarioCD& Si el usuario es de tipo: Contributivo, Subsidiado, Vinculado-Particular, Otro ó Desplazado.&SI\tabularnewline \hline
+ 	CausaExternaCD& Si es victima de maltrato o violencia.&NO\tabularnewline \hline
+ 	Prestador& ISP&NO\tabularnewline \hline
+ 	AmbitosProcedimientoCD&Si es ambulatorio, hospitalario ó urgencias.&SI\tabularnewline \hline
+ 	CodigoProcedimiento&Procedimiento médico.&SI\tabularnewline \hline
+ 	MunicipioCD&ID municipio.&NO\tabularnewline \hline
+ 	EstadoSalidaDesc&Si sale vivo o muerto.&NO\tabularnewline \hline
+ 	CostoConsulta& El costo de la consulta.&NO\tabularnewline \hline
+ 	CostoProcedimiento& El costo del procedimiento.&NO\tabularnewline \hline
+ 	NetoAPagarConsulta&Total a pagar.&NO\tabularnewline \hline
+ 	NumeroDiasEstancia&Número de días en el servicio.&NO\tabularnewline \hline
+ 	fechaid&Fecha.&NO\tabularnewline \hline
+ 	Edad&Edad.&SI\tabularnewline \hline
+ 	SexoDesc& Genero del usuario.&SI\tabularnewline \hline
+ 	\end{longtable}
+ En la Tabla \ref{variables}, se elijen las variables dada la necesidad del problema de clasificación: Dado un diagnóstico principal, que características tienen los códigos de procedimiento, según el género, la edad, el tipo de usuario, la finalidad del procedimiento, el diagnostico principal y el régimen de salud,  en este problema los datos que no fueron usados presentaban un comportamiento constante en la muestra de datos de entrenamiento y pruebas.
+ Siguiendo las recomendaciones en \href{http://scikit-learn.org/stable/tutorial/machine_learning_map/index.html}{scikit-learn.org} se tiene mas de 50 datos, se necesita predecir una categoría y tenemos datos etiquetados, lo que indica un problema de clasificación. Esta discusión sobre el mejor clasificador o como orientar la solución de un problema de clasificación o que algoritmo usar\cite{Caruana2006, Izenman2006, Hastie2009} es interesante, más no un punto importante en este trabajo de investigación, por otra parte cualquier problema de la minería de datos en cualquier dominio y contexto se puede llevar a cabo y no es ajeno a este trabajo de investigación en donde el verdadero protagonista es la generación del archivo PMML, la cual es independiente de cada modelo, para el cual proponemos dos ejemplos en \textit{\textbf{R}\footnote{ \attachfile[icon=Paperclip,mimetype=aplication/py]{src/RIPSc1333.R}{ClasificationTree.py} \attachfile[icon=Paperclip,mimetype=aplication/py]{src/RIPS_R_script.R}{RandomForest.R}}} 
+ 
+ \lstinputlisting[label=underbrush1,linerange={1-6}, caption= El Snipet de código ``underbrush.py"  se usa para desarrollar el problema de clasificación en \textbf{R}.  ]{src/RIPSc1333.R}
  
  luego tengo que hablar sobre el script de R y la elección del modelo mostrar como se implementaron los algoritmos, luego si la evaluación se realizo y fue significante
  

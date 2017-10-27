@@ -64,8 +64,8 @@
 \contentsline {subsection}{\numberline {9.1.5}Proceso de extracci\IeC {\'o}n}{58}{subsection.9.1.5}
 \contentsline {section}{\numberline {9.2}Dise\IeC {\~n}o del prototipo}{59}{section.9.2}
 \contentsline {section}{\numberline {9.3}Implementaci\IeC {\'o}n del prototipo(Caso de aplicaci\IeC {\'o}n)}{60}{section.9.3}
-\contentsline {chapter}{\numberline {10}Conclusiones y Trabajos Futuros}{63}{chapter.10}
-\contentsline {chapter}{Conclusiones y Trabajos Futuros}{63}{chapter.10}
-\contentsline {section}{\numberline {10.1}Conclusiones}{63}{section.10.1}
-\contentsline {section}{\numberline {10.2}Trabajos futuros}{63}{section.10.2}
-\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{64}{section.10.2}
+\contentsline {chapter}{\numberline {10}Conclusiones y Trabajos Futuros}{64}{chapter.10}
+\contentsline {chapter}{Conclusiones y Trabajos Futuros}{64}{chapter.10}
+\contentsline {section}{\numberline {10.1}Conclusiones}{64}{section.10.1}
+\contentsline {section}{\numberline {10.2}Trabajos futuros}{64}{section.10.2}
+\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{65}{section.10.2}
