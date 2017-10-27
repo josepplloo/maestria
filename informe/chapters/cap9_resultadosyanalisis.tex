@@ -491,30 +491,48 @@ Aplicando los criterios de exclusión y revisión, que se establecieron en la me
   En el diseño de este trabajo de investigación se debía considerar usar una base de datos que no tuviera tantos registros pero a su vez fuese popular y muy interpretable, se decidió usar IRIS,  el \href{https://archive.ics.uci.edu/ml/datasets/iris}{\textit{dataset}} de iris está disponible en la web del repositorio de aprendizaje de maquinas para todo el publico y los conjuntos de datos que se encuentran en esta página son usados frecuentemente en la literatura\cite{Hastie2009,Izenman2006, Farid2014, Maldonado2015, Qian2015}.
   Los datos en IRIS contiene tres clases de flores que necesitan ser clasificadas en \textit{Iris Setosa, Iris Versicolour \& Iris Virginica}, cada clase tiene $50$ registros,  en donde los atributos de clasificación están dados por \textit{sepal length in cm, sepal width in cm, petal length in cm \& petal width in cm.}\\
   Para el pre procesamiento y el entendimiento de los datos no se realizo un esfuerzo significativo, los datos vienen de tal manera que es muy cómodo para un científico de datos el trabajo con ellos. por está razón, se ubica en el protagonista del desarrollo, el modelo generado en el estándar \href{http://dmg.org/pmml/pmml_examples/index.html}{PMML}, el cual el grupo de minería de datos (DMG) está orgulloso de presentar como un lenguaje de marcas de modelos predictivos (\textit{Predictive Model Markup Language}), PMML usa XML, el lenguaje de marcas extensible, para representar la estructura de los modelos en la MD, la estructura general de este estándar puede consultarse en la \href{http://dmg.org/pmml/v4-3/GeneralStructure.html}{página WEB} del \textit{data mining group}.
-  Con este estándar tan bien definido e inexplorado por las aplicaciones en el ecosistema de los grandes datos, se considero que era la piedra angular y la API para el desarrollo de un código en Java que fuese capaz de traducir las restricciones en el formato simple para modelos de caracteristicas,  \textit{Simple XML Feature Model format}(SXFM)\cite{Mendonca:2009:SSP:1639950.1640002}, y luego en trabajos futuros proponer una arquitectura mucho mas completa, con mas sabores de formatos. La mayor ventaja al trabajar con SXFM es que su estructura es muy simplificada. De esta menera se implemento el flujo de trábajo prsente en el modelo de la Figura \ref{modeloproducto} 
+  Con este estándar tan bien definido e inexplorado por las aplicaciones en el ecosistema de los grandes datos, se recomienda que era la piedra angular y la API para el desarrollo de un código en Java, que fuese capaz de traducir las restricciones en el formato simple para modelos de caracteristicas,  \textit{Simple XML Feature Model format}(SXFM)\cite{Mendonca:2009:SSP:1639950.1640002}, y luego en trabajos futuros proponer una arquitectura mucho mas completa, con mas sabores de formatos. La mayor ventaja al trabajar con SXFM es que su estructura es muy simplificada, de esta manera se implemento el flujo de trabajo presente en el modelo de la Figura \ref{modeloproducto}.  donde se parte de CRISP\cite{Hornick2009, Isaza2014, Harding2006} y se termina con la creación de el modelo de MD en XMML.
   
     \begin{figure}[h]
   	\centering
-  	\includegraphics[width=\textwidth]{modeloproducto}
+  	\includegraphics[scale=0.4]{modeloproducto}
   	\caption{Captura tomada de la aplicación \textit{Mendely}, en donde se presenta la selección de un documento con sus etiquetas.}
   	\label{modeloproducto}
   \end{figure}
 
-Con el modelo presente en la Figura \ref{modeloproducto} se consideraron los archivos\footnote{ \attachfile[icon=Paperclip,mimetype=aplication/pmml]{src/single_iris_dectree.xml}{iris.pmml}\attachfile[icon=Paperclip,mimetype=aplication/sxfm]{src/single_iris_dectree.xml.sxfm}{iris.sxfm}} la idea es mostrar un poco del modelo 
+Con en el modelo de la Figura \ref{modeloproducto} se tuvieron en cuenta los archivos\footnote{ \attachfile[icon=Paperclip,mimetype=aplication/pmml]{src/single_iris_dectree.xml}{iris.pmml}\attachfile[icon=Paperclip,mimetype=aplication/sxfm]{src/single_iris_dectree.xml.sxfm}{iris.sxfm}}, para el desarrollo del prototipo, se implemento una prueba orientada a la creación de un archivo, luego este archivo se construyo en formato SXFM incorporando la información del modelo de MD.
+
   \section{Implementación del prototipo(Caso de aplicación)}
-  acá muestro los otros scripts que van antes de lo de iris, como fue que se hizo para tomar la data de la base de datos y todo eso
-  Con \textit{Phyton\footnote{ \attachfile[icon=Paperclip,mimetype=aplication/zip]{src/underbrush.py}{underbrush.py} \attachfile[icon=Paperclip,mimetype=aplication/zip]{src/canopy.py}{canopy.py}}} se desarrollaron los scripts del preprocesamiento de los datos.
+  El detalle del proceso del desarrollo de modelos de caracteristicas se expresa entonces en la Figura \ref{modeloproducto}, este proceso iniciará desde el punto rojo, con la adquisición de los datos, para nuestro caso particular se obtuvo una base de datos de los registros de atención individual de prestaciones en saludo (RIPS),  se toma solo el $0.01\%$ de la base de datos de RIPS para desarrollar el ejemplo. La entrega fue hecha mediante medios magnéticos y esta base de datos no estará disponible sin el consentimiento de la facultad de salud publica.\\
+  Se realizaron varias copias de la información, se uso \textit{google drive} para realizar un respaldo en la nube y luego aprovisionar de esa copia a las maquinas en las cuales se estaba trabajando, la base de datos completa pesa aproximadamente 10 GB, y se dividió en archivos de 100 MB para su manipulación.\\
+  En muchas ocasiones se puede presentar el escenario en donde los datos se encuentren en protocolos o infraestructuras diferentes a un simple archivo de texto como fue el caso que se desarrollo en este trabajo de investigación, sin embargo la comunidad ha creado \textit{frameworks} poderosos para conectarse por medio de \textit{drivers} o por un \textit{socket} o protocolo.\\
+  El entendimiento del negocio de estos datos almacenados en columnas separadas por barras verticales o el símbolo de tubería ($\mid$), se realizo considerando que los datos eran suficientes para proponer una línea de productos de tratamientos médicos. Para completar el proceso de entendimiento de los datos se consulto en \href{https://www.minsalud.gov.co/proteccionsocial/Paginas/rips.aspx}{página WEB} del ministerio de salud y en diferentes fuentes publicas de carácter oficial.\\
+  Con \textit{Phyton\footnote{ \attachfile[icon=Paperclip,mimetype=aplication/py]{src/underbrush.py}{underbrush.py} \attachfile[icon=Paperclip,mimetype=aplication/py]{src/canopy.py}{canopy.py}}} se desarrollaron los \textit{scripts} del pre procesamiento de los datos.
   
+   \lstinputlisting[label=canopy1, linerange={1-7}, caption= {El Snipet de código ``canopy.py"  se usa para llevar los datos a una estructura de datos llamada ``dataframe", luego enmascarar los datos y filtrar los dato irrelevantes.} ]{src/canopy.py}
   
+  En el código \ref{canopy1}, se importan las librerías para el pre procesamiento y se leen dos archivos \texttt{infile} e  \texttt{infile2} que luego se concatenan, adicional se creó \texttt{dictfile} para la protección de los datos, este archivo guardó los valores originales, que por seguridad, funcionalidad y buenas practicas es muy común renombrar las categorías en este caso por números. Por ejemplo para el campo \texttt{SexoDesc} se tiene los valores: \texttt{FEMENINO, MASCULINO, NR-NO REPORTADO, NO DEFINIDO} y se sustituyeron por los valores \texttt{0,1,3,2} respectivamente.
+ 
+  \lstinputlisting[label=canopy2, linerange={7-24}, caption= {El Snipet de código ``canopy.py"  se usa para llevar los datos a una estructura de datos llamada ``dataframe", luego enmascarar los datos y filtrar los dato irrelevantes.} ]{src/canopy.py}   
   
-  \lstinputlisting[linerange={2-7}, caption= El Snipet de código ``underbrush.py"  se usa para filtrar un campo en una estructura de datos llamada ``dataframe".  ]{src/underbrush.py}
+  Continuamos con la segunda parte del mismo archivo \texttt{canopy.py} \ref{canopy2} en donde se desarrollo la codificación de las etiquetas o columnas. luego en la línea $18$, a pesar de guardar la información sobre los usuarios en el archivo de diccionario, se decide borrar estos datos por no ser relevantes, este mismo ejercicio con la columna \texttt{PersonaID} se realizo para las columnas, \texttt{TipoEventoRIPSDesc, Codigo, DxEgreso, FinalidadConsultaCD, CausaExternaCD, Prestador, MunicipioCD, EstadoSalidaDesc, CostoConsulta, CostoProcedimiento, NetoAPagarConsulta, NumeroDiasEstancia, fechaid}, dado que estos datos se encontraban constantes o no ofrecian información relevante para el prototipo o la prueba de concepto.  En la porción de código \ref{canopy3}, se presenta la forma en la que se considero y se filtraron los datos.
   
-  Se presenta uno de los \textit{Scripts} que hacen parte del prepocesamiento de los datos.
+  \lstinputlisting[label=canopy3, linerange={35-50}, caption= {El Snipet de código ``canopy.py"  se usa para llevar los datos a una estructura de datos llamada ``dataframe", luego enmascarar los datos y filtrar los dato irrelevantes.} ]{src/canopy.py}   
   
- \lstinputlisting[linerange={2-7}, caption= {El Snipet de código ``canopy.py"  se usa para llevar los datos a una estructura de datos llamada ``dataframe", luego enmascarar los datos y filtrar los dato irrelevantes.} ]{src/canopy.py}
-  
+  En esta parte se establecen cuales son los elementos únicos como se ve en la línea $3$ para luego generar tantas mascaras para las etiquetas como sean necesarias. En la línea $14$ se toman solo los datos con el diagnostico \texttt{G800}. 
+  De esta manera se pudo controlar y filtrar la información para que el software estadístico la pudiera consumir.
+  Debido a la necesidad constante de estar encontrando un diagnostico diferente se concibe el codigo \ref{underbrush1}.
+  \lstinputlisting[label=underbrush1,linerange={1-6}, caption= El Snipet de código ``underbrush.py"  se usa para filtrar un campo en una estructura de datos llamada ``dataframe".  ]{src/underbrush.py}
+  Con este código se aprovecha que se tienen un conjunto de archivos,  del $0.01\%$ para buscar las mejores muestras de los diagnósticos, esto significa que los diagnósticos con una población de datos que tenga no mas de 24 códigos de procedimientos médicos, debido a que el software \textbf{R} no puede en este caso realizar una clasificación de esta dimensión (mayor a 24 dimensiones).
+ 
+ esto fue el análisis de las variables 
+ 
+ luego tengo que hablar sobre el script de R y la elección del modelo mostrar como se implementaron los algoritmos, luego si la evaluación se realizo y fue significante
+ 
+ obtencion del pmml son unas líneas en le script de R 
+ 
+ luego como se desarrollo el script de java desde las pruebas
+ 
   
  
-
-
-Nota: se toma solo el 0.01\% de la base de datos del cliente para desarrollar el ejemplo. 
+ 
