@@ -599,8 +599,128 @@ Con en el modelo de la Figura \ref{modeloproducto} se tuvieron en cuenta los arc
  
 Con el insumo para el paso final en el modelo \ref{modeloproducto}, se construyó el código \ref{ReadPMMLtoSXFM},  en donde se toma como parámetro el PMML para generar el SXFM.
 
- \lstinputlisting[label=ReadPMMLtoSXFM,linerange={31-43}, caption= El Snipet de código ``ReadPMMLtoSXFM.java"  se usa para desarrollar el problema de clasificación en \textbf{\textit{R}}.  ]{src/ReadPMMLtoSXFM.java}
+ \lstinputlisting[label=ReadPMMLtoSXFM,linerange={31-43}, caption= El Snipet de código ``ReadPMMLtoSXFM.java"  se usó para desarrollar los codelos de caracteristicas (SXFM) n en \textbf{\textit{Java}}.  ]{src/ReadPMMLtoSXFM.java}
  
-  En este código se almaceno en \href{https://github.com/josepplloo/tamarindo}{GIT} por tratarse de un 
+  El código que construye los modelos de caracteristicas  se almaceno en \href{https://github.com/josepplloo/tamarindo}{GIT} por tratarse de un compendio de archivos organizados por medio de un administrador de código fuente, se incluyó un caso de prueba para la creación de un archivo esperado, que tubo la  cobertura como se muestra en la Figura \ref{tamarindo}.
+  
+  \begin{figure}[h]
+  	\centering
+  	\includegraphics[scale=0.5]{tamarindo}
+  	\caption{Pruebas a la clases del proyecto que generan el SXFM en \textbf{\textit{Java}}.}
+  	\label{tamarindo}
+  \end{figure}
  
+ En estas pruebas que se muestran en \ref{tamarindo} no se contemplaron todos los escenarios, por lo cual es necesario buscar un ejemplo mas extensible y complementar las funciones del código, a medida de que se añaden mas casos de prueba la historia de usuario de este desarrollo puede crecer y contemplar las funcionalidades que estarán en los trabajos futuros, adicional a esté, el proyecto en \href{https://github.com/josepplloo/tamarindo}{GIT} tiene un archivo \texttt{pom.xml}, en él se trato de preparar el desarrollo para incluirlo a futuro en un esquema de integración continua y despliegue continuo.
+ El desarrollo final genera en consola el modelos de caracteristicas que se muestra en el código \ref{XMLFeatureModelParserSample.java}.
  
+ \begin{lstlisting}[framexleftmargin=8mm, frame=single,label=XMLFeatureModelParserSample.java, title=\textbf{XMLFeatureModelParserSample.java}, caption= Ejemplo de la lectura del archivo RIPStreePrunedPMML.xml.sxfm generado por la clase en /tamarindo/src/main/java/org/XMLFeatureModelParserSample.java]
+ FEATURE TREE --------------------------------
+ Root(ID=_r, NAME=defaultChild)
+    Mandatory(ID=_r_0, NAME=SexoDesc)
+       Feature Group[1,1](ID=_r_0_1, NAME=_r_0_1)
+          Grouped(ID=_r_0_1_2, NAME=0)
+          Grouped(ID=_r_-1_0_3, NAME=1)
+    Mandatory(ID=_r_4, NAME=Codigo)
+       Feature Group[1,1](ID=_r_4_5, NAME=_r_4_5)
+           Grouped(ID=_r_4_5_6, NAME=41)
+           Grouped(ID=_r_-1_0_7, NAME=42)
+           Grouped(ID=_r_-1_0_8, NAME=37)
+           Grouped(ID=_r_-1_0_9, NAME=43)
+           Grouped(ID=_r_-1_0_10, NAME=3)
+           Grouped(ID=_r_-1_0_11, NAME=39)
+           Grouped(ID=_r_-1_0_12, NAME=28)
+           Grouped(ID=_r_-1_0_13, NAME=21)
+           Grouped(ID=_r_-1_0_14, NAME=31)
+           Grouped(ID=_r_-1_0_15, NAME=25)
+           Grouped(ID=_r_-1_0_16, NAME=24)
+           Grouped(ID=_r_-1_0_17, NAME=27)
+           Grouped(ID=_r_-1_0_18, NAME=15)
+           Grouped(ID=_r_-1_0_19, NAME=34)
+           Grouped(ID=_r_-1_0_20, NAME=40)
+           Grouped(ID=_r_-1_0_21, NAME=26)
+           Grouped(ID=_r_-1_0_22, NAME=1)
+           Grouped(ID=_r_-1_0_23, NAME=12)
+           Grouped(ID=_r_-1_0_24, NAME=6)
+           Grouped(ID=_r_-1_0_25, NAME=11)
+           Grouped(ID=_r_-1_0_26, NAME=33)
+           Grouped(ID=_r_-1_0_27, NAME=19)
+    Mandatory(ID=_r_28, NAME=RegimenAdministradoraDesc)
+       Feature Group[1,1](ID=_r_28_29, NAME=_r_28_29)
+           Grouped(ID=_r_28_29_30, NAME=0)
+           Grouped(ID=_r_-1_0_31, NAME=3)
+           Grouped(ID=_r_-1_0_32, NAME=2)
+    Mandatory(ID=_r_33, NAME=DxPrincipal)
+       Feature Group[1,1](ID=_r_33_34, NAME=_r_33_34)
+           Grouped(ID=_r_33_34_35, NAME=0)
+           Grouped(ID=_r_-1_0_36, NAME=608)
+           Grouped(ID=_r_-1_0_37, NAME=1745)
+           Grouped(ID=_r_-1_0_38, NAME=696)
+           Grouped(ID=_r_-1_0_39, NAME=817)
+           Grouped(ID=_r_-1_0_40, NAME=620)
+           Grouped(ID=_r_-1_0_41, NAME=634)
+           Grouped(ID=_r_-1_0_42, NAME=1419)
+           Grouped(ID=_r_-1_0_43, NAME=438)
+           Grouped(ID=_r_-1_0_44, NAME=737)
+           Grouped(ID=_r_-1_0_45, NAME=526)
+           Grouped(ID=_r_-1_0_46, NAME=706)
+           Grouped(ID=_r_-1_0_47, NAME=740)
+           Grouped(ID=_r_-1_0_48, NAME=705)
+           Grouped(ID=_r_-1_0_49, NAME=557)
+           Grouped(ID=_r_-1_0_50, NAME=1870)
+           Grouped(ID=_r_-1_0_51, NAME=1417)
+           Grouped(ID=_r_-1_0_52, NAME=703)
+           Grouped(ID=_r_-1_0_53, NAME=674)
+           Grouped(ID=_r_-1_0_54, NAME=1717)
+           Grouped(ID=_r_-1_0_55, NAME=761)
+           Grouped(ID=_r_-1_0_56, NAME=1491)
+           Grouped(ID=_r_-1_0_57, NAME=1002)
+           Grouped(ID=_r_-1_0_58, NAME=1591)
+           Grouped(ID=_r_-1_0_59, NAME=677)
+           Grouped(ID=_r_-1_0_60, NAME=1465)
+           Grouped(ID=_r_-1_0_61, NAME=691)
+           Grouped(ID=_r_-1_0_62, NAME=816)
+           Grouped(ID=_r_-1_0_63, NAME=744)
+           Grouped(ID=_r_-1_0_64, NAME=882)
+           Grouped(ID=_r_-1_0_65, NAME=679)
+           Grouped(ID=_r_-1_0_66, NAME=625)
+           Grouped(ID=_r_-1_0_67, NAME=120)
+           Grouped(ID=_r_-1_0_68, NAME=1729)
+           Grouped(ID=_r_-1_0_69, NAME=1436)
+           Grouped(ID=_r_-1_0_70, NAME=600)
+           Grouped(ID=_r_-1_0_71, NAME=734)
+    Mandatory(ID=_r_72, NAME=FinalidadProcedimientosCD)
+       Feature Group[1,1](ID=_r_72_73, NAME=_r_72_73)
+           Grouped(ID=_r_72_73_74, NAME=2)
+           Grouped(ID=_r_-1_0_75, NAME=1)
+           Grouped(ID=_r_-1_0_76, NAME=3)
+           Grouped(ID=_r_-1_0_77, NAME=4)
+    Mandatory(ID=_r_78, NAME=TipoUsuarioCD)
+       Feature Group[1,1](ID=_r_78_79, NAME=_r_78_79)
+           Grouped(ID=_r_78_79_80, NAME=2)
+           Grouped(ID=_r_-1_0_81, NAME=3)
+           Grouped(ID=_r_-1_0_82, NAME=1)
+           Grouped(ID=_r_-1_0_83, NAME=5)
+           Grouped(ID=_r_-1_0_84, NAME=8)
+    Mandatory(ID=_r_85, NAME=AmbitosProcedimientoCD)
+       Feature Group[1,1](ID=_r_85_86, NAME=_r_85_86)
+           Grouped(ID=_r_85_86_87, NAME=0)
+           Grouped(ID=_r_-1_0_88, NAME=1)
+           Grouped(ID=_r_-1_0_89, NAME=2)
+    Mandatory(ID=_r_90, NAME=CostoProcedimiento)
+    Mandatory(ID=_r_91, NAME=Edad)
+ EXTRA CONSTRAINTS ---------------------------
+ FEATURE MODEL STATISTICS ************************************
+ Model name.: RIPSModel
+ tree depth.: 3
+ #root......: 1
+ #opt.......: 0
+ #man.......: 9
+ #grouped...: 76
+ #grouped [1,1]: 76
+ #grouped [1,n]: 0
+ #fgrp [1,1]: 7 (exclusive-OR)
+ #fgrp [1,N]: 0 (inclusive-OR)
+ #total features: 86
+ \end{lstlisting}
+ 
+ Este código es el último producto que se genera en la Figura \ref{modeloproducto}, en el cual se hizo uso de la librería de S.P.L.O.T\cite{Mendonca:2009:SSP:1639950.1640002} \texttt{sxfm.jar} para leer los SXFM generados desde PMML, sin embargo también se uso la \href{http://ec2-52-32-1-180.us-west-2.compute.amazonaws.com:8080/SPLOT/index.html}{web} para cargar los archivos via \texttt{http}.
