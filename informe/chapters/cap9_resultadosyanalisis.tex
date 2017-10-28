@@ -525,7 +525,7 @@ Con en el modelo de la Figura \ref{modeloproducto} se tuvieron en cuenta los arc
   
   \lstinputlisting[label=underbrush1,linerange={1-6}, caption= El Snipet de código ``underbrush.py"  se usa para filtrar un campo en una estructura de datos llamada ``dataframe".  ]{src/underbrush.py}
   
-  Con este código se aprovecha que se tienen un conjunto de archivos que representan cada uno el $0.01\%$ de los datos, y se usó para buscar las mejores muestras de los diagnósticos, esto significa que los diagnósticos con una población de datos que tenga no mas de 24 códigos de procedimientos médicos, debido a que el software \textbf{R} no puede, en este caso, realizar una clasificación de esta dimensión (mayor a 24 dimensiones).
+  Con este código se aprovechó que se tenia un conjunto de archivos que representa cada uno el $0.01\%$ de los datos, y se usó para buscar las mejores muestras de los diagnósticos, esto significó que se tuvieron en cuenta los diagnósticos con una población de datos de no mas de 24 códigos de procedimientos médicos, debido a que el software \textbf{R} no puede en este caso, realizar una clasificación de esta dimensión (mayor a 24 dimensiones).
  
  Presentamos la Tabla \ref{variables} en donde mostramos las variables o las columnas de la base de datos.
  
@@ -569,17 +569,38 @@ Con en el modelo de la Figura \ref{modeloproducto} se tuvieron en cuenta los arc
  	Edad&Edad.&SI\tabularnewline \hline
  	SexoDesc& Genero del usuario.&SI\tabularnewline \hline
  	\end{longtable}
- En la Tabla \ref{variables}, se elijen las variables dada la necesidad del problema de clasificación: Dado un diagnóstico principal, que características tienen los códigos de procedimiento, según el género, la edad, el tipo de usuario, la finalidad del procedimiento, el diagnostico principal y el régimen de salud,  en este problema los datos que no fueron usados presentaban un comportamiento constante en la muestra de datos de entrenamiento y pruebas.
- Siguiendo las recomendaciones en \href{http://scikit-learn.org/stable/tutorial/machine_learning_map/index.html}{scikit-learn.org} se tiene mas de 50 datos, se necesita predecir una categoría y tenemos datos etiquetados, lo que indica un problema de clasificación. Esta discusión sobre el mejor clasificador o como orientar la solución de un problema de clasificación o que algoritmo usar\cite{Caruana2006, Izenman2006, Hastie2009} es interesante, más no un punto importante en este trabajo de investigación, por otra parte cualquier problema de la minería de datos en cualquier dominio y contexto se puede llevar a cabo y no es ajeno a este trabajo de investigación en donde el verdadero protagonista es la generación del archivo PMML, la cual es independiente de cada modelo, para el cual proponemos dos ejemplos en \textit{\textbf{R}\footnote{ \attachfile[icon=Paperclip,mimetype=aplication/py]{src/RIPSc1333.R}{ClasificationTree.py} \attachfile[icon=Paperclip,mimetype=aplication/py]{src/RIPS_R_script.R}{RandomForest.R}}} 
+ En la Tabla \ref{variables}, se elijen las variables dada la necesidad del problema de clasificación: Dado un diagnóstico principal, se desean predecir los códigos de procedimiento, según el género, la edad, el tipo de usuario, la finalidad del procedimiento, el diagnostico principal y el régimen de salud,  en este problema los datos que no fueron usados presentaban un comportamiento constante en la muestra de datos de entrenamiento y pruebas.
+ Siguiendo las recomendaciones en \href{http://scikit-learn.org/stable/tutorial/machine_learning_map/index.html}{scikit-learn.org} se tenían mas de 50 datos, se necesitaba predecir una categoría y teníamos datos etiquetados, lo que indicó un problema de clasificación. Esta discusión sobre el mejor clasificador, como orientar la solución de un problema de clasificación o que algoritmo usar\cite{Caruana2006, Izenman2006, Hastie2009} es interesante, más no un punto importante en los resultados y el análisis de este trabajo de investigación, no significa que no se deba tener en cuenta. Por otra parte, cualquier problema de la minería de datos en cualquier dominio y contexto se puede llevar a cabo y no es ajeno a este trabajo de investigación, en donde el verdadero protagonista es la generación del archivo PMML, la cual es independiente de cada modelo y para el cual se propusieron dos ejemplos desarrollados en\textit{\textbf{R}\footnote{ \attachfile[icon=Paperclip,mimetype=aplication/py]{src/RIPSc1333.R}{ClasificationTree.py} \attachfile[icon=Paperclip,mimetype=aplication/py]{src/RIPS_R_script.R}{RandomForest.R}}}, uno para árboles de clasificación y otro para bosques aleatorios.\\
+ La codificación de los algoritmos en \textit{\textbf{R}} se realizo muy orientada a la creación del archivo PMML como se muestra en el código \ref{randomforest}, en donde se presentan la implementación de árboles y bosques. Finalmente se crea un PMML con los resultados de bosques aleatorios.
  
- \lstinputlisting[label=underbrush1,linerange={1-6}, caption= El Snipet de código ``underbrush.py"  se usa para desarrollar el problema de clasificación en \textbf{R}.  ]{src/RIPSc1333.R}
+ \lstinputlisting[label=randomforest,linerange={26-46}, caption= El Snipet de código ``RandomForest.R"  se usa para desarrollar el problema de clasificación en \textbf{\textit{R}}. ]{src/RIPS_R_script.R}
  
- luego tengo que hablar sobre el script de R y la elección del modelo mostrar como se implementaron los algoritmos, luego si la evaluación se realizo y fue significante
+ Con la libreria \texttt{readr} se pudieron leer los datos pre procesados por \texttt{canopy.py} separados por comas (\texttt{csv}) en la línea $1$,  en las siguientes líneas se definieron los factores, se omitieron los datos nulos, al igual que el \texttt{DxPrincipal} y se almaceno en un \texttt{dataframe}, en la línea $18$ se establece la semilla de generación para garantizar que las construcciones en el algoritmo no muten con cada ejecución, sin esta semilla no se podría entrenar correctamente; en las líneas siguientes se dividen los datos para entrenamiento y pruebas.  
  
- obtencion del pmml son unas líneas en le script de R 
+ En el código \ref{randomforest2} la elección de la librería para implementar los árboles de clasificación fue \texttt{rpart}.
  
- luego como se desarrollo el script de java desde las pruebas
+  \lstinputlisting[label=randomforest2,linerange={47-69}, caption= El Snipet de código ``RandomForest.R"  se usa para desarrollar el problema de clasificación en \textbf{\textit{R}}.  ]{src/RIPS_R_script.R}
  
-  
+ Este \textit{snipet} de código  tomó los datos de entrenamiento en la línea $2$, luego imprime los resultados y entrena en la línea $11$, finalmente se poda.  En este mismo código se desarrollo  bosques aleatorios, un mejor enfoque para afrontar los problemas de clasificación\cite{Hastie2009,Caruana2006}, como se muestra en el \textit{snipet} de código \ref{randomforest3}.
+ 
+ \lstinputlisting[label=randomforest3,linerange={71-78}, caption= El Snipet de código ``RandomForest.R"  se usa para desarrollar el problema de clasificación en \textbf{\textit{R}}.  ]{src/RIPS_R_script.R}
+ 
+ En el código \ref{randomforest3} se presentan de árboles aleatorios, con la librería \texttt{randomForest} en la línea $1$,  desde la línea $4$ se usó la librería que permite convertir los modelos de \textbf{\textit{R}} en XML y luego en formato PMML.
+ Por otra parte recomendamos generar los árboles obtenidos de los modelos en \textbf{\textit{R}} como se muestra en la figura \ref{RIPStree}.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.5]{RIPStree}
+	\caption{Modelos generados desde R en el código RandomForest.R.}
+	\label{RIPStree}
+\end{figure}
+ 
+ Es de notar que como árboles aleatorios no es interpretable, se elije un árbol (el que mas se ajuste a los datos) en el bosque para realizar una gráfica.
+ 
+Con el insumo para el paso final en el modelo \ref{modeloproducto}, se construyó el código \ref{ReadPMMLtoSXFM},  en donde se toma como parámetro el PMML para generar el SXFM.
+
+ \lstinputlisting[label=ReadPMMLtoSXFM,linerange={31-43}, caption= El Snipet de código ``ReadPMMLtoSXFM.java"  se usa para desarrollar el problema de clasificación en \textbf{\textit{R}}.  ]{src/ReadPMMLtoSXFM.java}
+ 
+  En este código se almaceno en \href{https://github.com/josepplloo/tamarindo}{GIT} por tratarse de un 
  
  

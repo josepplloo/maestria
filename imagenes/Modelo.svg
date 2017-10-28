@@ -27,14 +27,14 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.5"
-     inkscape:cx="203.10484"
-     inkscape:cy="354.38645"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="330.54403"
+     inkscape:cy="679.31621"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g24141-0"
      showgrid="false"
      inkscape:window-width="1280"
-     inkscape:window-height="752"
+     inkscape:window-height="688"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -1049,7 +1049,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -1138,7 +1138,7 @@
              sodipodi:role="line"
              x="-650.28217"
              y="103.08655"
-             id="tspan4420-2">Adquisition</tspan></text>
+             id="tspan4420-2">Acquisition</tspan></text>
       </g>
       <path
          sodipodi:nodetypes="ccc"
@@ -1326,7 +1326,7 @@
              sodipodi:role="line"
              x="-304.50223"
              y="612.46051"
-             id="tspan4420-4-2-4-0-6">Deploymet</tspan></text>
+             id="tspan4420-4-2-4-0-6">Deployment</tspan></text>
       </g>
       <path
          sodipodi:nodetypes="cc"
@@ -1750,7 +1750,7 @@
              id="tspan14931-0"
              sodipodi:role="line"
              x="-471.08093"
-             y="74.828331">Designe</tspan><tspan
+             y="74.828331">Design</tspan><tspan
              id="tspan14933-9"
              sodipodi:role="line"
              x="-471.08093"
